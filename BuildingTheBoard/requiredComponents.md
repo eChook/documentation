@@ -4,4 +4,4 @@ The eChook nano kit will come with all components required to populate the PCB, 
 
 |Component|Value|Quantity|
 |---|---|---|
-eg|eg|eg
+|Arduino Nano|-|1|
