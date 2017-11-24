@@ -1,4 +1,5 @@
 # Summary
 
-* [Introduction](Introduction/README.md)
-* [System Overview](Introduction/system-overview.md)
+* [Part I](part1/README.md)
+    * [Introduction](part1/README.md)
+    * [System Overview](part1/system-overview.md)
