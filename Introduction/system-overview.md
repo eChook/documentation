@@ -12,21 +12,21 @@ The PCB design, Arduino code and Android app are open sourced under the MIT lisc
 ![](https://lh3.googleusercontent.com/7FLh6EmgoqFBk9Twgt-iS4O559Hd256QkYxNOR44Ojl2a_ssA4CzK5mZhyTLCnsBX6XhAC1IYFK9AWPOva-g4_6PjabCO38x9b5HM0y2MPjtWZUsybBmNco646XR3HOmOY3rDIQhI6QzFgvRTwfHY3f4ILqefgRU7SMkqVYkJehNtMq1w06adJ4Fm_ed0PMgliGXGB09yiJIrBb2sxE6-WbumagtFEnnjxTCSKrMIzWJZL8lphKVgRf7XsHWYOjaXi5ZpQIwB9kZkep0LTyaQ1NtaNaHjJCTFSumcsnoew_8HhzZO04JZwq3aIVhWcz0wHUaYQKMGRDE16yFIiWs5v_THXujNE0GPTq8-ll6LsQ64B2xzGPPLc_wYxpl9B6PwEG_l0JtPFbTa-sINt7yuBCc7SxzdeY1qCXBW1rX98_1sP64lAP3dJ_tSZMtUvjuf5RQ2wPtZC5XO_wUJ3Td45kccnCeSD6RYvgSWONEfL-i_LEpvZJ1BQlovem-s5xgKk4qk_LC7R-g7i8mdI1DReJkR2NkcVQNEhwDUaXtyb44a3slhQAaSSyc9WprRyD5OCocPjRQsE-DMtfk8NChR-wJdg8EQm8CJ7vnbfmBZnMyczb7n_TVQXNfZ6w3VxgvdVdumHdumFNLwIsfPwVQyZl97S2Ap-HUkv_g=w274-h205-no)
 
 ### Hardware
-The eChook nano board is a custom PCB with interfaces for sensors, an Arduino nano to read the sensors and a bluetooth module to send collected data to the Android app. The board takes power from the +24V car batteries.
+The eChook nano board is a custom PCB with interfaces for sensors, an Arduino nano to read the sensors and a Bluetooth module to send collected data to the Android app. The board takes power from the +24V car batteries.
 
-The board has been designed using circuits and components covered in the GCSE and A level Electronics Curriculum in the hope that teams can understand the board as much as possible. The PCB also uses through hole components and generous solder pads to aid teams in soldering up the board in the classroom.
+The board has been designed using circuits and components covered in the GCSE and A level Electronics Curriculum in the hope that teams can understand the board as much as possible. The PCB also uses through-hole components and generous solder pads to aid teams in soldering up the board in the classroom.
 
 
 The PCB and circuit designs are available at [github.com/eChook](https://github.com/echook/echook-nano-pcb). You will need [RS DesignSpark PCB](https://www.rs-online.com/designspark/pcb-software) to open and edit these files. It is free for everyone to use.
 
 
 ### Software
-The heart of the eChook nano board is the Arduino. The Arduino platform was chosen due to it's massive online following, meaning a large community and loads of support availalbe. While C/C++ coding is often not covered in the UK curriculum, the online support makes the Arduino easy to get started with.
+The heart of the eChook nano board is the Arduino. The Arduino platform was chosen due to its massive online following, meaning a large community and loads of support available. While C/C++ coding is often not covered in the UK curriculum, the online support makes the Arduino easy to get started with.
 
-The code for the Arduino Nano on the eChook board is available from [github.com/eChook](https://github.com/echook/echook-arduino-nano). It has been written in a step-by-step fashion, and commented every step of the way to explain what each bit of code is doing.
+The code for the Arduino Nano on the eChook board is available from [github.com/eChook](https://github.com/echook/echook-arduino-nano). It has been written in a step-by-step fashion and commented every step of the way to explain what each bit of code is doing.
 
 ## Android App
 
 The eChook Companion app is available for Android devices and can be installed from the [Google Play Store](https://play.google.com/store/apps/details?id=com.ben.drivenbluetooth). As this is also open source, the code for the app can be found on [Github.com/eChook](https://github.com/echook/echook-arduino-android)
 
-The app connects to the bluetooth module on the eChook nano board and logs the incoming data. It also augments this data with sensors on the phone - primarily GPS location. The app can also use the GPS to count laps, which is added to the logged data. At the end of the session there is the option to send a .csv data file through the standard Android sharing system, making it easy to add it to Google Drive or Dropbox, email it to someone, or send it using whichever app you choose.
+The app connects to the Bluetooth module on the eChook nano board and logs the incoming data. It also augments this data with sensors on the phone - primarily GPS location. The app can also use the GPS to count laps, which is added to the logged data. At the end of the session, there is the option to send a .csv data file through the standard Android sharing system, making it easy to add it to Google Drive or Dropbox, email it to someone, or send it using whichever app you choose.

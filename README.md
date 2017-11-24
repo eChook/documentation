@@ -4,7 +4,7 @@ by Ian Cooper, Rowan Griffin and Ben Nagy
 
 ---
 
-Welcome to the documentation for the eChook nano board and the associated android app, the eChook Companion - all the information in one place.
+Welcome to the documentation for the eChook nano board and the associated Android app, the eChook Companion - all the information in one place.
 
 Please feel free to add comments and start discussions on this document as you go.
 
@@ -23,6 +23,3 @@ To this aim we are not taking a profit from the boards - if we break even and gr
 The team behind the eChook consists of Ian Cooper, Rowan Griffin and Ben Nagy. We are all ex-Driven team members who are too old to race in F24+ but can’t quite pull ourselves away from Greenpower.
 
 We have all worked on all aspects of the eChook, but predominantly Ian has worked on circuit and PCB Design, Rowan has worked on the circuit design, Arduino software and bits of the Android App, and Ben has coded the vast majority of the Android app and is keeping it maintained.
-
-
-
