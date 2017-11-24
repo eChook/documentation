@@ -1,5 +1,4 @@
 # Summary
 
 * [Introduction](README.md)
-* [System Overview](chapter1.md)
-
+* [System Overview](system-overview.md)
