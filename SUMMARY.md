@@ -9,7 +9,8 @@
 * [Programming the Arduino](ProgrammingTheArduino/README.md)
   * [Arduino CH340 Drivers](ProgrammingTheArduino/arduino-ch340-drivers.md)
   * [Install Arduino IDE](ProgrammingTheArduino/install-arduino-ide.md)
-  * Download the eChook Arduino Code
+  * [Download the eChook Arduino Code](ProgrammingTheArduino/download-the-echook-arduino-code.md)
+  * Programming the Arduino
 
 
 
