@@ -6,4 +6,6 @@
   * [Required Components](BuildingTheBoard/requiredComponents.md)
   * [Build Instructions](BuildingTheBoard/BuildInstructions.md)
   * [First Power On](BuildingTheBoard/prePowerOnTests.md)
+* [Programming the Arduino](ProgrammingTheArduino/README.md)
+  * [Arduino CH340 Drivers](ProgrammingTheArduino/arduino-ch340-drivers.md)
 
