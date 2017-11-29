@@ -1,4 +1,4 @@
-## Pairing with a Phone {#docs-internal-guid-c4233111-09ac-9693-fde6-696c56243eab}
+# Pairing with a Phone
 
 Any phone running Android 5 or above should work with the app.
 
