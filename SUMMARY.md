@@ -19,7 +19,5 @@
   * [Throttle Input](Connecting-the-eChook-to-the-Car/throttle-input.md)
   * [External Buttons and Brake](Connecting-the-eChook-to-the-Car/external-buttons-and-brake.md)
   * [Temperature Sensors](Connecting-the-eChook-to-the-Car/temperature-sensors.md)
-  * Wheel and Motor RPM
-
-
+  * [Wheel and Motor RPM](Connecting-the-eChook-to-the-Car/wheel-and-motor-rpm.md)
 
