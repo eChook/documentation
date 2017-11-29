@@ -18,7 +18,8 @@
   * [Current Sensor](current-sensor.md)
   * [Throttle Input](Connecting-the-eChook-to-the-Car/throttle-input.md)
   * [External Buttons and Brake](Connecting-the-eChook-to-the-Car/external-buttons-and-brake.md)
-  * Temperature Sensors
+  * [Temperature Sensors](Connecting-the-eChook-to-the-Car/temperature-sensors.md)
+  * Wheel and Motor RPM
 
 
 
