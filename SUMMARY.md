@@ -10,7 +10,9 @@
   * [Arduino CH340 Drivers](ProgrammingTheArduino/arduino-ch340-drivers.md)
   * [Install Arduino IDE](ProgrammingTheArduino/install-arduino-ide.md)
   * [Download the eChook Arduino Code](ProgrammingTheArduino/download-the-echook-arduino-code.md)
-  * Programming the Arduino
+  * [Programming the Arduino](ProgrammingTheArduino/programming-the-arduino.md)
+* [Setting up the Bluetooth](configuring-the-bluetooth-module.md)
+  * Pairing with a phone
 
 
 
