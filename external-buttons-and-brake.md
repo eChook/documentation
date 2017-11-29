@@ -17,7 +17,7 @@
   * [Power and Voltage](Connecting-the-eChook-to-the-Car/power-and-voltage.md)
   * [Current Sensor](current-sensor.md)
   * [Throttle Input](Connecting-the-eChook-to-the-Car/throttle-input.md)
-  * External Buttons and Brake
+  * [External Buttons and Brake](external-buttons-and-brake.md)
 
 
 
