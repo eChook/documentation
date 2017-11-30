@@ -31,9 +31,7 @@
   * [Setting up the App](using-the-app/setting-up-the-app.md)
   * [Logging Data](using-the-app/logging-data.md)
   * [Lap Counting](using-the-app/lap-counting.md)
-* Telemetry \(Live Data\)
+* [Telemetry \(Live Data\)](telemetry-live-data.md)
   * Free Temeletry
   * Premium Telemetry
-
-
 
