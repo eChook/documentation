@@ -27,7 +27,8 @@
   * [Voltage](calibrating-the-board/voltage.md)
   * [Current](calibrating-the-board/current.md)
 * [Using the App](using-the-app.md)
-  * Pair eChook to Phone
+  * [Pair eChook to Phone](using-the-app/pair-echook-to-phone.md)
+  * [Setting up the App](setting-up-the-app.md)
 
 
 
