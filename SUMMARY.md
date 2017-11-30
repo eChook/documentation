@@ -23,7 +23,8 @@
   * [PWM Output](Connecting-the-eChook-to-the-Car/pwm-output.md)
 * [Calibrating the eChook](calibrating-the-board.md)
   * [Wheel Speed](calibrating-the-board/wheel-speed.md)
-  * Temperature
+  * [Temperature](calibrating-the-board/temperature.md)
+  * Voltage
 
 
 
