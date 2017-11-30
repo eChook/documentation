@@ -15,7 +15,7 @@
   * [Pairing with a phone](configuring-the-bluetooth-module/pairing-with-a-phone.md)
 * [Connecting the eChook to the Car](connecting-the-echook-to-the-car.md)
   * [Power and Voltage](Connecting-the-eChook-to-the-Car/power-and-voltage.md)
-  * [Current Sensor](current-sensor.md)
+  * [Current Sensor](Connecting-the-eChook-to-the-Car/current-sensor.md)
   * [Throttle Input](Connecting-the-eChook-to-the-Car/throttle-input.md)
   * [External Buttons and Brake](Connecting-the-eChook-to-the-Car/external-buttons-and-brake.md)
   * [Temperature Sensors](Connecting-the-eChook-to-the-Car/temperature-sensors.md)
@@ -25,7 +25,9 @@
   * [Wheel Speed](calibrating-the-board/wheel-speed.md)
   * [Temperature](calibrating-the-board/temperature.md)
   * [Voltage](calibrating-the-board/voltage.md)
-  * [Current](current.md)
+  * [Current](calibrating-the-board/current.md)
+* [Using the App](using-the-app.md)
+  * Pair eChook to Phone
 
 
 
