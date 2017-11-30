@@ -33,5 +33,5 @@
   * [Lap Counting](using-the-app/lap-counting.md)
 * [Telemetry \(Live Data\)](telemetry-live-data.md)
   * [Free Temeletry](telemetry-live-data/free-temeletry.md)
-  * Premium Telemetry
+  * [Premium Telemetry](telemetry-live-data/premium-telemetry.md)
 
