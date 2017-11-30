@@ -26,9 +26,9 @@
   * [Temperature](calibrating-the-board/temperature.md)
   * [Voltage](calibrating-the-board/voltage.md)
   * [Current](calibrating-the-board/current.md)
-* [Using the App](using-the-app.md)
+* [Using the App](using-the-app/setting-up-the-app.md)
   * [Pair eChook to Phone](using-the-app/pair-echook-to-phone.md)
-  * [Setting up the App](setting-up-the-app.md)
+  * [Setting up the App](using-the-app/setting-up-the-app.md)
   * [Logging Data](using-the-app/logging-data.md)
   * [Lap Counting](using-the-app/lap-counting.md)
 
