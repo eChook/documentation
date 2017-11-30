@@ -21,8 +21,6 @@
   * [Temperature Sensors](Connecting-the-eChook-to-the-Car/temperature-sensors.md)
   * [Wheel and Motor RPM](Connecting-the-eChook-to-the-Car/wheel-and-motor-rpm.md)
   * [PWM Output](Connecting-the-eChook-to-the-Car/pwm-output.md)
-* [Calibrating the Board](calibrating-the-board.md)
-  * Wheel Speed
-
-
+* [Calibrating the eChook](calibrating-the-board.md)
+  * [Wheel Speed](calibrating-the-board/wheel-speed.md)
 
