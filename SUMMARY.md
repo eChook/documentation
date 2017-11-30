@@ -29,7 +29,5 @@
 * [Using the App](using-the-app.md)
   * [Pair eChook to Phone](using-the-app/pair-echook-to-phone.md)
   * [Setting up the App](setting-up-the-app.md)
-  * Logging Data
-
-
+  * [Logging Data](using-the-app/logging-data.md)
 
