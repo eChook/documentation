@@ -38,7 +38,7 @@
   * [Graphing the Data](using-the-data/graphing-the-data.md)
 * [Circuit Schematics](circuit-schematics.md)
   * [12 and 24v Inputs](circuit-schematics/12-and-24v-inputs.md)
-  * Temperature Inputs
+  * [Temperature Inputs](circuit-schematics/temperature-inputs.md)
   * [Bluetooth Module](circuit-schematics/bluetooth-module.md)
   * Throttle Input
   * Button Inputs
