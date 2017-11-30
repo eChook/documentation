@@ -13,7 +13,7 @@
   * [Programming the Arduino](ProgrammingTheArduino/programming-the-arduino.md)
 * [Setting up the Bluetooth](configuring-the-bluetooth-module/configuring-the-bluetooth-module.md)
   * [Pairing with a phone](configuring-the-bluetooth-module/pairing-with-a-phone.md)
-* [Connecting the eChook to the Car](connecting-the-echook-to-the-car.md)
+* [Connecting the eChook to the Car](Connecting-the-eChook-to-the-Car/connecting-the-echook-to-the-car.md)
   * [Power and Voltage](Connecting-the-eChook-to-the-Car/power-and-voltage.md)
   * [Current Sensor](Connecting-the-eChook-to-the-Car/current-sensor.md)
   * [Throttle Input](Connecting-the-eChook-to-the-Car/throttle-input.md)
@@ -21,14 +21,19 @@
   * [Temperature Sensors](Connecting-the-eChook-to-the-Car/temperature-sensors.md)
   * [Wheel and Motor RPM](Connecting-the-eChook-to-the-Car/wheel-and-motor-rpm.md)
   * [PWM Output](Connecting-the-eChook-to-the-Car/pwm-output.md)
-* [Calibrating the eChook](calibrating-the-board.md)
+* [Calibrating the eChook](calibrating-the-board/calibrating-the-board.md)
   * [Wheel Speed](calibrating-the-board/wheel-speed.md)
   * [Temperature](calibrating-the-board/temperature.md)
   * [Voltage](calibrating-the-board/voltage.md)
   * [Current](calibrating-the-board/current.md)
-* [Using the App](using-the-app/setting-up-the-app.md)
+* [Using the App](using-the-app/using-the-app.md)
   * [Pair eChook to Phone](using-the-app/pair-echook-to-phone.md)
   * [Setting up the App](using-the-app/setting-up-the-app.md)
   * [Logging Data](using-the-app/logging-data.md)
   * [Lap Counting](using-the-app/lap-counting.md)
+* Telemetry \(Live Data\)
+  * Free Temeletry
+  * Premium Telemetry
+
+
 
