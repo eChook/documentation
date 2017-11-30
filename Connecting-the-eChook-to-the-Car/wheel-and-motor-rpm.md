@@ -2,7 +2,7 @@
 
 Knowing the Wheel and Motor RPM, especially for cars with multiple gears, is very useful for determining gear ratios used around the track and ensuring the motor is run in it’s most efficient RPM range.
 
-Two non-latching hall effect sensors are included in the eChook kit. For the pin out, google the code on them to find the data sheet. They will require 5V, GND and have one output. This output goes to the Motor RMP or Wheel RPM input on the eChook.
+Two non-latching hall effect sensors are included in the eChook kit. For the pin out, google the name printed on them to find the data sheet. They will require 5V, GND and have one output. This output goes to the Motor RMP or Wheel RPM input on the eChook. No specific pin out is given here as different sensors have been used through the various eChook hardware iterations.
 
 Positioning the sensor on the car is the more difficult part. The hall effect sensor is triggered by magnets that need to be attached to the motor shaft/wheel. These need to be purchased separately. We have used small \(3x1mm disc\) neodymium magnets in the past, but larger magnets may be less fiddly! eBay is a good source.
 

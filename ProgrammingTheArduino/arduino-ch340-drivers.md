@@ -6,7 +6,7 @@ The disadvantage is that they require different drivers. These are for the CH340
 
 #### Windows
 
-Windows drivers can be installed from [here](http://www.wch.cn/download/CH341SER_EXE.html) or [here](https://drive.google.com/open?id=0B8NB2ERSryMSdlQxNFpPM1BGenc).
+Windows drivers can be installed from [here](http://www.wch.cn/download/CH341SER_EXE.html) or [here](https://drive.google.com/open?id=0B8NB2ERSryMSdlQxNFpPM1BGenc). Go through the beautifully chenglish install process.
 
 #### Mac
 
@@ -15,6 +15,4 @@ Drivers for mac are slightly more difficult. You can either disable KEXT securit
 #### Linux
 
 CH340 drivers are baked in, just plug and play.
-
-
 
