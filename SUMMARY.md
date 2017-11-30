@@ -34,8 +34,6 @@
 * [Telemetry \(Live Data\)](telemetry-live-data/telemetry-live-data.md)
   * [Free Temeletry](telemetry-live-data/free-temeletry.md)
   * [Premium Telemetry](telemetry-live-data/premium-telemetry.md)
-* Using the Data
+* [Using the Data](using-the-data.md)
   * Graphing the Data
-
-
 
