@@ -42,5 +42,5 @@
   * [Bluetooth Module](circuit-schematics/bluetooth-module.md)
   * [Throttle Input](circuit-schematics/throttle-input.md)
   * [Button Inputs](circuit-schematics/button-inputs.md)
-  * PWM Output
+  * [PWM Output](circuit-schematics/pwm-output.md)
 
