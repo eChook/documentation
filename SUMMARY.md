@@ -40,7 +40,7 @@
   * [12 and 24v Inputs](circuit-schematics/12-and-24v-inputs.md)
   * [Temperature Inputs](circuit-schematics/temperature-inputs.md)
   * [Bluetooth Module](circuit-schematics/bluetooth-module.md)
-  * Throttle Input
+  * [Throttle Input](circuit-schematics/throttle-input.md)
   * Button Inputs
   * PWM Output
 
