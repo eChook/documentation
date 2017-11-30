@@ -35,5 +35,14 @@
   * [Free Temeletry](telemetry-live-data/free-temeletry.md)
   * [Premium Telemetry](telemetry-live-data/premium-telemetry.md)
 * [Using the Data](using-the-data.md)
-  * Graphing the Data
+  * [Graphing the Data](using-the-data/graphing-the-data.md)
+* Circuit Schematics
+  * 12 and 24v Inputs
+  * Temperature Inputs
+  * Bluetooth Module
+  * Throttle Input
+  * Button Inputs
+  * PWM Output
+
+
 
