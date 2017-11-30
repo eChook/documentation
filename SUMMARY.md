@@ -24,7 +24,8 @@
 * [Calibrating the eChook](calibrating-the-board.md)
   * [Wheel Speed](calibrating-the-board/wheel-speed.md)
   * [Temperature](calibrating-the-board/temperature.md)
-  * Voltage
+  * [Voltage](calibrating-the-board/voltage.md)
+  * [Current](current.md)
 
 
 
