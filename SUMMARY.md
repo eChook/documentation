@@ -30,7 +30,5 @@
   * [Pair eChook to Phone](using-the-app/pair-echook-to-phone.md)
   * [Setting up the App](setting-up-the-app.md)
   * [Logging Data](using-the-app/logging-data.md)
-  * Lap Counting
-
-
+  * [Lap Counting](using-the-app/lap-counting.md)
 
