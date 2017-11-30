@@ -6,14 +6,11 @@ To calibrate this reading, connect the +24v pin to a power source and use a mult
 
 `Supply Voltage / Arduino Voltage=23.5 / 3.6=6.53`
 
-Now enter this figure into the Calibration.h file as variableCAL\_VOLTAGE\_TOTAL. Reflash the Arduino for the calibration to take effect.
+Now enter this figure into the Calibration.h file as variable `CAL_VOLTAGE_TOTAL` . Reflash the Arduino for the calibration to take effect.
 
 ## Calibrating 12v
 
 Calibration is by the same method as 24V above. Measure the voltage at the 12V input and the voltage to pinA7of the Arduino and divide the former by the latter to obtain a multiplier to use in the code.
 
-Open the Calibration.h file and update theCAL\_BATTERY\_LOWERvariable with the results of your calculation.
-
-  
-
+Open the Calibration.h file and update the `CAL_BATTERY_LOWER` variable with the results of your calculation.
 
