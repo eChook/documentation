@@ -6,6 +6,8 @@ Ideally this system would be simple to use, free to use and secure - we don’t 
 
 eChook has no affiliation with dweet.io/freeboard.io, they are simply useful services that we’ve found.
 
+We are in the process of building an in house telemetry system that will be both private and free to use - hopefully this will be up and running for the start of the 2018 season!
+
 Data available in telemetry:
 
 | **Data** | **Identifier** | **Unit** | **Comment** |
