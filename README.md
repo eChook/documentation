@@ -8,6 +8,8 @@ Welcome to the documentation for the eChook nano board and the associated Androi
 
 Please feel free to add comments and start discussions on this document as you go.
 
+You can download a PDF of this document [here](https://www.gitbook.com/download/pdf/book/echook/echook-documentation).
+
 ## The idea behind eChook
 
 The original eChook nano board and the eChook Companion app came about because of a need for data display and logging on the Driven and weChook racing cars.
@@ -23,3 +25,4 @@ To this aim we are not taking a profit from the boards - if we break even and gr
 The team behind the eChook consists of Ian Cooper, Rowan Griffin and Ben Nagy. We are all ex-Driven team members who are too old to race in F24+ but can’t quite pull ourselves away from Greenpower.
 
 We have all worked on all aspects of the eChook, but predominantly Ian has worked on circuit and PCB Design, Rowan has worked on the circuit design, Arduino software and bits of the Android App, and Ben has coded the vast majority of the Android app and is keeping it maintained.
+
