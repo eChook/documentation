@@ -7,7 +7,7 @@ To make the process of soldering the board as easy as possible, it’s best to s
 First solder all the resistors in place, being the smallest components. Follow this with the remaining small components on the board. A few of these are orientation specific:
 
 * Diode - The grey end of the diode goes to the end pointed to by the ‘arrow’ diode symbol on the silkscreen.
-* Electrolytic Capacitor \(22uF\) - This has a -ve and +ve leg. The marked -ve leg goes opposite the ‘+’ mark on the silkscreen. The other diodes can be soldered in any orientation.
+* Electrolytic Capacitor \(22uF\) - This has a -ve and +ve leg. The marked -ve leg goes opposite the ‘+’ mark on the silkscreen. The other capacitors can be soldered in any orientation.
 * Transistor - the ‘D’ shape of the transistor lines up with the ‘D’ shape on the silkscreen.
 * LED - The flat edge on the LED lines up with the flat edge on the silkscreen.
 * Power Module - The dot on the pink face lines up with the square solder point.
