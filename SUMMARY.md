@@ -48,4 +48,9 @@
   * [Power Regulator](circuit-schematics/power-regulator.md)
   * [Expansion Port](circuit-schematics/expansion-port.md)
 * [DIY eChook](diy-echook.md)
+* [Bluetooth Communication](bluetooth-communication.md)
+  * Bluetooth Packet Encoding
+  * Bluetooth Packet Decoding
+
+
 
