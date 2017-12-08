@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
   * [System Overview](Introduction/system-overview.md)
-* [Building the Board](BuildingTheBoard/introduction.md)
+* [Building the eChook Board](BuildingTheBoard/introduction.md)
   * [Required Components](BuildingTheBoard/requiredComponents.md)
   * [Build Instructions](BuildingTheBoard/BuildInstructions.md)
   * [First Power On](BuildingTheBoard/prePowerOnTests.md)
@@ -43,7 +43,5 @@
   * [Throttle Input](circuit-schematics/throttle-input.md)
   * [Button Inputs](circuit-schematics/button-inputs.md)
   * [PWM Output](circuit-schematics/pwm-output.md)
-  * Power Regulator
-
-
+  * [Power Regulator](circuit-schematics/power-regulator.md)
 

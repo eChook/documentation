@@ -35,22 +35,16 @@ The eChook nano kit will come with all components required to populate the PCB, 
 | 2 | 47nF Ceramic Capacitor 50 V | Smoothing Capacitors for current sensor |
 | 1 | 4.7nF Ceramic Capacitor 50 V | Smoothing Capacitors for current sensor |
 
-
-
 ### Extra Components:
 
 Magnets are required to fit to the wheel and motor shaft in order to trigger the hall effect sensors. It's recommended to use 3x1mm or larger Neodymium puck magnets. These are available for not much money on eBay.
 
 Wire will be required to connect the remote sensors to the connectors.
 
-
-
 ### Tools Required:
 
 * Soldering Iron and Solder
 * Snips
-
-
 
 
 
