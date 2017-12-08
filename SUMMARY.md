@@ -47,7 +47,5 @@
   * [PWM Output](circuit-schematics/pwm-output.md)
   * [Power Regulator](circuit-schematics/power-regulator.md)
   * [Expansion Port](circuit-schematics/expansion-port.md)
-* DIY eChook
-
-
+* [DIY eChook](diy-echook.md)
 
