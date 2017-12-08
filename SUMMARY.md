@@ -48,15 +48,12 @@
   * [Power Regulator](circuit-schematics/power-regulator.md)
   * [Expansion Port](circuit-schematics/expansion-port.md)
 * [All about the Arduino nano](all-about-arduino.md)
-  * Introduction to Arduino Coding
-
-  * The eChook nano Code
+  * [Introduction to Arduino Coding](all-about-arduino/introduction-to-arduino-coding.md)
+  * [The eChook nano Code](all-about-arduino/the-echook-nano-code.md)
 * [Bluetooth Communication](bluetooth-communication.md)
   * [Bluetooth Packet Encoding](bluetooth-communication/bluetooth-packet-encoding.md)
   * [Bluetooth Packet Decoding](bluetooth-communication/bluetooth-packet-decoding.md)
 * [DIY eChook](diy-echook.md)
 * [Troubleshooting](troubleshooting.md)
   * [Bluetooth Troubleshooting](troubleshooting/bluetooth-troubleshooting.md)
-
-
 
