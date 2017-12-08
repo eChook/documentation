@@ -47,13 +47,13 @@
   * [PWM Output](circuit-schematics/pwm-output.md)
   * [Power Regulator](circuit-schematics/power-regulator.md)
   * [Expansion Port](circuit-schematics/expansion-port.md)
-
+* All about Arduino
 * [Bluetooth Communication](bluetooth-communication.md)
   * [Bluetooth Packet Encoding](bluetooth-communication/bluetooth-packet-encoding.md)
   * [Bluetooth Packet Decoding](bluetooth-communication/bluetooth-packet-decoding.md)
-* [DIY eChook](https://www.gitbook.com/book/echook/echook-documentation/edit#)
-
-* Troubleshooting
+* [DIY eChook](diy-echook.md)
+* [Troubleshooting](troubleshooting.md)
+  * [Bluetooth Troubleshooting](troubleshooting/bluetooth-troubleshooting.md)
 
 
 
