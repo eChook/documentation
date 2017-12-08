@@ -43,4 +43,7 @@
   * [Throttle Input](circuit-schematics/throttle-input.md)
   * [Button Inputs](circuit-schematics/button-inputs.md)
   * [PWM Output](circuit-schematics/pwm-output.md)
+  * Power Regulator
+
+
 
