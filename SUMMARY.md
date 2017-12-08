@@ -46,7 +46,8 @@
   * [RPM Inputs](circuit-schematics/rpm-inputs.md)
   * [PWM Output](circuit-schematics/pwm-output.md)
   * [Power Regulator](circuit-schematics/power-regulator.md)
-  * Expansion Port
+  * [Expansion Port](circuit-schematics/expansion-port.md)
+* DIY eChook
 
 
 
