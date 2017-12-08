@@ -47,10 +47,13 @@
   * [PWM Output](circuit-schematics/pwm-output.md)
   * [Power Regulator](circuit-schematics/power-regulator.md)
   * [Expansion Port](circuit-schematics/expansion-port.md)
-* [DIY eChook](diy-echook.md)
+
 * [Bluetooth Communication](bluetooth-communication.md)
-  * Bluetooth Packet Encoding
-  * Bluetooth Packet Decoding
+  * [Bluetooth Packet Encoding](bluetooth-communication/bluetooth-packet-encoding.md)
+  * [Bluetooth Packet Decoding](bluetooth-communication/bluetooth-packet-decoding.md)
+* [DIY eChook](https://www.gitbook.com/book/echook/echook-documentation/edit#)
+
+* Troubleshooting
 
 
 
