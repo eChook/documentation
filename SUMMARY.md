@@ -47,7 +47,10 @@
   * [PWM Output](circuit-schematics/pwm-output.md)
   * [Power Regulator](circuit-schematics/power-regulator.md)
   * [Expansion Port](circuit-schematics/expansion-port.md)
-* All about Arduino
+* [All about the Arduino nano](all-about-arduino.md)
+  * Introduction to Arduino Coding
+
+  * The eChook nano Code
 * [Bluetooth Communication](bluetooth-communication.md)
   * [Bluetooth Packet Encoding](bluetooth-communication/bluetooth-packet-encoding.md)
   * [Bluetooth Packet Decoding](bluetooth-communication/bluetooth-packet-decoding.md)
