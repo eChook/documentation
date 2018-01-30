@@ -1,21 +1,29 @@
 ## Build Instructions
 
-In it’s simplest form, building the board consists of soldering all components in their correct places, as shown below.
+In its simplest form, building the board consists of soldering all components in their correct places, as shown in the table below.
 
 To make the process of soldering the board as easy as possible, it’s best to start with the smallest components first. All components sit on the top of the board, none on the bottom.
 
-First solder all the resistors in place, being the smallest components. Follow this with the remaining small components on the board. A few of these are orientation specific:
+This is a suggested order for soldering the components. Lines in **bold **mark components that are orientation specific, pay particular attention to these.
 
-* Diode - The grey end of the diode goes to the end pointed to by the ‘arrow’ diode symbol on the silkscreen.
-* Electrolytic Capacitor \(22uF\) - This has a -ve and +ve leg. The marked -ve leg goes opposite the ‘+’ mark on the silkscreen. The other capacitors can be soldered in any orientation.
-* Transistor - the ‘D’ shape of the transistor lines up with the ‘D’ shape on the silkscreen.
-* LED - The flat edge on the LED lines up with the flat edge on the silkscreen.
-* Power Module - The dot on the pink face lines up with the square solder point.
-* Op-Amp and socket - there is an indentation on the silk screen image, this lines up with the indentation on both the socket and chip.
+1. Resistors - these are the smallest components.
+2. **Diode **- The grey end of the diode goes to the end pointed to by the ‘arrow’ diode symbol on the silkscreen.
+3. Ceramic Capacitors \(1uF\) - these have 105 printed on them.[^1]
+4. **BC547 Transistor **- Caution, looks similar to the hall effect sensors but is larger. Will have 'BC547' printed on it. The ‘D’ shape of the transistor lines up with the ‘D’ shape on the silkscreen. There will be a few mm of leg between the transistor and the PCB
+5. **Green LED** - The flat edge on the LED lines up with the flat edge on the silkscreen. It is labelled as PWM on the board as this is the signal it shows by default.
+6. Polyfuse - this looks like a ceramic capacitor but the legs have inward bends at the top.
+7. **Voltage Regulator **- The dot on the pink face lines up with the square solder point with the pink face to the outside edge of the PCB
+8. **Electrolytic Capacitor \(22uF\)** - The -ve leg is marked by a grey stripe with a hollow - sign on it. The +ve leg goes in the hole next to the ‘+’ mark on the silkscreen.
 
-The two 15 Pin strips of header are for the Arduino, and the 6 pin is for the Bluetooth Module. To solder these to the PCB, first solder one middle pin. This holds the strip in and you can ensure it is mounted straight by melting the solder on that one pin and adjusting if needed before soldering the rest of the pins in place. Repeat this procedure for the connectors around the outside of the board to allow easy positioning.
+9. PCB Socket \(header\) for Arduino and BT Module x 3 -  Solder one pin first and check that it is flat to the PCB before soldering the rest.
 
-Don’t plug in the op-amp, arduino or bluetooth module quite yet.
+10. **8-Pin DIP Socket** - There is an indentation on the silk screen image, this lines up with the indentation on the socket.
+
+11. Connectors - Solder one pin first and check that it is flat to the PCB before soldering the rest.
+
+The board is done! Remaining components in the kit go elsewhere in your car - see "[Connecting the eChook to the Car](https://docs.echook.uk/Connecting-the-eChook-to-the-Car/connecting-the-echook-to-the-car.html)"
+
+Don’t plug in the op-amp, arduino or bluetooth module quite yet, carry out tests on the next page first.
 
 High resolution photos of a finished board can be found [here](https://goo.gl/photos/QLNfrek9v2v522xa9).
 
@@ -73,4 +81,6 @@ Ian has recorded a video of building a board: [View on Youtube](https://www.yout
 | U3 | Dual BIFET Op Amp | MCP6002 |
 
 
+
+[^1]: interpreting Ceramic Capacitor Markings. The first two digits are the value, the third is the zero multiplier. This gives the value in picoFarads \(pF\). 105 = 10 00000pf = 1uF.
 

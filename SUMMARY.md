@@ -3,7 +3,7 @@
 * [Introduction](README.md)
   * [System Overview](Introduction/system-overview.md)
 * [Building the eChook Board](BuildingTheBoard/introduction.md)
-  * [Required Components](BuildingTheBoard/requiredComponents.md)
+  * [Required Components \(BOM\)](BuildingTheBoard/requiredComponents.md)
   * [Build Instructions](BuildingTheBoard/BuildInstructions.md)
   * [First Power On](BuildingTheBoard/prePowerOnTests.md)
 * [Programming the Arduino](ProgrammingTheArduino/README.md)
