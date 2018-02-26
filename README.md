@@ -26,3 +26,13 @@ The team behind the eChook consists of Ian Cooper, Rowan Griffin and Ben Nagy. W
 
 We have all worked on all aspects of the eChook, but predominantly Ian has worked on circuit and PCB Design, Rowan has worked on the circuit design, Arduino software and bits of the Android App, and Ben has coded the vast majority of the Android app and is keeping it maintained.
 
+## Support
+
+While this documentation aims to make building and using the eChook as easy as possible, there will always be cases where something doesn't go as expected and some help is needed. eChook has both a forum and a Slack channel that anyone can join to ask questions and discuss anything eChook, electronics, or greenpower in general!
+
+Forum - [echook.boards.net](http://echook.boards.net/)
+
+Slack -  For new users an invite is needed: [Invite link](https://join.slack.com/t/echook/shared_invite/enQtMjY4MjcwNDkwNzg4LThjZWU4NTU1YWZkYzdmYTY3ZTg0YWVjOGViYWE4M2Q3ZjE0ZjIwMDY3Y2NhNGI5MDhjNTY3MWNkZjFiZWRkMGE). Returning users, go to [echook.slack.com](https://echook.slack.com)
+
+
+
