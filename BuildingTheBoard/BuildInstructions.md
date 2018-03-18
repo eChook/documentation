@@ -82,5 +82,7 @@ Ian has recorded a video of building a board: [View on Youtube](https://www.yout
 
 
 
+Pin outs for the connectors on the eChook can be found in the 'Connecting the eChook to the car' section of the documentation [here](https://docs.echook.uk/Connecting-the-eChook-to-the-Car/connecting-the-echook-to-the-car.html).
+
 [^1]: interpreting Ceramic Capacitor Markings. The first two digits are the value, the third is the zero multiplier. This gives the value in picoFarads \(pF\). 105 = 10 00000pf = 1uF.
 
