@@ -6,7 +6,7 @@ Welcome to the documentation for the eChook nano board and the associated Androi
 
 Please feel free to add comments and start discussions on this document as you go.
 
-You may notice that the look of the documentation has improved recently, as gitbooks has just had a major upgrade. Unfortunately it has removed the option to download the document as a PDF, although they are aiming to make this possible again in the future. Until that time you can still download the last copy from the old website from [here](https://www.gitbook.com/download/pdf/book/echook/echook-documentation).
+You may notice that the look of the documentation has improved recently, as gitbooks has just had a major upgrade. Unfortunately it has removed the option to download the document as a PDF, although they are aiming to make this possible again in the future.
 
 ## The idea behind eChook
 
