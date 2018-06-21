@@ -1,4 +1,4 @@
-## Temperature inputs
+# Temperature Inputs
 
 ![](https://lh3.googleusercontent.com/dTmzH5MYW5Xj8Isw-SGnR_1u34sVLL_O2zmYcV4i6zEg_g0cZvfmK9op8tlo9R-367dwLYHgWkTaj_tbzzKKVIL-V53UfUgbPXsXuf8nvqEdvdpMYQDzUSF-5Muqz2rjxG4wXN-r)The thermistors form part of a potential divider. The resistance of the thermistor changes with its temperature. As the resistance changes the output voltage of the potential divider changes.
 

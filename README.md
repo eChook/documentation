@@ -1,14 +1,12 @@
-# eChook Documentation
+# Introduction
 
 by Ian Cooper, Rowan Griffin and Ben Nagy
-
----
 
 Welcome to the documentation for the eChook nano board and the associated Android app, the eChook Companion - all the information in one place.
 
 Please feel free to add comments and start discussions on this document as you go.
 
-You can download a PDF of this document [here](https://www.gitbook.com/download/pdf/book/echook/echook-documentation).
+You may notice that the look of the documentation has improved recently, as gitbooks has just had a major upgrade. Unfortunately it has removed the option to download the document as a PDF, although they are aiming to make this possible again in the future. Until that time you can still download the last copy from the old website from [here](https://www.gitbook.com/download/pdf/book/echook/echook-documentation).
 
 ## The idea behind eChook
 
@@ -34,5 +32,5 @@ They are both monitored by the eChook team who will get back to any questions as
 
 Forum - [echook.boards.net](http://echook.boards.net/)
 
-Slack -  For new users an invite is needed: [Invite link](https://join.slack.com/t/echook/shared_invite/enQtMjc4NTI3NDA4MTEzLWMwNzllYjZmMjU4N2MxMjFlYjdjYmViMTA0NDA0ZTM4NjQ1OWU5YzExMGE0MjExYTI0NjkzY2Q3NGNjNjVkYzI). Returning users, go to [echook.slack.com](https://echook.slack.com)
+Slack - For new users an invite is needed: [Invite link](https://join.slack.com/t/echook/shared_invite/enQtMjc4NTI3NDA4MTEzLWMwNzllYjZmMjU4N2MxMjFlYjdjYmViMTA0NDA0ZTM4NjQ1OWU5YzExMGE0MjExYTI0NjkzY2Q3NGNjNjVkYzI). Returning users, go to [echook.slack.com](https://echook.slack.com)
 

@@ -1,4 +1,4 @@
-# Interpreting the data
+# Graphing the Data
 
 Open the arduino.csv file in a spreadsheet programme such as Excel. Data identifying names will be along the top, and the data below. The one bit of data that is not immediately readable is the timestamp, as this is recorded in [Unix Time](https://en.wikipedia.org/wiki/Unix_time), as milliseconds since 00:00:00 1st January 1970.
 
@@ -15,7 +15,4 @@ This converts milliseconds to days \(the multiplication\) and adds them to the s
 ## Graphing the data
 
 To start looking at the data in a meaningful way, graphs are needed. To start with, select the columns Time, Voltage and Current, then go to Insert&gt;Charts&gt;Scatter with Smooth lines. This will give a voltage and current over time graph. Add and remove data to see what you want!
-
-  
-
 

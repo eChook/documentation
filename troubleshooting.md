@@ -2,5 +2,14 @@
 
 Troubleshooting?? As if we'd ever need that! :\)
 
-We'll add articles here as and when issues become apparent.
+We'll add articles here as and when issues become apparent. If you have an issue please let us know on the forum or the Slack channel.
+
+### Bluetooth Troubleshooting
+
+If the eChook Companion app connects the the module but gets no data through, it will continuously disconnect and reconnect in an effort to correct the problem. If this is occurring there is an issue with the data rather than with the bluetooth itself.
+
+* Check that the Tx light on the Arduino is flashing periodically \(should be a flash every 0.25 seconds\). This indicates that the Arduino is sending data out. If it is not, try re-programming the Arduino.
+* Check that the baud rate of the Arduino and the HC-05 bluetooth module match. If the HC-05 has been auto configured by the Arduino, they will be the same. For the auto configuration procedure, see [here](https://docs.echook.uk/configuring-the-bluetooth-module/configuring-the-bluetooth-module.html).
+
+
 

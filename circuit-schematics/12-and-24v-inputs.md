@@ -1,4 +1,4 @@
-## **24v and 12v interface**
+# 12 and 24v Inputs
 
 ![](https://lh4.googleusercontent.com/3dqEng96hjpyZ2TGc14n3yMBvOySjo-OmNm2KM1m6NvkkP55jNfYTt651rU0modOr0cWeWOQhuywFpl-0hR0gtRoK-O_QZEt2r7qXEDnJOVWC9U_HNJWF7WJr8MN1OHGIE6hJPDr)
 
@@ -11,7 +11,4 @@ C3 is a ceramic capacitor forming a low pass filter with R1 and R2 to remove any
 BattTotalVTP represents the multimeter test point on the back of the PCB, giving easy access to check the voltage output from the potential divider with a multimeter or oscilloscope.
 
 The circuit to the right is identical, but takes the lower battery voltage as an input.
-
-  
-
 

@@ -1,6 +1,6 @@
-## RPM Inputs \(Hall Effect Sensors\)
+# RPM Inputs
 
-![](/assets/RPM-Input-Schematic.png)
+![](../.gitbook/assets/rpm-input-schematic.png)
 
 The RPM Connector provides 5V and GND for the hall effect sensors, then takes two signals, one from each sensor.
 
