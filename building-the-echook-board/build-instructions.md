@@ -77,5 +77,7 @@ Ian has recorded a video of building a board: [View on Youtube](https://www.yout
 | U2 | Regulator,6.5-32Vin,5Vout 1A | TSR\_1-2450 |
 | U3 | Dual BIFET Op Amp | MCP6002 |
 
-Pin outs for the connectors on the eChook can be found in the 'Connecting the eChook to the car' section of the documentation [here](https://docs.echook.uk/Connecting-the-eChook-to-the-Car/connecting-the-echook-to-the-car.html).
+Newer kits will have a few spare components with them. These will be left over once the board is fully populated.
+
+Pin-outs for the connectors on the eChook can be found in the 'Connecting the eChook to the car' section of the documentation [here](https://docs.echook.uk/Connecting-the-eChook-to-the-Car/connecting-the-echook-to-the-car.html).
 
