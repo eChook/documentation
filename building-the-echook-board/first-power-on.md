@@ -24,3 +24,5 @@ Once you have completed the above checks, plug in the Arduino, Bluetooth module 
 
 Power up and you should get some LEDs on the Arduino and the BT module. This is now a complete, but unprogrammed eChook nano board.
 
+If you want to proceed with fitting the sensors to the car and wiring it all up before programming the Arduino, jump ahead to '[Connecting the eChook to the Car](https://docs.echook.uk/connecting-the-echook-to-the-car)'.
+

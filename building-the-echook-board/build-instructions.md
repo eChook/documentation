@@ -22,7 +22,7 @@ The board is done! Remaining components in the kit go elsewhere in your car - se
 
 Don’t plug in the op-amp, arduino or bluetooth module quite yet, carry out tests on the next page first.
 
-High resolution photos of a finished board can be found [here](https://goo.gl/photos/QLNfrek9v2v522xa9).
+High resolution photos of a finished board can be found [here](https://goo.gl/photos/QLNfrek9v2v522xa9). Note that this is a slightly earlier board where the bluetooth wires are soldered directly to the board instead of connected via a header. Also the components appearance may differ slightly to those supplied in the kits, as the suppliers may change between manufacturing runs.
 
 ### Video Instructions
 
@@ -77,7 +77,7 @@ Ian has recorded a video of building a board: [View on Youtube](https://www.yout
 | U2 | Regulator,6.5-32Vin,5Vout 1A | TSR\_1-2450 |
 | U3 | Dual BIFET Op Amp | MCP6002 |
 
-Newer kits will have a few spare components with them. These will be left over once the board is fully populated.
+Once the board is fully populated there will be a few components remaining. These are the sensors that fit to the car, and later kits may include some spare resistors etc. for the PCB.
 
 Pin-outs for the connectors on the eChook can be found in the 'Connecting the eChook to the car' section of the documentation [here](https://docs.echook.uk/Connecting-the-eChook-to-the-Car/connecting-the-echook-to-the-car.html).
 
