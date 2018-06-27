@@ -5,6 +5,7 @@
 * [Building the eChook Board](building-the-echook-board/README.md)
   * [Required Components \(BOM\)](building-the-echook-board/required-components-bom.md)
   * [Build Instructions](building-the-echook-board/build-instructions.md)
+  * [Build Steps Photos](building-the-echook-board/build-steps-photos.md)
   * [First Power On](building-the-echook-board/first-power-on.md)
 * [Programming the Arduino](programming-the-arduino/README.md)
   * [Arduino CH340 Drivers](programming-the-arduino/arduino-ch340-drivers.md)

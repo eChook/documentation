@@ -22,7 +22,9 @@ Once you have completed the above checks, plug in the Arduino, Bluetooth module 
 * The op-amp has a dot on one corner, this goes with the notched end of the 8-pin socket.
 * The Bluetooth module can connect directly to the 6-pin header on the PCB, or through the included 6 way jumper cable. Ensure that it is plugged in the right way round using the silkscreen labels on the PCB and bluetooth module.
 
-Power up and you should get some LEDs on the Arduino and the BT module. This is now a complete, but unprogrammed eChook nano board.
+Power up and you should get some flashing LEDs on the Arduino and the BT module. This is now a complete, but unprogrammed eChook nano board.
 
-If you want to proceed with fitting the sensors to the car and wiring it all up before programming the Arduino, jump ahead to '[Connecting the eChook to the Car](https://docs.echook.uk/connecting-the-echook-to-the-car)'.
+If you want to proceed with fitting the sensors to the car and wiring it all up before programming the Arduino, jump ahead to 'Connecting the eChook to the Car'.
+
+{% page-ref page="../connecting-the-echook-to-the-car/" %}
 

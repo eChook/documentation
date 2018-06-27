@@ -6,7 +6,7 @@ The eChook nano kit will come with all components required to populate the PCB, 
 | :--- | :--- | :--- |
 | 1 | Green LED, 5mm | Indicator LED on PCB |
 | 1 | BC547 NPN Transistor | Amplification stage of PWM output on PCB |
-| 2 | NTC Thermistor 10kΩ@25° |  |
+| 2 | NTC Thermistor 10kΩ@25° | Temp Sensor \(not on PCB\) |
 | 1 | Radial Resettable Fuse 0.25A | Over current protection \(Short Circuit\) |
 | 1 | 8 Way DIP Socket | Socket for Op-Amp |
 | 1 | Microchip MCP6002 Dual Op Amp | Used in differential amplifier for current input |
@@ -18,7 +18,7 @@ The eChook nano kit will come with all components required to populate the PCB, 
 | 3 | Ceramic Capacitor 1uF | Low Pass filtering on some sensors |
 | 1 | Electrolytic Capacitor 22uf 50V | Input voltage smoothing for the regulator |
 | 1 | 30cm 6 way Male-Female PCB Jumper Cable | Allows connecting the bluetooth module remotely |
-| 2 | Non latching Hall Effect Sensor \(A1101EUA-T\) | Sensor for wheel/motor rpm |
+| 2 | Non latching Hall Effect Sensor \(A1101EUA-T\) | Sensor for wheel/motor rpm \(not on PCB\) |
 | 12 | 1k Resistor | Protection for Arduino pins |
 | 2 | 4k7 Resistor | Input Resistors for current differential amplifier |
 | 4 | 10k Resistor | Feedback on Differential amp and pull ups for Thermistors |
@@ -31,9 +31,9 @@ The eChook nano kit will come with all components required to populate the PCB, 
 | 2 | 3 pin Pluggable Terminal 5.08mm | Connectors |
 | 1 | 2 pin Pluggable Terminal 5.08mm | Connectors |
 | 1 | 3 pin Pluggable Terminal 3.81mm | Connectors |
-| 1 | LEM HAIS Series Open Loop Current Sensor, ±150A | Current Sensor |
-| 2 | 47nF Ceramic Capacitor 50 V | Smoothing Capacitors for current sensor |
-| 1 | 4.7nF Ceramic Capacitor 50 V | Smoothing Capacitors for current sensor |
+| 1 | LEM HAIS Series Open Loop Current Sensor, ±150A | Current Sensor \(not on PCB\) |
+| 2 | 47nF Ceramic Capacitor 50 V | Smoothing Capacitors for current sensor  \(not on PCB\) |
+| 1 | 4.7nF Ceramic Capacitor 50 V | Smoothing Capacitors for current sensor \(not on PCB\) |
 
 Photograph of all components in kit:
 

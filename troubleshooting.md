@@ -1,10 +1,14 @@
 # Troubleshooting
 
-Troubleshooting?? As if we'd ever need that! :\)
-
 We'll add articles here as and when issues become apparent. If you have an issue please let us know on the forum or the Slack channel.
 
-### Bluetooth Troubleshooting
+## PCB Issues
+
+#### Power not getting to the Tracopower DCDC Module
+
+24V is being supplied at the input but isn't seen at the pins of the DCDC power module. The most likely cause for this is that the rectifier diode is the wrong way around. This triggers the short circuit protection when the voltage supply is correct - the diode creates a short circuit between 24V and ground and causes the polyfuse to activate, stopping any voltage going to the rest of the board. To fix, reverse the diode on the PCB.
+
+## Bluetooth Troubleshooting
 
 If the eChook Companion app connects the the module but gets no data through, it will continuously disconnect and reconnect in an effort to correct the problem. If this is occurring there is an issue with the data rather than with the bluetooth itself.
 
