@@ -82,5 +82,9 @@ When connecting the Bluetooth module, ensure that it is plugged in the right way
 
 ![](../.gitbook/assets/image%20%285%29.png)
 
-The remaining components are fitted to the car itself, as described in the ['Connecting the eChook to the Car'](https://docs.echook.uk/connecting-the-echook-to-the-car) section.
+The remaining components are fitted to the car itself, as described in the 'Connecting the eChook to the Car' section.
+
+{% page-ref page="../connecting-the-echook-to-the-car/" %}
+
+
 
