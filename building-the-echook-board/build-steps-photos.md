@@ -6,7 +6,7 @@ Here is a sequence of photos showing the building up of a v1.3 eChook board. For
 Don't forget, Ian has recorded a video of building a board which may help you with these steps: [View on Youtube](https://www.youtube.com/watch?v=PspD6s5LoBA).
 {% endhint %}
 
-![PCB and all components laid out](../.gitbook/assets/image%20%283%29.png)
+![PCB and all components laid out](../.gitbook/assets/image%20%284%29.png)
 
 * Start with the resistors - these are the smallest components.
 
@@ -18,7 +18,7 @@ If the resistors aren't labeled, use the[ resistor colour codes](http://www.inst
 
 Now all the remaining resistors are the same value.
 
-![All resistors soldered in place](../.gitbook/assets/image%20%282%29.png)
+![All resistors soldered in place](../.gitbook/assets/image%20%283%29.png)
 
 * Ceramic Capacitors and the Diode next
 
@@ -32,7 +32,7 @@ Ceramic Capacitors \(1μF\) - these have 105 printed on them. The first two digi
 **Diode** - The grey end of the diode goes to the end pointed to by the ‘arrow’ diode symbol on the silkscreen.
 {% endhint %}
 
-![Diode and 1&#xB5;F capacitors in place ](../.gitbook/assets/image%20%286%29.png)
+![Diode and 1&#xB5;F capacitors in place ](../.gitbook/assets/image%20%287%29.png)
 
 * Transistor: This looks similar to the hall effect sensors but is larger and has 'BC547' printed on it.  There will be a few mm of leg between the transistor and the PCB.  
 * LED: The LED is labelled as PWM on the board as this is the signal it shows by default.
@@ -41,7 +41,7 @@ Ceramic Capacitors \(1μF\) - these have 105 printed on them. The first two digi
 Both the **LED** and **transistor** need to be placed in the correct orientation - the 'D' shape of the component matches the outline on the board.
 {% endhint %}
 
-![Transistor and LED added](../.gitbook/assets/image%20%287%29.png)
+![Transistor and LED added](../.gitbook/assets/image%20%288%29.png)
 
 * Tracopower Voltage Regulator
 
@@ -66,12 +66,12 @@ The **DIP Socket** is orientation specific.  There is an indentation on the silk
 For larger components with 3+ pins it can be helpful to solder one pin in first then make sure that the component is flat with the PCB. To adjust it, simply melt the solder on the single pin and move the component until you are happy. Now solder the remaining pins.
 {% endhint %}
 
-![DCDC regulator, 22uF Capacitor, Header and DIP Socket added.](../.gitbook/assets/image%20%281%29.png)
+![DCDC regulator, 22uF Capacitor, Header and DIP Socket added.](../.gitbook/assets/image%20%282%29.png)
 
 * Polyfuse
 * Connectors
 
-![Polyfuse and Connectors added.](../.gitbook/assets/image%20%284%29.png)
+![Polyfuse and Connectors added.](../.gitbook/assets/image%20%285%29.png)
 
   
 All soldering on the PCB is now done. 
@@ -84,7 +84,7 @@ All soldering on the PCB is now done.
 When connecting the Bluetooth module, ensure that it is plugged in the right way round using the silkscreen labels on the PCB and bluetooth module.
 {% endhint %}
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
 The remaining components are fitted to the car itself, as described in the 'Connecting the eChook to the Car' section.
 

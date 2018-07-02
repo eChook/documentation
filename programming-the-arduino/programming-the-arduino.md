@@ -8,5 +8,9 @@ Now check that the code compiles. Click the ‘tick’ button on the top left of
 
 Assuming the code compiled successfully, it can now be uploaded \(flashed\) to the Arduino. Before plugging the Arduino in, go to ‘Tools &gt; Port’ and take note of which COM ports are listed. Now connect the Arduino via the mini USB cable. The computer will assign it a COM port. Go back to ‘Tools &gt; Port’ and select the new COM port, which will be the Arduino.
 
-It is important to disconnect the bluetooth module from the eChook board before attempting to flash code. Press the ‘Upload’ button to compile and flash the code to the board. The TX and RX lights on the Arduino will flash rapidly while the upload is ongoing. When finished the Arduino IDE will show “Upload Complete”.
+{% hint style="info" %}
+It is important to **disconnect** the bluetooth module from the eChook board before attempting to flash code. 
+{% endhint %}
+
+Press the ‘Upload’ button to compile and flash the code to the board. The TX and RX lights on the Arduino will flash rapidly while the upload is ongoing. When finished the Arduino IDE will show “Upload Complete”.
 

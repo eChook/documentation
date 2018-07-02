@@ -1,8 +1,6 @@
 # External Buttons and Brake
 
-There are three button inputs on the eChook board. Two of these are to interface with the app as using the touchscreen is generally inconvenient when driving and wearing gloves. One button cycles through the map and data screens on the app, while the other activates ‘launch’ mode to trigger lap counting. The final button input +
-
-is to detect if the brakes have been pulled or not.
+There are three button inputs on the eChook board. Two of these are to interface with the app as using the touchscreen is generally inconvenient when driving and wearing gloves. One button cycles through the map and data screens on the app, while the other activates ‘launch’ mode to trigger lap counting. The final button input is to detect if the brakes are applied.
 
 A push to make button \(not included in kit\) is required for each input, and is simply wired between the relevant button connection and a ground reference. This can be the reference on the ‘EXT’ connector, or ground elsewhere on the vehicle.
 

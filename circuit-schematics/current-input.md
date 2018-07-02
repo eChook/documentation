@@ -6,9 +6,11 @@ This is the most complex input circuit on the eChook, but once broken down is st
 
 The op-amp above is configured to be a differential amplifier; the output is the voltage difference between the two inputs, multiplied by a gain.
 
-The gain is set by the feedback resistors \(R22 and R23\) and the input resistors \(R20 and R21\). In this circuit both feedback resistors are equal, and both input resistors are equal, so the gain can be calculated by:
+The gain is set by the feedback resistors \(R22 and R23\) and the input resistors \(R20 and R21\). In this circuit both feedback resistors are equal, and both input resistors are equal, so the gain can be calculated as below, where V2 and V3 are the voltages on connector pins 2 and 3 in the schematic.
 
-
+$$
+V_{out} = (R_{22}/R_{20})*(V_3 - V_2)
+$$
 
 More information on solving differential amplifiers can be found [here](http://masteringelectronicsdesign.com/solving-the-differential-amplifier-part-1/).
 

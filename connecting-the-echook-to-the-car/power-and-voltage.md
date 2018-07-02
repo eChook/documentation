@@ -12,9 +12,9 @@ This is the total battery voltage reading. It is taken directly from the boards 
 
 This monitors the voltage of the ‘lower’ battery, allowing the system to monitor and log the voltages of both 12v batteries. This will show if one of the batteries is in a worse condition than the other.
 
-The 12v monitoring requires a wire from the positive terminal of the lower battery, as shown by thewire\_12Vlabel in the diagram below:
+The 12v monitoring requires a wire from the positive terminal of the lower battery, as shown by the wire\_12V label in the diagram below:
 
 ![](../.gitbook/assets/screenshot-from-2017-11-29-22-00-19.png)
 
-As this is a wire from the battery it requires a fuse of it’s own, a low value \(&lt;1A\) is recommended but 5A is sufficient. As this is simply a reference wire, no current will be drawn through it, so a thin wire can be used, however if a 5A fuse is used, ensure that the wire is rated to carry over 5A.
+As this is a wire from the battery it requires a fuse of it’s own, a low value \(&lt;1A\) is recommended but 5A is sufficient. As this is simply a reference wire, no current will be drawn through it, so a thin wire can be used, however ensure that the wire is able to carry a higher current than the fuse that it is fitted with.
 

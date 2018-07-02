@@ -1,6 +1,10 @@
 # Connecting the eChook to the Car
 
-Now that the board is sending data to the phone, it needs to have some useful data to send. All of the external connections to the board go through pluggable terminal connectors. This makes it easy to wire into the vehicle’s harness with the screw terminals, and makes the board easy to remove from the car if necessary. It is recommended to label the connectors on the harness side.
+Now that the board is sending data to the phone, it needs to have some useful data to send. All of the external connections to the board go through pluggable terminal connectors. This makes it easy to wire into the vehicle’s harness with the screw terminals, and makes the board easy to remove from the car if necessary.
+
+{% hint style="info" %}
+ Label the connectors on the harness side to make it easier to identify them in future.
+{% endhint %}
 
 The diagram below shows the external interfaces to the board numbered, with details on each connection in the table. When connecting the sensors to the board, use this to identify which wire goes where!
 

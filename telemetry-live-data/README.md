@@ -1,8 +1,8 @@
 # Telemetry \(Live Data\)
 
-One of the benefits of using a smartphone to log the data is it’s internet connection. With the exception of some tracks with poor signal, this provides an excellent opportunity to get the logged data back to the rest of the team in near real time..
+One of the benefits of using a smartphone to log the data is it’s internet connection. With the exception of some tracks with poor signal, this provides an excellent opportunity to get the logged data back to the rest of the team in near real time.
 
-Ideally this system would be simple to use, free to use and secure - we don’t want to publicly broadcast anyone’s location! While we work out how to implement this properly, we found an interim solution using dweet.io.
+Ideally this system would be simple to use, free to use and secure - we don’t want to publicly broadcast anyone’s location, and some teams can be understandable secretive about their data! While we work out how to implement this properly, we found an interim solution using dweet.io.
 
 eChook has no affiliation with dweet.io, they are simply useful services that we’ve found.
 

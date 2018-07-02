@@ -34,5 +34,7 @@ Finally, if the phone has a data connection, the app can upload data in real tim
 
 ## Website
 
-The website displays data uploaded from the phone in near realtime. There is a choice to upload this to the eChook servers, or to a third party service called [dweet.io](http://dweet.io).
+The website displays data uploaded from the phone in near realtime. Currently this is to a third party service called [dweet.io](http://dweet.io) which displays the data nicely, but also makes it public. As such, no location information is available.
+
+The data.echook.uk website is under development and will be offered to teams for Beta testing shortly. At first this will be limited to the same real time display functionality of the dweet website, with storage and viewing of historical data to be added at a later point.
 

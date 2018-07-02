@@ -1,4 +1,14 @@
-# Graphing the Data
+# Using the Data
+
+It’s time to get the data off the phone and onto a computer for some useful analysis.
+
+## Retrieving data from phone
+
+In the eChook app settings, the top option is to share data. Tap this to display a list of ways to send the data file to via service you wish.
+
+Alternatively, the data is saved in a .csv file in the phone's downloads folder so can also be retrieved via a file manager app, or via a USB connection to a computer.
+
+## Opening the Data
 
 Open the arduino.csv file in a spreadsheet programme such as Excel. Data identifying names will be along the top, and the data below. The one bit of data that is not immediately readable is the timestamp, as this is recorded in [Unix Time](https://en.wikipedia.org/wiki/Unix_time), as milliseconds since 00:00:00 1st January 1970.
 
@@ -12,7 +22,7 @@ This converts milliseconds to days \(the multiplication\) and adds them to the s
 
 ![](https://lh3.googleusercontent.com/jIqXy8nnbeA0GAnkM9vsIVyZVOtupkB5ZFSBlOhHQITRr30Bi7VPci9UwKNB8gqG6S8jBHSXbglZ-cJTD6mTFXAP6u8ZtIOHtFBheuZfx_9AXf1sHQN0Z6yoInT1ycdAZAHPh88A)
 
-## Graphing the data
+## Graphing the data {#graphing-the-data}
 
 To start looking at the data in a meaningful way, graphs are needed. To start with, select the columns Time, Voltage and Current, then go to Insert&gt;Charts&gt;Scatter with Smooth lines. This will give a voltage and current over time graph. Add and remove data to see what you want!
 

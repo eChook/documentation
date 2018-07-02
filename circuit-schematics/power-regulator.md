@@ -2,6 +2,8 @@
 
 This schematic shows the resettable polyfuse, reverse polarity protection and the 5V regulator.
 
+![](../.gitbook/assets/image%20%281%29.png)
+
 ## Resettable Polyfuse
 
 FS1 is a 250mA polyfuse. If the eChook board draws more than 250mA at 24v, the resistance of this fuse will increase from milli Ohms to a few Mega Ohms, effectively cutting power to the eChook. If there is a short circuit, this will cut off the power supply, limiting any damage. It also plays a role in reverse polarity protection, described below.

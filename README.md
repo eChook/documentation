@@ -2,11 +2,11 @@
 
 by Ian Cooper, Rowan Griffin and Ben Nagy
 
-Welcome to the documentation for the eChook nano board and the associated Android app, the eChook Companion - all the information in one place.
+Welcome to the documentation for the eChook nano board and the associated Android app, the eChook Companion app.
 
-Please feel free to add comments and start discussions on this document as you go.
+Please feel free to add comments and start discussions on this document as you go. If something is unclear or you get stuck, pop us a message on the forum or the Slack channel - see Support section below.
 
-You may notice that the look of the documentation has improved recently, as gitbooks has just had a major upgrade. Unfortunately it has removed the option to download the document as a PDF, although they are aiming to make this possible again in the future.
+You may notice that the look of the documentation has improved recently, as gitbooks has just had a major upgrade. Unfortunately it has removed the option to download the document as a PDF, although they're aiming to make this possible again in the future.
 
 ## The idea behind eChook
 

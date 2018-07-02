@@ -12,7 +12,11 @@ This is the input that the eChook board is designed for. If a variable throttle 
 
 ## Variable throttle with output above 5v:
 
-The output from the throttle will need to be reduced such that the highest output voltage is stepped down to 5v in order to interface with the eChook Board. To do this a potential divider will be needed. For potential divider design, see [this SparkFun tutorial](https://learn.sparkfun.com/tutorials/voltage-dividers). \(Tip: to reduce current use, choose the resistors such that the sum of R1 and R2 is around 10kΩ\)
+The output from the throttle will need to be reduced such that the highest output voltage is stepped down to 5v in order to interface with the eChook Board. To do this a potential divider will be needed. For potential divider design, see [this SparkFun tutorial](https://learn.sparkfun.com/tutorials/voltage-dividers).
+
+{% hint style="info" %}
+To reduce current use, choose the resistors such that the sum of R1 and R2 is 10kΩ or greater
+{% endhint %}
 
 For example: If the maximum output of the throttle is 10v, a potentiometer is needed that reduces this to 5v. As this is halving the voltage, R1 and R2 will be equal. 5kΩfor each is a sensible figure to use.
 
@@ -20,7 +24,9 @@ Connect the potential divider as shown:
 
 ![](https://lh5.googleusercontent.com/KW_L3b9ZulcJHl2DW7X59uPfOaAb0Wx-hhOOY05LV8JsQ-45gsAX87I-p3_iwrGjc9t9DdA0AJs7RcMXF0zFeOA8yvB3myBPQoFCtgvISXY-wqJguEm9DNX9WkTusLDgDmWt9u7F)
 
-Warning: Use a multimeter to verify that the output from the throttle to the board \(eChook\_Board\_Throttle\_Inabove\) does not exceed 5V before connecting it to the board. Higher voltages are likely to damage the arduino.
+{% hint style="warning" %}
+Use a multimeter to verify that the output from the throttle to the board \(_eChook\_Board\_Throttle\_In_ above\) **does not exceed 5V** at any point in the throttle's range before connecting it to the board. Higher voltages will damage the arduino.
+{% endhint %}
 
 ## Push Button Throttle
 
@@ -28,5 +34,7 @@ If the vehicle runs a push button throttle, the same potential divider as above 
 
 The second tweak needed for a push button throttle is in code. Within the code there are two ‘readThrottle’ functions, one for a variable throttle input, one for a push button. By default the push button function is commented out:
 
-![](https://lh6.googleusercontent.com/CAEAoiHKOEKyukwirS0e39eVdBUcFY0UA1xSfdo8wJKsOlWa445s51SyLxOuQwxCtJMV_cZVKudRkI758Xg3MbpXjaRO3Wg8_Y1CxmcRzcYLdZvecekJte78wcOjE3PVGOOJbQX_)In order to use a push button throttle, comment out or delete the first function and un-comment the lower one.
+In order to use a push button throttle, comment out or delete the first function and un-comment the lower one.
+
+![](https://lh6.googleusercontent.com/CAEAoiHKOEKyukwirS0e39eVdBUcFY0UA1xSfdo8wJKsOlWa445s51SyLxOuQwxCtJMV_cZVKudRkI758Xg3MbpXjaRO3Wg8_Y1CxmcRzcYLdZvecekJte78wcOjE3PVGOOJbQX_)
 

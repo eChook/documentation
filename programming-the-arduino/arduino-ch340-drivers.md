@@ -10,7 +10,7 @@ Windows drivers can be installed from [here](http://www.wch.cn/download/CH341SER
 
 ## Mac
 
-Drivers for mac are slightly more difficult. You can either disable KEXT security \(which is not advisable\) and get a free driver or you can get a signed driver from [here](https://www.mac-usb-serial.com/) they do however cost money.
+Drivers for mac are slightly more difficult. You can either disable KEXT security \(which is not advisable\) and get a free driver or you can get a signed driver from [here](https://www.mac-usb-serial.com/) - they do however cost money.
 
 ## Linux
 
