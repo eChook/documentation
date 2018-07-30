@@ -10,7 +10,7 @@ On the board, the thermistor completes the lower half of a potential divider cir
 
 To translate this voltage to a temperature, the resistance curve of the specific thermistor being used is needed. Due to tolerances, this is subtly different even between identical thermistors. To do this the eChook uses the [Steinhart–Hart](https://en.wikipedia.org/wiki/Steinhart–Hart_equation) equation which uses three coefficients calculated from the thermistor to convert the resistance seen to an accurate temperature reading.
 
-The first step in calibrating the thermistor is calculating these coefficients. Thankfully there’s a useful online calculator to help! All that is required is three measurements of the resistance of the thermistor at different, known temperatures. The calculator can be found [here](http://www.thinksrs.com/downloads/programs/Therm%20Calc/NTCCalibrator/NTCcalculator.htm) and looks like this:
+The first step in calibrating the thermistor is calculating these coefficients. Thankfully there’s a useful online calculator to help! All that is required is three measurements of the resistance of the thermistor at different, known temperatures. The calculator can be found [here](https://www.thinksrs.com/downloads/programs/therm%20calc/ntccalibrator/ntccalculator.html) and looks like this:
 
 ![](https://lh3.googleusercontent.com/fmYhUC_dDDkDMKbMWPzaOq1qHJJ6kehtJjfd_UuTrWpTaNHCxvm0np7ymCy6kjwasyXHZBpfv9XZsvGpLbHzfyuvvEAgYeeR0o73np7Ed0G2BduqZFHUd_0shGBJHHU87K6xzmo4)
 
