@@ -10,7 +10,7 @@ v1.3 is the first production version as sold by Greenpower, earlier versions are
 
 Any V1.0 board will already be assembled and partially tested so the ‘build stage’ is not required - you can skip this bit!
 
-The connection outputs and component references changed after V1.0, so it is not
+The connection outputs and component references changed after V1.0, so the pin out's aren't all compatible!
 
 NOTE: for V1.0 it is important that before power is applied to the board the DCDC converter is set to the right voltage with the Arduino, Bluetooth module and op-amp unplugged. Later boards do not have adjustable power supplies so this instruction no longer applies.
 
