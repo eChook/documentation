@@ -1,6 +1,6 @@
 # Programming the Arduino
 
-Locate and open the ‘eChookCode.ino’ file. This will open in the Arduino IDE.
+Locate and open the ‘eChookCode.ino’ file that was downloaded in the last step. This will open in the Arduino IDE with 'calibration.h' in another tab.
 
 Before the code can be compiled, the IDE needs to know what Arduino the code is for. Go to Tools&gt;Board and select the Arduino Nano, then go to Tools&gt;Processor and select ATmega328. The bottom right of the Arduino IDE should now read “Arduino Nano, ATmega328”.
 
