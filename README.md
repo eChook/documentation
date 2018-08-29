@@ -34,3 +34,5 @@ Forum - [echook.boards.net](http://echook.boards.net/)
 
 Slack - For new users an invite is needed: [Invite link](https://join.slack.com/t/echook/shared_invite/enQtMjc4NTI3NDA4MTEzLWMwNzllYjZmMjU4N2MxMjFlYjdjYmViMTA0NDA0ZTM4NjQ1OWU5YzExMGE0MjExYTI0NjkzY2Q3NGNjNjVkYzI). Returning users, go to [echook.slack.com](https://echook.slack.com)
 
+We are also trialing in browser messaging - click the message icon in the bottom right to get in touch.
+
