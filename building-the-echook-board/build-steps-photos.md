@@ -32,7 +32,7 @@ Ceramic Capacitors \(1μF\) - these have 105 printed on them. The first two digi
 **Diode** - The grey end of the diode goes to the end pointed to by the ‘arrow’ diode symbol on the silkscreen.
 {% endhint %}
 
-![Diode and 1&#xB5;F capacitors in place ](../.gitbook/assets/image%20%287%29.png)
+![Diode and 1&#xB5;F capacitors in place ](../.gitbook/assets/image%20%288%29.png)
 
 * Transistor: This looks similar to the hall effect sensors but is larger and has 'BC547' printed on it.  There will be a few mm of leg between the transistor and the PCB.  
 * LED: The LED is labelled as PWM on the board as this is the signal it shows by default.
@@ -41,7 +41,7 @@ Ceramic Capacitors \(1μF\) - these have 105 printed on them. The first two digi
 Both the **LED** and **transistor** need to be placed in the correct orientation - the 'D' shape of the component matches the outline on the board.
 {% endhint %}
 
-![Transistor and LED added](../.gitbook/assets/image%20%288%29.png)
+![Transistor and LED added](../.gitbook/assets/image%20%289%29.png)
 
 * Tracopower Voltage Regulator
 

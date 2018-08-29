@@ -16,5 +16,13 @@ Assuming the code compiled successfully, it can now be uploaded \(flashed\) to t
 It is important to **disconnect** the bluetooth module from the eChook board before attempting to flash code. 
 {% endhint %}
 
-Press the ‘Upload’ button to compile and flash the code to the board. The TX and RX lights on the Arduino will flash rapidly while the upload is ongoing. When finished the Arduino IDE will show “Upload Complete”.
+Press the ‘Upload’ button to compile and flash the code to the board. The TX and RX lights on the Arduino will flash rapidly while the upload is ongoing. When finished the Arduino IDE will show “Upload Complete” if it has all worked.
+
+### Compilation Errors
+
+It might not all work. If this happens the Arduino IDE will show compilation failed and some errors, generally red, in the log at the bottom of the window. Some errors are more helpful than others, but to make them as useful as possible, go into preferences and enable verbose logging:
+
+![](../.gitbook/assets/image%20%287%29.png)
+
+Now try the upload again - it will still fail, but should give more information on why. If you can't make sense of them yourself head over to the [support forum](http://echook.boards.net) and start a new thread with a copy of the errors - we'll give you a hand decrypting it.
 
