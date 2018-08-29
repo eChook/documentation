@@ -24,5 +24,5 @@ It might not all work. If this happens the Arduino IDE will show compilation fai
 
 ![](../.gitbook/assets/image%20%287%29.png)
 
-Now try the upload again - it will still fail, but should give more information on why. If you can't make sense of them yourself head over to the [support forum](http://echook.boards.net) and start a new thread with a copy of the errors - we'll give you a hand decrypting it.
+Now try the upload again - it will still fail, but should give more information on why. If you can't make sense of the log, head over to the [support forum](http://echook.boards.net) and start a new thread with a copy of the errors - we'll give you a hand decrypting it.
 
