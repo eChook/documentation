@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Welcome to eChook](README.md)
 * [System Overview](system-overview.md)
 * [Building the eChook Board](building-the-echook-board/README.md)
   * [Required Components \(BOM\)](building-the-echook-board/required-components-bom.md)

@@ -1,10 +1,8 @@
-# Introduction
+# Welcome to eChook
 
 Welcome to the documentation for the eChook nano board and the associated Android app, the eChook Companion app.
 
-Please feel free to add comments and start discussions on this document as you go. If something is unclear or you get stuck, pop us a message on the forum or the Slack channel - see Support section below.
-
-You may notice that the look of the documentation has improved recently, as gitbooks has just had a major upgrade. Unfortunately it has removed the option to download the document as a PDF, although they're aiming to make this possible again in the future.
+Please feel free to add comments and start discussions on this document as you go. If something is unclear or you get stuck, pop us a message on the forum, the Slack channel, or with the little message icon in the bottom right of the page.
 
 ## The idea behind eChook
 
@@ -15,6 +13,8 @@ We realised that this is also an area that many teams do not have the time or kn
 We wanted to build a greenpower specific data logging and telemetry system that had inputs tailored to the need of a greenpower car, but also used simple circuits that can be understood by students at GCSE and A level to promote an understanding of how the whole system works, rather than being a ‘black box’ solution. As well as this we aim to keep the price as low as possible to fit within the budgets of Greenpower teams!
 
 To this aim we are not taking a profit from the boards - if we break even and greenpower teams benefit from lots of race data, we’ll call that a win. Now that kits are entering production and being sold through Greenpower, 100% of the profits go back to Greenpower.
+
+Why eChook?
 
 ## The Team
 
