@@ -34,6 +34,7 @@
   * [Lap Counting](using-the-app/lap-counting.md)
 * [Telemetry \(Live Data\)](telemetry-live-data/README.md)
   * [Free Temeletry](telemetry-live-data/free-temeletry.md)
+  * [Node-Red Integration](telemetry-live-data/node-red-integration.md)
 * [Using the Data](using-the-data.md)
 * [Circuit Schematics](circuit-schematics/README.md)
   * [12 and 24v Inputs](circuit-schematics/12-and-24v-inputs.md)
