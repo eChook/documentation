@@ -53,5 +53,6 @@
   * [Bluetooth Packet Encoding](bluetooth-communication/bluetooth-packet-encoding.md)
   * [Bluetooth Packet Decoding](bluetooth-communication/bluetooth-packet-decoding.md)
 * [DIY eChook](diy-echook.md)
+* [Spare Parts](spare-parts.md)
 * [Troubleshooting](troubleshooting.md)
 
