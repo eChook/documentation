@@ -55,4 +55,5 @@
 * [DIY eChook](diy-echook.md)
 * [Spare Parts](spare-parts.md)
 * [Troubleshooting](troubleshooting.md)
+* [Contributing](contributing.md)
 
