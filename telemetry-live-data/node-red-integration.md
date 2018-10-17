@@ -6,3 +6,7 @@ Node Red can be used to capture the dweet.io data, perform any calculations on i
 
 Check out the node-red getting started guide here: [https://nodered.org/docs/getting-started/](https://nodered.org/docs/getting-started/)
 
+The image below shows how simple it is to get the uploaded dweet data with just two nodes - dweet node to read it in, and in this case a debug node to print it out to the screen:
+
+![](../.gitbook/assets/imageedit_1_3646875113.png)
+
