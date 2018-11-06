@@ -1,6 +1,6 @@
 # Power and Voltage
 
-## Power to the Board {#docs-internal-guid-c4233111-09ca-8d5a-7c1c-1dfc2e9d0636}
+## Power to the Board <a id="docs-internal-guid-c4233111-09ca-8d5a-7c1c-1dfc2e9d0636"></a>
 
 To power the board in the car, connect the 0v pin on the ‘Power In’ socket to ground, and the +24v pin to the 24v battery supply on the car. To comply with greenpower regulations it is suggested to take power from after the isolator switch and the board must have it’s own fuse, nominally 5A, although 1A may be preferable.
 

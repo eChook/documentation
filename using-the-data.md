@@ -22,7 +22,7 @@ This converts milliseconds to days \(the multiplication\) and adds them to the s
 
 ![](https://lh3.googleusercontent.com/jIqXy8nnbeA0GAnkM9vsIVyZVOtupkB5ZFSBlOhHQITRr30Bi7VPci9UwKNB8gqG6S8jBHSXbglZ-cJTD6mTFXAP6u8ZtIOHtFBheuZfx_9AXf1sHQN0Z6yoInT1ycdAZAHPh88A)
 
-## Graphing the data {#graphing-the-data}
+## Graphing the data <a id="graphing-the-data"></a>
 
 To start looking at the data in a meaningful way, graphs are needed. To start with, select the columns Time, Voltage and Current, then go to Insert&gt;Charts&gt;Scatter with Smooth lines. This will give a voltage and current over time graph. Add and remove data to see what you want!
 
