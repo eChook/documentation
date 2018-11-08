@@ -14,8 +14,6 @@ We wanted to build a greenpower specific data logging and telemetry system that 
 
 To this aim we are not taking a profit from the boards - if we break even and greenpower teams benefit from lots of race data, we’ll call that a win. Now that kits are entering production and being sold through Greenpower, 100% of the profits go back to Greenpower.
 
-Why eChook?
-
 ## The Team
 
 The team behind the eChook consists of Ian Cooper, Rowan Griffin and Ben Nagy. We are all ex-Driven team members who are too old to race in F24+ but can’t quite pull ourselves away from Greenpower.
