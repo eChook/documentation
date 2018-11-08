@@ -12,6 +12,8 @@ Use a Multimeter to check for a short circuit between ground and power. There is
 
 If a bench power supply is available, this is the safest power source to use. Set the voltage to 24V and the current limit to around 0.3A and attach to the power connectors 24v and ground pins. If a bench power supply isn’t available a pair of Greenpower batteries can be used, but there **must** be a fuse inline between the battery and the board. Preferably 1A, but 5A is sufficient.
 
+The pin out for the power socket can be found here: [Connecting the eChook to the Car](../connecting-the-echook-to-the-car/#connector-pin-out).
+
 Once connected, assuming the current limiter hasn’t been hit, use the multimeter to check that the 5V rail on the board is reading 5V. If it isn’t check the soldering of the power module and ensure that the 24V is getting to it.
 
 ## Plug in the Final Components
@@ -24,7 +26,5 @@ Once you have completed the above checks, plug in the Arduino, Bluetooth module 
 
 Power up and you should get some flashing LEDs on the Arduino and the BT module. This is now a complete, but unprogrammed eChook nano board.
 
-If you want to proceed with fitting the sensors to the car and wiring it all up before programming the Arduino, jump ahead to 'Connecting the eChook to the Car'.
-
-{% page-ref page="../connecting-the-echook-to-the-car/" %}
+If you want to proceed with fitting the sensors to the car and wiring it all up before programming the Arduino, jump ahead to '[Connecting the eChook to the Car](../connecting-the-echook-to-the-car/)'.
 
