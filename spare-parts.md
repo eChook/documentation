@@ -24,5 +24,5 @@ Amazon: Expect to pay around £7
 
 eBay: Expect to pay around £4 from UK sellers, £1.50+ from China
 
-
+If you need any help or advice sourcing parts feel free to ask on the forum or give us a message.
 
