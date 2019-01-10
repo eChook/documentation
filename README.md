@@ -34,3 +34,9 @@ Slack - For new users an invite is needed: [Invite link](https://join.slack.com/
 
 We are also trialing in browser messaging - click the message icon in the bottom right to get in touch.
 
+
+
+## Feedback
+
+We really appreciate and try to act upon any feedback we get. Each page has a quick good/ok/bad quick feedback at the bottom, which is useful, however doesn't tell us the reason! If you feel a page can be improved, drop us a message \(icon bottom right of screen\) and let us know - We'll say thanks I promise!
+
