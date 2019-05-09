@@ -2,7 +2,7 @@
 
 This is a step that should only need doing once to each bluetooth module. It comes programmed from the factory called ‘HC05’ and set to a baud rate of 9600. Before use, we need to set the baud rate to 115200, and change the name - potentially to that of the car it will be fitted to.
 
-When the eChook Arduino code is open in the Arduino IDE there will be two tabs, the second of which will be called ‘configuration.h’. The first parameters in this file are the bluetooth settings. 
+When the eChook Arduino code is open in the Arduino IDE there will be two tabs, the second of which will be called ‘Calibration.h’. The first parameters in this file are the bluetooth settings. 
 
 ```text
 //Bluetooth Settings
