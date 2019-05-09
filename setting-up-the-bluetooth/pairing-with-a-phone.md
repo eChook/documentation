@@ -4,7 +4,7 @@ Any phone running Android 5 or above should work with the app.
 
 Power up the eChook board with the bluetooth module plugged in. The LED on the bluetooth module should be flashing rapidly, indicating it is disconnected from a phone.
 
-On the phone, go to bluetooth settings and scan for devices. It may take a while to resolve the name, but the name set in the Configuration.h file should appear. Pair with it using the “1234” passcode.
+On the phone, go to bluetooth settings and scan for devices. It may take a while to resolve the name, but the name set in the Calibration.h file should appear. Pair with it using the “1234” passcode.
 
 Now install the ‘[eChook Companion](https://play.google.com/store/apps/details?id=com.ben.drivenbluetooth)’ app from the google play store. The app requires two permissions and won't work properly unless they're given. Access to device media storage is required to save a log file to the phone, and access to Location is required for lap counting, logging GPS speed, and with the in-house telemetry, displaying car location on track.
 
