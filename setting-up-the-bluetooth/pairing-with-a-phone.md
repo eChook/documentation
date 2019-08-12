@@ -18,5 +18,3 @@ Further instructions on using the app are in the 'Using the eChook Companion App
 
 {% page-ref page="../using-the-app/" %}
 
-
-
