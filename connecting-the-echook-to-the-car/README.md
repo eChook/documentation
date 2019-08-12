@@ -20,8 +20,8 @@ The diagram below shows the external interfaces to the board numbered, with deta
 | Motor PWM | 2 | Ground reference | Ground for PWM line |
 |  | 1 | 5V PWM Output | A PWM output. Could control the drive motor, or a fan etc. |
 | RPM | 4 | Ground reference | Ground for Hall Effect Sensors |
-|  | 3 | Motor RPM - Pulsed 5V input from hall effect sensor | Signal from wheel hall effect sensor |
-|  | 2 | Wheel RPM - Pulsed 5V input from hall effect sensor | Signal from motor hall effect sensor |
+|  | 3 | Wheel RPM - Pulsed 5V input from hall effect sensor | Signal from wheel hall effect sensor |
+|  | 2 | Motor RPM - Pulsed 5V input from hall effect sensor | Signal from motor hall effect sensor |
 |  | 1 | 5v Supply | 5V supply for the Hall Effect Sensors |
 | Therm | 3 | Ground reference | Ground connection for thermistors |
 |  | 2 | Temp 2 - Line to thermistor | Connection to thermistor 2. Thermistor connects between here and ground |
