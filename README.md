@@ -1,8 +1,10 @@
 # Welcome to eChook
 
-Welcome to the documentation for the eChook nano board and the associated Android app, the eChook Companion app.
+Welcome to the documentation for the eChook nano board and the eChook Android app.
 
-Please feel free to add comments and start discussions on this document as you go. If something is unclear or you get stuck, pop us a message on the forum, the Slack channel, or with the little message icon in the bottom right of the page.
+The eChook is a data logging and telemetry system tailored towards electric cars competing in the Greenpower race series. It consists of an Arduino based PCB sold through the Greenpower online store and an \(Android Only\) app that displays and logs the data. If the phone has a data connection it can also push the data to cloud services enabling real time telemetry from the car to the pits - or anywhere with an internet connection!
+
+If anything is unclear or you get stuck, pop us a message on the forum or with the little message icon in the bottom right of the page and we'll get back to you as soon as we can.
 
 ## The idea behind eChook
 
@@ -16,27 +18,27 @@ To this aim we are not taking a profit from the boards - if we break even and gr
 
 ## The Team
 
-The team behind the eChook consists of Ian Cooper, Rowan Griffin and Ben Nagy. We are all ex-Driven team members who are too old to race in F24+ but can’t quite pull ourselves away from Greenpower.
+The team behind the eChook consists of Ian Cooper and Rowan Griffin. We are ex-Driven team members who are too old to race in F24+ but can’t quite pull ourselves away from Greenpower.
 
-We have all worked on all aspects of the eChook, but predominantly Ian has worked on circuit and PCB Design, Rowan has worked on the circuit design, Arduino software, documentation, support and bits of the Android App, and Ben has coded the vast majority of the Android app and is keeping it maintained.
+We have worked on all aspects of the eChook, but predominantly Ian has worked on circuit and PCB Design, Rowan has worked on the Arduino software, documentation, support and Android App.
 
-Linkedin Profiles: [Rowan Griffin](https://www.linkedin.com/in/rjpgriffin/), [Ian Cooper](https://www.linkedin.com/in/ircooper/), [Ben Nagy](https://www.linkedin.com/in/nagyben/).
+Linkedin Profiles: [Rowan Griffin](https://www.linkedin.com/in/rjpgriffin/), [Ian Cooper](https://www.linkedin.com/in/ircooper/).
 
 ## Support
 
-While this documentation aims to make building and using the eChook as easy as possible, there will always be cases where something doesn't go as expected and some help is needed. eChook has both a forum and a Slack channel that anyone can join to ask questions and discuss anything eChook, electronics, or greenpower in general!
+While this documentation aims to make building and using the eChook as easy as possible, there will always be cases where something doesn't go as expected and some help is needed. eChook has both a forum and in browser messaging that anyone can use to ask questions and discuss anything eChook, electronics, or greenpower in general.
 
 They are both monitored by the eChook team who will get back to any questions as quickly as possible.
 
 Forum - [echook.boards.net](http://echook.boards.net/)
 
-Slack - For new users an invite is needed: [Invite link](https://join.slack.com/t/echook/shared_invite/enQtMjc4NTI3NDA4MTEzLWMwNzllYjZmMjU4N2MxMjFlYjdjYmViMTA0NDA0ZTM4NjQ1OWU5YzExMGE0MjExYTI0NjkzY2Q3NGNjNjVkYzI). Returning users, go to [echook.slack.com](https://echook.slack.com)
+In browser messaging - click the message icon in the bottom right to get in touch.
 
-We are also trialing in browser messaging - click the message icon in the bottom right to get in touch.
-
-
+Slack - This was barely being used so is being discontinued. Try the forum or the in browser messaging.
 
 ## Feedback
 
 We really appreciate and try to act upon any feedback we get. Each page has a quick good/ok/bad quick feedback at the bottom, which is useful, however doesn't tell us the reason! If you feel a page can be improved, drop us a message \(icon bottom right of screen\) and let us know - We'll say thanks I promise!
+
+\(For instance this page gets consistently bad ratings but I don't know why so don't know what to add/remove!\) 
 
