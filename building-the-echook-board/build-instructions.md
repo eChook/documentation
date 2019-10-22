@@ -2,7 +2,7 @@
 
 In its simplest form, building the board consists of soldering all components in their correct places, as shown in the table below.
 
-To make the process of soldering the board as easy as possible, it’s best to start with the smallest components first. All components sit on the top of the board, none on the bottom. 
+To make the process of soldering the board as easy as possible, it’s best to start with the smallest components first. All components sit on the top of the board, none on the bottom. The bottom of the board has the eChook logo and board version number printed on it, the top has hte component outline and values.
 
 {% hint style="info" %}
 See the next page for a step-by-step build guide.

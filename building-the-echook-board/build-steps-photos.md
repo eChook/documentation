@@ -3,7 +3,7 @@
 Here is a sequence of photos showing the building up of a v1.3 eChook board. For each step, solder the components in place, then clip the excess component legs just above the solder joint to keep make the next components easier to place.
 
 {% hint style="success" %}
-Don't forget, Ian has recorded a video of building a board which may help you with these steps: [View on Youtube](https://www.youtube.com/watch?v=PspD6s5LoBA).
+Don't forget, we have recorded a video of building a board which may help you with these steps: [View on Youtube](https://www.youtube.com/watch?v=PspD6s5LoBA).
 {% endhint %}
 
 ![PCB and all components laid out](../.gitbook/assets/image%20%284%29.png)
