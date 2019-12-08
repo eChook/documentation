@@ -3,12 +3,16 @@
 Now that the board is sending data to the phone, it needs to have some useful data to send. All of the external connections to the board go through pluggable terminal connectors. This makes it easy to wire into the vehicle’s harness with the screw terminals, and makes the board easy to remove from the car if necessary.
 
 {% hint style="info" %}
- Label the connectors on the harness side to make it easier to identify them in future.
+There is a post with some guidance to building a Greenpower car wiring harness on the eChook forum [here](http://echook.boards.net/thread/26).
 {% endhint %}
 
 The diagram below shows the external interfaces to the board numbered, with details on each connection in the table. When connecting the sensors to the board, use this to identify which wire goes where!
 
 ![](../.gitbook/assets/screenshot-from-2017-11-29-21-52-27.png)
+
+{% hint style="info" %}
+ Label the connectors on the harness side to make it easier to identify them in future.
+{% endhint %}
 
 ## Connector Pin Out
 
