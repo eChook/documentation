@@ -1,10 +1,14 @@
 # System Overview
 
-There are three systems to the eChook Data Logging and Telemetry; the Arduino based hardware with sensors on the car to collect the data, an Android app to receive the data, log it to file, display it to the driver and upload it, and a web portal to display the data in real time to the rest of the team.
+There are three subsystems to the eChook Data Logging and Telemetry:
+
+* The Arduino based hardware with sensors on the car to collect the data.
+* An Android app to receive the data, log it to file, display it to the driver and upload it.
+* A web portal to display the data in real time to the rest of the team.
 
 The decision to split the system up like this was primarily cost based. Once you start adding an SD card slot and SD card, GPS receiver, screen etc. to the hardware on the car, costs rise rapidly - but we all carry devices with memory, a screen, GPS and so much more in our pocket every day. By offloading as much of the functionality to the smartphone as possible we have been able to create far simpler and lower cost hardware.
 
-The PCB design, Arduino code and Android app are open sourced under the MIT liscence. This means that anyone is welcome to copy, modify and use the designs as they like. If a team has an existing data logging system on the car, it is possible to add a bluetooth module to that, connect to the eChook Android app and use the driver display, data logging and online telemetry free of charge.
+The PCB design, Arduino code and Android app are open sourced under the MIT licence. This means that anyone is welcome to copy, modify and use the designs as they like. If a team has an existing data logging system on the car, it is possible to add a bluetooth module to that, connect to the eChook Android app and use the driver display, data logging and online telemetry free of charge.
 
 ## eChook nano Board
 
@@ -20,7 +24,7 @@ The PCB and circuit designs are available at [github.com/eChook](https://github.
 
 ### Software
 
-The heart of the eChook nano board is the Arduino. The Arduino platform was chosen due to its massive online following, meaning a large community and loads of support available. While C/C++ coding is often not covered in the UK curriculum, the online support makes the Arduino easy to get started with.
+The brain of the eChook nano board is the Arduino. The Arduino platform was chosen due to its massive online following, meaning a large community and loads of support available. While C/C++ coding is often not covered in the UK curriculum, the online support makes the Arduino easy to get started with.
 
 The code for the Arduino Nano on the eChook board is available from [github.com/eChook](https://github.com/echook/echook-arduino-nano). It has been written in a step-by-step fashion and commented every step of the way to explain what each bit of code is doing.
 
