@@ -4,9 +4,13 @@ Knowing the Wheel and Motor RPM, especially for cars with multiple gears, is ver
 
 Two non-latching hall effect sensors are included in the eChook kit. For the pin out, google the name printed on them to find the data sheet. They will require 5V, GND and have one output. This output goes to the Motor RMP or Wheel RPM input on the eChook. No specific pin out is given here as different sensors have been used through the various eChook hardware iterations.
 
-Positioning the sensor on the car is the more difficult part. The hall effect sensor is triggered by magnets that need to be attached to the motor shaft/wheel. Later kits will include these, but otherwise they need to be purchased separately. We have used small \(3x1mm disc\) neodymium magnets in the past, but larger magnets may be less fiddly! eBay is a good source.
+Positioning the sensor on the car is the more difficult part. The hall effect sensor is triggered by magnets that need to be attached to the motor shaft/wheel. The eChook kit contains 10 5mm puck magnets for this.
 
-The tapered side of the hall effect sensor is the ‘sensing’ side. This will only pick up one pole of the magnet, so check magnet polarity! If you use the app you can watch the RMP as you wave a magnet over the sensor to determine the correct polarity.
+The tapered side of the hall effect sensor is the ‘sensing’ side. This will only pick up one pole of the magnet, **so check magnet polarity!** If you use the app you can watch the RMP as you wave a magnet over the sensor to determine the correct polarity - it will give a speed or RPM reading only when the polarity is correct.
+
+{% hint style="info" %}
+If the magnets aren't all in the same polarity, the speed or motor RPM will read too high!
+{% endhint %}
 
 Magnets need to be securely mounted and evenly spaced on the motor shaft and wheel, the suggested number is three on the motor shaft and 6 on the wheel. Increasing the number will give a higher resolution reading. The number of magnets used needs to be specified in the calibration.h file. Whilst not pretty, we have found electrical tape effective in securing magnets to the motor shaft, and have used 3D Printed mounts to secure magnets to the wheel.
 
