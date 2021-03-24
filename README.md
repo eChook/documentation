@@ -38,7 +38,7 @@ Slack - This was barely being used so is being discontinued. Try the forum or th
 
 ## Feedback
 
-We really appreciate and try to act upon any feedback we get. Each page has a quick good/ok/bad quick feedback at the bottom, which is useful, however doesn't tell us the reason! If you feel a page can be improved, drop us a message \(icon bottom right of screen\) and let us know - We'll say thanks I promise!
+We really appreciate and try to act upon any feedback we get. Each page has quick good/ok/bad feedback buttons at the bottom, which is useful, however doesn't tell us the reason! If you feel a page can be improved, drop us a message \(icon bottom right of screen\) and let us know - We'll say thanks I promise!
 
-\(For instance this page gets consistently bad ratings but I don't know why so don't know what to add/remove!\) 
+\(For instance this page gets consistently bad ratings but I don't know why so don't know how to improve it!\) 
 
