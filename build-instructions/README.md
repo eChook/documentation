@@ -8,10 +8,6 @@ In its simplest form, building the board consists of soldering all components in
 
 To make the process of soldering the board as easy as possible, it’s best to start with the smallest components first. All components sit on the top of the board, none on the bottom. The bottom of the board has the eChook logo and board version number printed on it, the top has the component outline and values.
 
-{% hint style="info" %}
-See the next page for a step-by-step build guide.
-{% endhint %}
-
 High resolution photos of a finished board can be found [here](https://goo.gl/photos/QLNfrek9v2v522xa9). Note that this is a slightly earlier board where the Bluetooth wires are soldered directly to the board instead of connected via a header. Also the components appearance may differ slightly to those supplied in the kits, as the suppliers may change between manufacturing runs.
 
 ### Glossary of Terms
@@ -20,21 +16,21 @@ If you are new to this, here is a little introduction to some of the terms used 
 
 * PCB - Printed Circuit Board, the white board in the kit that components are soldered to.
   * Soldermask - this is the white layer on the PCB. It stops solder sticking to areas it's not wanted (and makes the board look pretty)
-  * Silkscreen - this is the black text/logos on top of the soldermask giving component references, values etc.
+  * Silkscreen - this is the black text/logos on top of the soldermask giving component references, values, text and logos.
 * Solder Sucker - a tool that sucks up melted solder, good for removing components if they've been soldered in the wrong place.
 * Solder Wick - a braided copper wick that can be used to soak up solder as an alternative to a Solder Sucker. Nicer to use but more expensive to buy.
 
 ### Video Instructions
 
-Ian recorded the process of building up an earlier v1.2 board - with useful tips along the way: [View on Youtube](https://www.youtube.com/watch?v=PspD6s5LoBA).
+Ian recorded the process of building up an earlier v1.2 board - with useful tips along the way:
+
+{% embed url="https://www.youtube.com/watch?v=PspD6s5LoBA" %}
 
 ## &#x20;**PCB Component Reference Table**
 
-{% hint style="info" %}
-Use this table to identify which component goes to which label on the PCB
-{% endhint %}
+Each component position on the PCB has a component reference next to it. The table below identifies the component for each reference.&#x20;
 
-Each component position on the PCB has a component reference next to it. The table below identifies the component for each reference. The build steps on the next page have have images of the components and the relevant component references for each step.
+The Graphical BOM and images on the next page direct you through the build process.
 
 | **Ref Name** | **Description**                             | **Value / Type** |
 | ------------ | ------------------------------------------- | ---------------- |

@@ -1,12 +1,22 @@
 # Build Steps Photos
 
-Here is a sequence of photos showing the building up of a v1.3 eChook board. For each step, solder the components in place, then clip the excess component legs just above the solder joint to keep make the next components easier to place.
+Here is a sequence of photos showing the building up of a v1.3 eChook board.&#x20;
 
-As a general rule it is easier to solder components that protrude least from the board first and work your way up. This is so that when you place the component in the board and turn it upside down to solder it, the component is less likely to fall out.
+As a general rule it is easier to solder components that protrude least from the board first and work your way up. This is because when you place the component in the board and turn it upside down to solder it, the board rests against the tallest component, holding it in place.
 
 ### Soldering
 
-If you are new to soldering it may be worth looking for some guides online before starting. Here is a good (possibly slightly over the top detailed) soldering tutorial from EEVBlog that could be worth a watch: [https://www.youtube.com/watch?v=fYz5nIHH0iY](https://www.youtube.com/watch?v=fYz5nIHH0iY\&ab\_channel=EEVblog)
+If you are new to soldering it may be worth looking for some guides online before starting. Here is a good (possibly slightly over the top detailed) soldering tutorial from EEVBlog that could be worth a watch:&#x20;
+
+{% embed url="https://www.youtube.com/watch?v=fYz5nIHH0iY" %}
+
+### Interactive Build Viewer
+
+{% embed url="https://echook.github.io/eChook-Nano-PCB/v1.3.1/ibom.html" %}
+Click to open&#x20;
+{% endembed %}
+
+The Interactive BOM linked above is a very useful aid for building the board linking components to their location on the board. Use it in conjunction with the steps below which show a recommended build order and point out any components that need to be placed with a specific orientation.
 
 ### Build Steps
 
