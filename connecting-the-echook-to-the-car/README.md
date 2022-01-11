@@ -6,39 +6,14 @@ Now that the board is sending data to the phone, it needs to have some useful da
 There is a post with some guidance to building a Greenpower car wiring harness on the eChook forum [here](http://echook.boards.net/thread/26).
 {% endhint %}
 
-The diagram below shows the external interfaces to the board numbered, with details on each connection in the table. When connecting the sensors to the board, use this to identify which wire goes where!
+The image below shows the external interfaces to the board numbered, with details on each connection in the table.&#x20;
 
-![](../.gitbook/assets/screenshot-from-2017-11-29-21-52-27.png)
+![eChook nano v1.3.1 Board Bottom View with connector pinouts](<../.gitbook/assets/image (10).png>)
 
 {% hint style="info" %}
- Label the connectors on the harness side to make it easier to identify them in future.
+&#x20;Labelling the connectors on the harness side to make it easier to identify them in future.
 {% endhint %}
 
 ## Connector Pin Out
 
-| Connector | Pin | Signal | Use |
-| :--- | :--- | :--- | :--- |
-| Power In | 3 | Ground. This needs to be connected to the -ve battery commonly through the vehicle's chassis | Main grounding point for the board. |
-|  | 2 | 12v. Connects to the +ve terminal of the lower battery | Monitoring the lower battery voltage. Allows calculation of the two individual battery voltages. |
-|  | 1 | 24V input from the batteries. | Power to the board and 24V monitoring |
-| Motor PWM | 2 | Ground reference | Ground for PWM line |
-|  | 1 | 5V PWM Output | A PWM output. Could control the drive motor, or a fan etc. |
-| RPM | 4 | Ground reference | Ground for Hall Effect Sensors |
-|  | 3 | Wheel RPM - Pulsed 5V input from hall effect sensor | Signal from wheel hall effect sensor |
-|  | 2 | Motor RPM - Pulsed 5V input from hall effect sensor | Signal from motor hall effect sensor |
-|  | 1 | 5v Supply | 5V supply for the Hall Effect Sensors |
-| Therm | 3 | Ground reference | Ground connection for thermistors |
-|  | 2 | Temp 2 - Line to thermistor | Connection to thermistor 2. Thermistor connects between here and ground |
-|  | 1 | Temp 1 - Line to thermistor | Connection to thermistor 1. Thermistor connects between here and ground |
-| Throttle | 3 | Ground reference | Ground reference for throttle |
-|  | 2 | 0-5v throttle input | Analogue input for a variable throttle, or digital for a push button. Needed for throttle logging |
-|  | 1 | 5v Supply | 5v supply for the throttle |
-| Ext Buttons | 4 | Button 2 Active LOW digital Input | Input for 'Switch Screen' button |
-|  | 3 | Button 1 Active LOW digital Input | Input for 'Launch Mode' button needed for lap counting |
-|  | 2 | Brake active Low or High \(Code Dependant\) digital input | Input from switch on brake lever, intended for logging brake use |
-|  | 1 | Ground reference | Ground reference for buttons |
-| Current | 4 | Ground reference | Ground reference for current sensor |
-|  | 3 | Current Sensing Analogue input, 0-5v | Input from Current Sense pin |
-|  | 2 | Current Reference Analogue input, 0-5v | Input from current sensor reference pin |
-|  | 1 | 5v Supply | 5V to current sensor |
-
+<table data-header-hidden><thead><tr><th>Connector</th><th data-type="number">Pin</th><th>Signal</th><th>Use</th></tr></thead><tbody><tr><td>Connector</td><td>null</td><td>Signal</td><td>Use</td></tr><tr><td>Power In</td><td>3</td><td>Ground</td><td>Main grounding point for the board.</td></tr><tr><td></td><td>2</td><td>12v</td><td>Monitoring the lower battery voltage. </td></tr><tr><td></td><td>1</td><td>24v</td><td>Power and 24V monitoring</td></tr><tr><td>Motor PWM</td><td>2</td><td>Ground reference</td><td>Ground for PWM line</td></tr><tr><td></td><td>1</td><td>5V PWM Output</td><td>A PWM output. Could control the drive motor, or a fan etc.</td></tr><tr><td>RPM</td><td>4</td><td>Ground reference</td><td>Ground for Hall Effect Sensors</td></tr><tr><td></td><td>3</td><td>Wheel RPM</td><td>Pulsed 5v signal from wheel hall effect sensor</td></tr><tr><td></td><td>2</td><td>Motor RPM </td><td>Pulsed 5v signal from motor hall effect sensor</td></tr><tr><td></td><td>1</td><td>5v Supply</td><td>5V supply for the Hall Effect Sensors</td></tr><tr><td>Therm</td><td>3</td><td>Ground reference</td><td>Ground connection for thermistors</td></tr><tr><td></td><td>2</td><td>Temp 2 - Line to thermistor</td><td>Connection to thermistor 2. Thermistor connects between here and ground</td></tr><tr><td></td><td>1</td><td>Temp 1 - Line to thermistor</td><td>Connection to thermistor 1. Thermistor connects between here and ground</td></tr><tr><td>Throttle</td><td>3</td><td>Ground reference</td><td>Ground reference for throttle</td></tr><tr><td></td><td>2</td><td>0-5v throttle input</td><td>Analogue input for a variable throttle, or digital for a push button.</td></tr><tr><td></td><td>1</td><td>5v Supply</td><td>5v supply for the throttle</td></tr><tr><td>Ext Buttons</td><td>4</td><td>Button 2 Active LOW digital Input</td><td>Input for 'Switch Screen' button.</td></tr><tr><td></td><td>3</td><td>Button 1 Active LOW digital Input</td><td>Input for 'Race Start' button needed for lap counting</td></tr><tr><td></td><td>2</td><td>Brake Switch</td><td>Brake input for logging brake use</td></tr><tr><td></td><td>1</td><td>Ground reference</td><td>Ground reference for buttons</td></tr><tr><td>Current</td><td>4</td><td>Ground reference</td><td>Ground reference for current sensor</td></tr><tr><td></td><td>3</td><td>Current Sensing Analogue input</td><td>Input from Current Sense pin</td></tr><tr><td></td><td>2</td><td>Current Reference Analogue input</td><td>Input from current sensor reference pin</td></tr><tr><td></td><td>1</td><td>5v Supply</td><td>5V to current sensor</td></tr></tbody></table>
