@@ -58,7 +58,7 @@ Both the **LED** and **transistor** need to be placed in the correct orientation
 * Tracopower Voltage Regulator
 
 {% hint style="danger" %}
-**Voltage Regulator** is orientation specific.  The dot on the pink face lines up with the square solder point with the pink face to the outside edge of the PCB
+**Voltage Regulator** is orientation specific.  The dot on the printed face lines up with the square solder point, with the printed face to the outside edge of the PCB
 {% endhint %}
 
 * Electrolytic Capacitor (22μF)

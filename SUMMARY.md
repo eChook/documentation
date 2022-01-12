@@ -2,7 +2,8 @@
 
 * [Welcome to eChook](README.md)
 * [System Overview](system-overview.md)
-* [The eChook Nano Kit](required-components-bom.md)
+* [The eChook Nano Kit](required-components-bom/README.md)
+  * [Versions](required-components-bom/versions.md)
 * [Build Instructions](build-instructions/README.md)
   * [Build Steps Photos](build-instructions/build-steps-photos.md)
   * [First Power On](build-instructions/first-power-on.md)
