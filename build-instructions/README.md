@@ -81,8 +81,13 @@ The Graphical BOM and images on the next page direct you through the build proce
 
 Once the board is fully populated there will be a few components remaining. These are the sensors that fit to the car. Your kit will also have a few spare components - mostly spare resistors.
 
-Pin-outs for the connectors on the eChook can be found in the 'Connecting the eChook to the car' section of the documentation.
+### Current Sensor Breakout Board (Kit v1.4+)
 
-{% content-ref url="../connecting-the-echook-to-the-car/" %}
-[connecting-the-echook-to-the-car](../connecting-the-echook-to-the-car/)
-{% endcontent-ref %}
+From kit v1.4 a PCB breakout board for the LEM current sensor is included. This carries the two 47nF capacitors, the 4.7nF capacitor and the current sensor as shown below:
+
+![](<../.gitbook/assets/image (12).png>) ![](<../.gitbook/assets/image (13).png>)
+
+{% hint style="info" %}
+Pin-outs for the connectors on the eChook can be found in the [connecting-the-echook-to-the-car](../connecting-the-echook-to-the-car/ "mention") section of the documentation.
+{% endhint %}
+
