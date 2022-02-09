@@ -63,4 +63,4 @@ The eChook team has moved from using DesignSpark PCB to KiCad for schematic capt
 * Test Point placement improved.
 * Silkscreen Improved.
 
-This version is used for any 3D renders in this document and the Virtual iBom build aid - both features enabled by the move to KiCad. Virtual board only - all physical boards are V1.3.
+This version is used for any 3D renders in this document and the Virtual iBom build aid - both features enabled by the move to KiCad. All physical boards are V1.3, there are no current plans to fabricate v1.3.1.

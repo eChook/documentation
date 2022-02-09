@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to eChook](README.md)
+* [Welcome to eChook GPT](README.md)
 * [System Overview](system-overview.md)
 * [The eChook Nano Kit](required-components-bom/README.md)
   * [Versions](required-components-bom/versions.md)

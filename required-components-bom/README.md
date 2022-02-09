@@ -6,7 +6,17 @@ This is a DIY kit containing of the eChook PCB, all components required to popul
 
 ![](<../.gitbook/assets/image (11).png>) ![](<../.gitbook/assets/image (12) (1).png>)
 
-The complete list of items included in the kit is below:
+### Buying or DIYing the eChook nano
+
+The kit is sold exclusively by Greenpower through their Green power store [here](https://www.greenpower.co.uk/product/340).
+
+If you want to source the components yourself, the bare eChook nano GPT board is available from the eChook shop [here](https://shop.echook.uk).
+
+If you want to go totally DIY, or tweak the PCB to your own requirements, the schematics and PCB layouts are Open Sourced and available on [GitHub](https://github.com/eChook/eChook-Nano-PCB).
+
+
+
+### Kit Contents:
 
 | **Quantity** | **Component**                                          | **Use**                                                      |
 | ------------ | ------------------------------------------------------ | ------------------------------------------------------------ |

@@ -1,10 +1,10 @@
-# Welcome to eChook
+# Welcome to eChook GPT
 
-Welcome to the documentation for the eChook nano board and the eChook Android app.
+Welcome to the documentation for the eChook GPT nano board and the eChook GPT Android app.
 
-The eChook is a data logging and telemetry system tailored towards electric cars competing in the Greenpower race series. It consists of an Arduino based PCB sold through the Greenpower online store and an (Android Only) app that displays and logs the data. If the phone has a data connection it can also push the data to cloud services enabling real time telemetry from the car to the pits - or anywhere with an internet connection!
+The eChook GPT (**G**reen**P**ower **T**elemetry) is a data logging and telemetry system tailored towards electric cars competing in the Greenpower race series. It consists of an Arduino based PCB sold through the Greenpower online store and an (Android Only) app that displays and logs the data. If the phone has a data connection it can also push the data to cloud services enabling real time telemetry from the car to the pits - or anywhere with an internet connection!
 
-## The idea behind eChook
+## The idea behind eChook GTP
 
 The original eChook Nano board and the eChook app was developed because of a need for data display and logging in our own Greenpower racing teams - the JLR 'Driven' team and the weChook racing team.
 
@@ -14,7 +14,7 @@ We have desgned a Greenpower specific data logging and telemetry system that has
 
 The team behind the eChook consists of Ian Cooper and Rowan Griffin. We are ex-Driven team members who are too old to race in F24+ but can’t quite pull ourselves away from Greenpower.
 
-We have worked on all aspects of the eChook, but predominantly Ian has worked on circuit and PCB Design, Rowan has worked on the Arduino software, documentation, support and Android App.
+We have worked on all aspects of the eChook GPT system, but predominantly Ian has worked on circuit and PCB Design, Rowan has worked on the Arduino software, documentation, support and Android App.
 
 Linkedin Profiles: [Rowan Griffin](https://www.linkedin.com/in/rjpgriffin/), [Ian Cooper](https://www.linkedin.com/in/ircooper/).
 
@@ -22,11 +22,13 @@ Linkedin Profiles: [Rowan Griffin](https://www.linkedin.com/in/rjpgriffin/), [Ia
 
 While this documentation aims to make understanding, building and using the eChook as easy as possible, there will always be cases where something doesn't go as expected and some help is needed. eChook has both a forum and in browser messaging that anyone can use to ask questions and discuss anything eChook, electronics, or greenpower in general.
 
-They are both monitored by the eChook team who will get back to any questions as quickly as possible.
+They are monitored by the eChook team who will get back to any questions as quickly as possible.
 
 Forum - [echook.boards.net](http://echook.boards.net)
 
 In browser messaging - click the message icon in the bottom right to get in touch.
+
+Email: info@echook.uk.
 
 ## Feedback
 
