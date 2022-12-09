@@ -12,7 +12,7 @@ The PCB design, Arduino code and Android app are open sourced under the MIT lice
 
 ## eChook nano Board
 
-![](https://lh3.googleusercontent.com/7FLh6EmgoqFBk9Twgt-iS4O559Hd256QkYxNOR44Ojl2a_ssA4CzK5mZhyTLCnsBX6XhAC1IYFK9AWPOva-g4_6PjabCO38x9b5HM0y2MPjtWZUsybBmNco646XR3HOmOY3rDIQhI6QzFgvRTwfHY3f4ILqefgRU7SMkqVYkJehNtMq1w06adJ4Fm_ed0PMgliGXGB09yiJIrBb2sxE6-WbumagtFEnnjxTCSKrMIzWJZL8lphKVgRf7XsHWYOjaXi5ZpQIwB9kZkep0LTyaQ1NtaNaHjJCTFSumcsnoew_8HhzZO04JZwq3aIVhWcz0wHUaYQKMGRDE16yFIiWs5v_THXujNE0GPTq8-ll6LsQ64B2xzGPPLc_wYxpl9B6PwEG_l0JtPFbTa-sINt7yuBCc7SxzdeY1qCXBW1rX98_1sP64lAP3dJ_tSZMtUvjuf5RQ2wPtZC5XO_wUJ3Td45kccnCeSD6RYvgSWONEfL-i_LEpvZJ1BQlovem-s5xgKk4qk_LC7R-g7i8mdI1DReJkR2NkcVQNEhwDUaXtyb44a3slhQAaSSyc9WprRyD5OCocPjRQsE-DMtfk8NChR-wJdg8EQm8CJ7vnbfmBZnMyczb7n_TVQXNfZ6w3VxgvdVdumHdumFNLwIsfPwVQyZl97S2Ap-HUkv_g=w274-h205-no)
+![](https://lh3.googleusercontent.com/7FLh6EmgoqFBk9Twgt-iS4O559Hd256QkYxNOR44Ojl2a\_ssA4CzK5mZhyTLCnsBX6XhAC1IYFK9AWPOva-g4\_6PjabCO38x9b5HM0y2MPjtWZUsybBmNco646XR3HOmOY3rDIQhI6QzFgvRTwfHY3f4ILqefgRU7SMkqVYkJehNtMq1w06adJ4Fm\_ed0PMgliGXGB09yiJIrBb2sxE6-WbumagtFEnnjxTCSKrMIzWJZL8lphKVgRf7XsHWYOjaXi5ZpQIwB9kZkep0LTyaQ1NtaNaHjJCTFSumcsnoew\_8HhzZO04JZwq3aIVhWcz0wHUaYQKMGRDE16yFIiWs5v\_THXujNE0GPTq8-ll6LsQ64B2xzGPPLc\_wYxpl9B6PwEG\_l0JtPFbTa-sINt7yuBCc7SxzdeY1qCXBW1rX98\_1sP64lAP3dJ\_tSZMtUvjuf5RQ2wPtZC5XO\_wUJ3Td45kccnCeSD6RYvgSWONEfL-i\_LEpvZJ1BQlovem-s5xgKk4qk\_LC7R-g7i8mdI1DReJkR2NkcVQNEhwDUaXtyb44a3slhQAaSSyc9WprRyD5OCocPjRQsE-DMtfk8NChR-wJdg8EQm8CJ7vnbfmBZnMyczb7n\_TVQXNfZ6w3VxgvdVdumHdumFNLwIsfPwVQyZl97S2Ap-HUkv\_g=w274-h205-no)
 
 ### Hardware
 
@@ -38,7 +38,4 @@ Finally, if the phone has a data connection, the app can upload data in real tim
 
 ## Website
 
-The website displays data uploaded from the phone in near realtime. Currently this is to a third party service called [dweet.io](http://dweet.io) which displays the data nicely, but also makes it public. As such, no location information is available.
-
-The data.echook.uk website is under development and will be offered to teams for Beta testing shortly. At first this will be limited to the same real time display functionality of the dweet website, with storage and viewing of historical data to be added at a later point.
-
+The data.echook.uk website displays data uploaded from the phone in near real-time. Sign up (one login per car), enter the account details in the settings section of the eChook Android app to link them.
