@@ -67,7 +67,9 @@ Both the **LED** and **transistor** need to be placed in the correct orientation
 **Electrolytic Capacitors** are orientation specific. The -ve leg is marked with a grey stripe on the capacitors body and hollow '-' symbols. The PCB indicates which side the +ve leg is with a '+' sign.
 {% endhint %}
 
-* Header Socket for the Arduino and Bluetooth Module
+* Header Socket for the Arduino&#x20;
+* Header Socket for the Bluetooth Module \
+  (NOTE: If you are intending to print or buy the eChook designed case, the wires for the bluetooth need to be soldered directly to the board, there is no space for the bluetooth headers.)
 * 8 pin DIP Socket for the Op-Amp
 
 {% hint style="danger" %}
