@@ -68,8 +68,10 @@ Both the **LED** and **transistor** need to be placed in the correct orientation
 {% endhint %}
 
 * Header Socket for the Arduino&#x20;
-* Header Socket for the Bluetooth Module \
-  (NOTE: If you are intending to print or buy the eChook designed case, the wires for the bluetooth need to be soldered directly to the board, there is no space for the bluetooth headers.)
+* Header Socket for the Bluetooth Module  
+ {% hint style="info" %}
+If you are intending to print or buy the eChook designed case, the wires for the bluetooth need to be soldered directly to the board, there is no space for the bluetooth headers.
+{% endhint %}
 * 8 pin DIP Socket for the Op-Amp
 
 {% hint style="danger" %}
