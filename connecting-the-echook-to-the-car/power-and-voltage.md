@@ -1,6 +1,6 @@
 # Power and Voltage
 
-## Power to the Board <a id="docs-internal-guid-c4233111-09ca-8d5a-7c1c-1dfc2e9d0636"></a>
+## Power to the Board <a href="#docs-internal-guid-c4233111-09ca-8d5a-7c1c-1dfc2e9d0636" id="docs-internal-guid-c4233111-09ca-8d5a-7c1c-1dfc2e9d0636"></a>
 
 To power the board in the car, connect the 0v pin on the ‘Power In’ socket to ground, and the +24v pin to the 24v battery supply on the car. To comply with greenpower regulations it is suggested to take power from after the isolator switch and the board must have it’s own fuse, nominally 5A, although 1A may be preferable.
 
@@ -14,7 +14,6 @@ This monitors the voltage of the ‘lower’ battery, allowing the system to mon
 
 The 12v monitoring requires a wire from the positive terminal of the lower battery, as shown by the wire\_12V label in the diagram below:
 
-![](../.gitbook/assets/screenshot-from-2017-11-29-22-00-19.png)
+![](<../.gitbook/assets/Screenshot from 2017-11-29 22-00-19.png>)
 
-As this is a wire from the battery it requires a fuse of it’s own, a low value \(&lt;1A\) is recommended but 5A is sufficient. As this is simply a reference wire, no current will be drawn through it, so a thin wire can be used, however ensure that the wire is able to carry a higher current than the fuse that it is fitted with.
-
+As this is a wire from the battery it requires a fuse of it’s own, a low value (<1A) is recommended but 5A is sufficient. As this is simply a reference wire, no current will be drawn through it, so a thin wire can be used, however ensure that the wire is able to carry a higher current than the fuse that it is fitted with.

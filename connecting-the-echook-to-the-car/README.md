@@ -8,7 +8,7 @@ There is a post with some guidance to building a Greenpower car wiring harness o
 
 The image below shows the external interfaces to the board numbered, with details on each connection in the table.&#x20;
 
-![eChook nano v1.3.1 Board Bottom View with connector pinouts](<../.gitbook/assets/image (10).png>)
+![eChook nano v1.3.1 Board Bottom View with connector pinouts](<../.gitbook/assets/image (12).png>)
 
 {% hint style="info" %}
 &#x20;Label the connectors on the harness side to make it easier to identify them in future.

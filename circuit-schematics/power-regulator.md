@@ -2,7 +2,7 @@
 
 This schematic shows the resettable polyfuse, reverse polarity protection and the 5V regulator.
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](<../.gitbook/assets/image (13).png>)
 
 ## Resettable Polyfuse
 
@@ -17,4 +17,3 @@ This protects the board against the +24V and Ground being connected the wrong wa
 ## 5V Switching Regulator
 
 Component U2 is the TRACOPOWER Switching Regulator. It takes any input voltage between 6.5V and 36V and provides a stable 5V output of up to 1A. C1 is a 22uF smoothing capacitor for the input voltage to the regulator, as specified in the datasheet.
-
