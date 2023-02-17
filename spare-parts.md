@@ -8,13 +8,15 @@ Electronic parts can be delicate, and a greenpower car, especially in the rain, 
 
 The parts most likely to need replacing are the Bluetooth Module and Arduino. Below are some recommendations for how much parts should cost and where to find them
 
+Spare parts that are specific to eChook and not available elsewhere can be purchased at [shop.echook.uk](https://shop.echook.uk/?product\_cat=greenpower).
+
 #### Bluetooth Module
 
 Search for _HC-05 Bluetooth Module_.
 
 Amazon: Expect to pay £6-£8
 
-eBay: Expect to pay £3-£6 from UK sellers, &lt;£3 from China
+eBay: Expect to pay £3-£6 from UK sellers, <£3 from China
 
 #### Arduino Nano
 
@@ -25,4 +27,3 @@ Amazon: Expect to pay around £7
 eBay: Expect to pay around £4 from UK sellers, £1.50+ from China
 
 If you need any help or advice sourcing parts feel free to ask on the forum or give us a message.
-

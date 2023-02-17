@@ -14,6 +14,6 @@ This monitors the voltage of the ‘lower’ battery, allowing the system to mon
 
 The 12v monitoring requires a wire from the positive terminal of the lower battery, as shown by the wire\_12V label in the diagram below:
 
-![](<../.gitbook/assets/Screenshot from 2017-11-29 22-00-19.png>)
+![](../.gitbook/assets/screenshot-from-2017-11-29-22-00-19.png)
 
 As this is a wire from the battery it requires a fuse of it’s own, a low value (<1A) is recommended but 5A is sufficient. As this is simply a reference wire, no current will be drawn through it, so a thin wire can be used, however ensure that the wire is able to carry a higher current than the fuse that it is fitted with.

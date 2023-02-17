@@ -12,10 +12,6 @@ Having solid data on a car's performance is incredibly important, both during th
 
 We have designed a Greenpower specific data logging and telemetry system that has inputs specific to the needs of a Greenpower car, but also uses simple circuits that align with the GCSE and A level Electronics curriculum to promote an understanding of how the whole system works, rather than being a ‘black box’ solution.&#x20;
 
-The team behind the eChook consists of Ian Cooper and Rowan Griffin. We are ex-Driven team members who are too old to race in F24+ but can’t quite pull ourselves away from Greenpower.
-
-LinkedIn: [Rowan Griffin](https://www.linkedin.com/in/rjpgriffin/), [Ian Cooper](https://www.linkedin.com/in/ircooper/).
-
 ## Support
 
 While this documentation aims to make understanding, building and using the eChook as easy as possible, there will always be cases where something doesn't go as expected and some help is needed. eChook has both a forum and in browser messaging that anyone can use to ask questions and discuss anything eChook, electronics, or Greenpower in general.

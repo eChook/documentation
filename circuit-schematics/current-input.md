@@ -1,6 +1,6 @@
 # Current Input
 
-![](../.gitbook/assets/Current-input-schematic.png)
+![](../.gitbook/assets/current-input-schematic.png)
 
 This is the most complex input circuit on the eChook, but once broken down is still pretty simple. The main component above is an Operational Amplifier (op-amp). More information on op-amps can be found [here](http://www.electronics-tutorials.ws/opamp/opamp\_1.html) or through google.
 
