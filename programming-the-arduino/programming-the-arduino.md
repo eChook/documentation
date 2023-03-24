@@ -2,10 +2,10 @@
 
 Locate and open the ‘eChookCode.ino’ file that was downloaded in the last step. This will open in the Arduino IDE with 'calibration.h' in another tab.
 
-Before the code can be compiled, the IDE needs to know what Arduino the code is for. Go to Tools>Board and select the Arduino Nano, then go to Tools>Processor and select ATmega328\*. The bottom right of the Arduino IDE should now read “Arduino Nano, ATmega328”.**N**
+Before the code can be compiled, the IDE needs to know what Arduino the code is for. Go to Tools>Board and select the Arduino Nano, then go to Tools>Processor and select ATmega328\*. The bottom right of the Arduino IDE should now read “Arduino Nano, ATmega328”.
 
 {% hint style="info" %}
-If you encounter 'Out Of Sync' Errors when you try to upload, try selecting ATmega 328(old bootloader) in the procesor list.
+\*If you encounter 'Out Of Sync' Errors when you try to upload, try selecting ATmega 328(old bootloader) in the procesor list.
 {% endhint %}
 
 Now check that the code compiles. Click the ‘tick’ button on the top left of the Arduino IDE window. A progress bar will appear at the bottom of the window - this step will likely take a couple of minutes the first time. When done the message bar will read ‘Done Compiling’. If there was an error, the console below the message bar will show it. The most likely causes will be not having the bounce2 library added properly, or the wrong target Arduino being selected. If you have a problem at this point please get in touch or comment on the documentation here and we will resolve it.
@@ -24,4 +24,4 @@ It might not all work. If this happens the Arduino IDE will show compilation fai
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-Now try the upload again - it will still fail, but should give more information on why. If you can't make sense of the log, head over to the [support forum](http://echook.boards.net) and start a new thread with a copy of the errors - we'll give you a hand decyphering it.
+Now try the upload again - it will still fail, but should give more information on why. If you can't make sense of the log, head over to the [support forum](http://echook.boards.net) and start a new thread with a copy of the errors - we'll give you a hand deciphering it.
