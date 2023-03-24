@@ -4,7 +4,7 @@ Greenpower sell an eChook Nano kit that contains all the hardware and sensors ne
 
 This is a DIY kit containing of the eChook PCB, all components required to populate the PCB as well as sensors for Current, Temperature (x2) and Rotation (Wheel and motor shaft).
 
-![](<../.gitbook/assets/image (5).png>) ![](<../.gitbook/assets/image (12) (1).png>)
+![](<../.gitbook/assets/image (5) (1).png>) ![](<../.gitbook/assets/image (12) (1).png>)
 
 ### Buying or DIYing the eChook nano
 

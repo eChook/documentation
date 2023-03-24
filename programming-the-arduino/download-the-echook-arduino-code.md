@@ -4,20 +4,17 @@ There are two aspects to the eChook code - the code itself, and any code librari
 
 ## Downloading Libraries
 
-Download the Bounce2 library from [here](https://github.com/thomasfredericks/Bounce2):
+Download the Bounce2 library with the built in Arduino IDE libraries manager:&#x20;
 
-![](../.gitbook/assets/screenshot-from-2017-11-29-21-06-31.png)
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-Now back in the Arduino IDE go to Sketches>Include Library> Add .ZIP and select the file you have just downloaded.
+If the install button isn't visible, you may need to make the app fullscreen or enlarge the side panel.
 
-![](../.gitbook/assets/screenshot-from-2017-11-29-21-08-09.png)
-
-The message bar at the bottom will confirm the library has been added:
-
-![](../.gitbook/assets/screenshot-from-2017-11-29-21-12-24.png)
-
-All Done.
+The bounce 2 library is used in the eChook code to debounce button inputs.
 
 ## Downloading the eChook Code
 
-Just like the library just installed, the eChook code is hosted on github [here](https://github.com/eChook/eChook-Arduino-Nano). Download it and extract it to a suitable working directory, eg. …\My Documents\eChook.
+Just like the library just installed, the eChook code is hosted on Github [here](https://github.com/eChook/eChook-Arduino-Nano/releases/tag/v1.1). Download it and extract it to a suitable working directory, eg. …\My Documents\eChook.
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
