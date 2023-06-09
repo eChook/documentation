@@ -6,7 +6,7 @@ The Arduino Compatible Nano included in the kit\* requires a driver to be instal
 
 Sparkfun have written an excellent installation guide here:
 
-{% embed url="https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all" %}
+{% embed url="https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all#drivers-if-you-need-them" fullWidth="false" %}
 
 Once drivers are installed continue to the next page.
 
