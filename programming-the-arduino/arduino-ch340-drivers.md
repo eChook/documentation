@@ -1,6 +1,6 @@
 # Arduino CH340 Drivers
 
-The Arduino Compatible Nano included in the kit\* requires a driver to be installed that isn't installed by the Arduino IDE.
+The Arduino Compatible Nano included in the kit\* requires a driver to be installed that isn't included with the Arduino IDE.
 
 
 
