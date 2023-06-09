@@ -1,17 +1,24 @@
 # Arduino CH340 Drivers
 
-The Arduino IDE software installs the drivers for genuine Arduinos, however the Nano included in the eChook Nano Kit from Greenpower is an Arduino clone in an effort to reduce the kit price.
+The Arduino Compatible Nano included in the kit\* requires a driver to be installed that isn't installed by the Arduino IDE.
 
-The disadvantage is that the clone require different drivers. These are for the CH340 Serial to USB interface chip they use instead of the more expensive FTDI chip on genuine arduinos. This page links to drivers for different operating systems. It is required to install the relevant driver before continuing. Once installed the clone Arduino will behave exactly as a genuine one.
 
-## Windows
 
-Windows drivers can be installed from [here](http://www.wch.cn/download/CH341SER\_EXE.html) or [here](https://drive.google.com/open?id=0B8NB2ERSryMSdlQxNFpPM1BGenc). Go through the beautifully chenglish install process.
+Sparkfun have written an excellent installation guide here:
 
-## Mac
+{% embed url="https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all" %}
 
-Drivers for mac are slightly more difficult. You can either disable KEXT security (which is not advisable) and get a free driver or you can get a signed driver from [here](https://www.mac-usb-serial.com/) - they do however cost money.
+Once drivers are installed continue to the next page.
 
-## Linux
 
-CH340 drivers are baked in, just plug and play.
+
+{% hint style="info" %}
+Note that as of Q2 2023 some teams have been experiencing an error "`avrdude: ser_open(): can't set com-state for "\.\COMx`" when trying to program the Arduino on Windows 10+ computers. This roughly corresponds with a new version of the drivers being released - if you experience this please try installing an older version of the drivers from the link below.
+
+We're still trying to determine a definitive fix for the issue, so if you are having issues or find a solution let us know with the message button on the bottom right of the page :)
+{% endhint %}
+
+{% embed url="https://drive.google.com/file/d/1ioG8mri-eTHbXVdG_pV-I54ftH8aERBr/view?usp=sharing" %}
+
+\* During the chip shortage in 2022 some kits were supplied with Genuine Arduino Nano Every boards - if you have one of these kits you can skip this step, the drivers were installed with the Arduino IDE.
+
