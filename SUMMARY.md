@@ -54,6 +54,8 @@
 * [Bluetooth Communication](bluetooth-communication/README.md)
   * [Bluetooth Packet Encoding](bluetooth-communication/bluetooth-packet-encoding.md)
   * [Bluetooth Packet Decoding](bluetooth-communication/bluetooth-packet-decoding.md)
+* [Experimental Section](experimental-section/README.md)
+  * [GUI Calibration](experimental-section/gui-calibration.md)
 * [eChook Accessories](echook-accessories.md)
 * [DIY eChook](diy-echook.md)
 * [Spare Parts](spare-parts.md)

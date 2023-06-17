@@ -14,17 +14,7 @@ On the back of the PCB there are multiple 3mm silver circles, each with a label 
 
 Test points:
 
-| Label        | Signal                                                                              |
-| ------------ | ----------------------------------------------------------------------------------- |
-| GND          | Ground                                                                              |
-| PWR5VTP      | +5v Power                                                                           |
-| BattTotalVTP | 24V battery signal after potential divider circuit (0-5v)                           |
-| Batt1VTP     | 12V battery signal after potential divider circuit (0-5V)                           |
-| ThrottleTP   | Input voltage from the throttle (0-5v)                                              |
-| CurrentTP    | Output from current differential amplifier circuit / Current signal into to Arduino |
-| Temp1TP      | Temperature 1 input to the Arduino                                                  |
-| Temp2TP      | Temperature 2 input to the Arduino                                                  |
-| BrakeTP      | Signal in from Brake switch                                                         |
+<table><thead><tr><th width="202">Label</th><th>Signal</th></tr></thead><tbody><tr><td>GND</td><td>Ground</td></tr><tr><td>PWR5VTP</td><td>+5v Power</td></tr><tr><td>BattTotalVTP</td><td>24V battery signal after potential divider circuit (0-5v)</td></tr><tr><td>Batt1VTP</td><td>12V battery signal after potential divider circuit (0-5V)</td></tr><tr><td>ThrottleTP</td><td>Input voltage from the throttle (0-5v)</td></tr><tr><td>CurrentTP</td><td>Output from current differential amplifier circuit / Current signal into to Arduino</td></tr><tr><td>Temp1TP</td><td>Temperature 1 input to the Arduino</td></tr><tr><td>Temp2TP</td><td>Temperature 2 input to the Arduino</td></tr><tr><td>BrakeTP</td><td>Signal in from Brake switch</td></tr></tbody></table>
 
 To see exactly where these test points are in the circuit, take a look at the [circuit-schematics](../circuit-schematics/ "mention").
 

@@ -18,41 +18,7 @@ If you want to go totally DIY, or tweak the PCB to your own requirements, the sc
 
 ### Kit Contents:
 
-| **Quantity** | **Component**                                          | **Use**                                                      |
-| ------------ | ------------------------------------------------------ | ------------------------------------------------------------ |
-| 1            | eChook nano PCB                                        |                                                              |
-| 1            | 470r Resistor                                          | Voltage drop for LED                                         |
-| 12           | 1k Resistor                                            | Protection for Arduino pins                                  |
-| 2            | 4k7 Resistor                                           | Input Resistors for current differential amplifier           |
-| 4            | 10k Resistor                                           | Feedback on Differential amp and pull ups for Thermistors    |
-| 2            | 16k Resistor                                           | 24v and 12v Potential Dividers                               |
-| 1            | 47k Resistor                                           | Post amp current filter                                      |
-| 2            | 82k Resistor                                           | 24v and 12v Potential Dividers                               |
-| 1            | Green LED, 5mm                                         | Indicator LED on PCB                                         |
-| 1            | BC547 NPN Transistor                                   | Amplification stage of PWM output on PCB                     |
-| 3            | Ceramic Capacitor 1uF                                  | Low Pass filtering on some sensors                           |
-| 1            | 22uF 50v Electrolytic Capacitor                        | Input voltage smoothing for the regulator                    |
-| 2            | 47nF Ceramic Capacitor                                 | Smoothing Capacitors for current sensor  (not on PCB)        |
-| 1            | 4.7nF Ceramic Capacitor                                | Smoothing Capacitors for current sensor (not on PCB)         |
-| 1            | 0.25A Radial Resettable Fuse                           | Over current protection (Short Circuit)                      |
-| 1            | 8 Way DIP Socket                                       | Socket for Op-Amp                                            |
-| 1            | Microchip MCP6002 Dual Op Amp                          | Used in differential amplifier for current input             |
-| 2            | 15 way SIL 2.54mm Female PCB Socket                    | Socket for Arduino                                           |
-| 1            | 6 way SIL 2.54mm Female PCB Socket                     | Socket for Bluetooth Module                                  |
-| 1            | 5v 1A Voltage Regulator (Tracopower TSR 1-2450)        | Take 24v from the car and provide a robust 5v to the Arduino |
-| 1            | Rectifier Diode, 50V 1A                                | Reverse Polarity Protection                                  |
-| 2            | NTC Thermistor 10kΩ@25°                                | Temp Sensor (not on PCB)                                     |
-| 2            | Hall Effect Sensor (A1101EUA-T)                        | Sensor for wheel/motor rpm (not on PCB)                      |
-| 1            | Current Sensor (LEM HAIS 50p)                          | Senses current in the 24v cable from the battery.            |
-| 3            | 4 pin Pluggable Terminal 5.08mm                        | Connectors                                                   |
-| 2            | 3 pin Pluggable Terminal 5.08mm                        | Connectors                                                   |
-| 1            | 2 pin Pluggable Terminal 5.08mm                        | Connectors                                                   |
-| 1            | 3 pin Pluggable Terminal 3.81mm                        | Connectors                                                   |
-| 1            | Arduino Nano                                           | The Brain of the eChook                                      |
-| 1            | USB Cable for Arduino                                  | Connect Arduino to PC                                        |
-| 1            | HC-05 Bluetooth module                                 | Send data to phone over bluetooth                            |
-| 1            | 6 way Male-Female PCB Jumper Cable (Dupont Connectors) | Allows connecting the bluetooth module remotely              |
-| 8            | Neodymium Puck Magnets                                 | Place on hub and motor shaft to trigger hall effect sensors  |
+<table data-header-hidden><thead><tr><th>Quantity</th><th width="185.33333333333331">Component</th><th>Use</th></tr></thead><tbody><tr><td><strong>Quantity</strong></td><td><strong>Component</strong></td><td><strong>Use</strong></td></tr><tr><td>1</td><td>eChook nano PCB</td><td></td></tr><tr><td>1</td><td>470r Resistor</td><td>Voltage drop for LED</td></tr><tr><td>12</td><td>1k Resistor</td><td>Protection for Arduino pins</td></tr><tr><td>2</td><td>4k7 Resistor</td><td>Input Resistors for current differential amplifier</td></tr><tr><td>4</td><td>10k Resistor</td><td>Feedback on Differential amp and pull ups for Thermistors</td></tr><tr><td>2</td><td>16k Resistor</td><td>24v and 12v Potential Dividers</td></tr><tr><td>1</td><td>47k Resistor</td><td>Post amp current filter</td></tr><tr><td>2</td><td>82k Resistor</td><td>24v and 12v Potential Dividers</td></tr><tr><td>1</td><td>Green LED, 5mm</td><td>Indicator LED on PCB</td></tr><tr><td>1</td><td>BC547 NPN Transistor</td><td>Amplification stage of PWM output on PCB</td></tr><tr><td>3</td><td>Ceramic Capacitor 1uF</td><td>Low Pass filtering on some sensors</td></tr><tr><td>1</td><td>22uF 50v Electrolytic Capacitor</td><td>Input voltage smoothing for the regulator</td></tr><tr><td>2</td><td>47nF Ceramic Capacitor</td><td>Smoothing Capacitors for current sensor  (not on PCB)</td></tr><tr><td>1</td><td>4.7nF Ceramic Capacitor</td><td>Smoothing Capacitors for current sensor (not on PCB)</td></tr><tr><td>1</td><td>0.25A Radial Resettable Fuse </td><td>Over current protection (Short Circuit)</td></tr><tr><td>1</td><td>8 Way DIP Socket</td><td>Socket for Op-Amp</td></tr><tr><td>1</td><td>Microchip MCP6002 Dual Op Amp</td><td>Used in differential amplifier for current input</td></tr><tr><td>2</td><td>15 way SIL 2.54mm Female PCB Socket</td><td>Socket for Arduino</td></tr><tr><td>1</td><td>6 way SIL 2.54mm Female PCB Socket</td><td>Socket for Bluetooth Module</td></tr><tr><td>1</td><td>5v 1A Voltage Regulator (Tracopower TSR 1-2450) </td><td>Take 24v from the car and provide a robust 5v to the Arduino</td></tr><tr><td>1</td><td>Rectifier Diode, 50V 1A</td><td>Reverse Polarity Protection</td></tr><tr><td>2</td><td>NTC Thermistor 10kΩ@25°</td><td>Temp Sensor (not on PCB)</td></tr><tr><td>2</td><td>Hall Effect Sensor (A1101EUA-T)</td><td>Sensor for wheel/motor rpm (not on PCB)</td></tr><tr><td>1</td><td>Current Sensor (LEM HAIS 50p)</td><td>Senses current in the 24v cable from the battery.</td></tr><tr><td>3</td><td>4 pin Pluggable Terminal 5.08mm</td><td>Connectors</td></tr><tr><td>2</td><td>3 pin Pluggable Terminal 5.08mm</td><td>Connectors</td></tr><tr><td>1</td><td>2 pin Pluggable Terminal 5.08mm</td><td>Connectors</td></tr><tr><td>1</td><td>3 pin Pluggable Terminal 3.81mm</td><td>Connectors</td></tr><tr><td>1</td><td>Arduino Nano</td><td>The Brain of the eChook</td></tr><tr><td>1</td><td>USB Cable for Arduino</td><td>Connect Arduino to PC</td></tr><tr><td>1</td><td>HC-05 Bluetooth module</td><td>Send data to phone over bluetooth</td></tr><tr><td>1</td><td>6 way Male-Female PCB Jumper Cable (Dupont Connectors)</td><td>Allows connecting the bluetooth module remotely</td></tr><tr><td>8 </td><td>Neodymium Puck Magnets</td><td>Place on hub and motor shaft to trigger hall effect sensors</td></tr></tbody></table>
 
 ![Kit Contents](../.gitbook/assets/img\_20180129\_190858.jpg)
 
