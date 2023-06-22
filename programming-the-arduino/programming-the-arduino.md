@@ -32,7 +32,8 @@ avrdude: stk500_disable(): protocol error, expect=0x14, resp=0x51
 There are two common causes for this:
 
 1. The bluetooth module is plugged in at the same time as you are trying to program the Arduino. Unplug it and try again.
-2. You have the wrong Arduino or wrong processor selected in the IDE.&#x20;
+2. The wrong COM port is selected - does the port disappear from the Tools>Port menu when you unplug the Arduino?
+3. You have the wrong Arduino or wrong processor selected in the IDE.&#x20;
    1. Go to **Tools>Board>Arduino AVR Boards** and make sure the **Arduino Nano** is selected.&#x20;
    2. Go to **Tools>Processor** and make sure **ATmega328P** is selected. If the error still appears, try selecting the **ATmega328P (Old Bootloader)** instead.
 
