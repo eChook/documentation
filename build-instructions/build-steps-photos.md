@@ -18,6 +18,12 @@ Click to open
 
 The Interactive BOM linked above is a very useful aid for building the board linking components to their location on the board. Use it in conjunction with the steps below which show a recommended build order and point out any components that need to be placed with a specific orientation.
 
+### Build Video
+
+Here is a video of soldering the kit together:
+
+{% embed url="https://www.youtube.com/watch?ab_channel=weChook&v=PspD6s5LoBA" %}
+
 ### Build Steps
 
 ![PCB and all components laid out](<../.gitbook/assets/image (2).png>)
