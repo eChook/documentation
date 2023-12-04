@@ -18,7 +18,11 @@ const float CAL_BATTERY_TOTAL       = 6.53;
 
 ## Calibrating 12v
 
-Calibration is by the same method as 24V above. Measure the voltage at the 12V input and the voltage to pinA7of the Arduino and divide the former by the latter to obtain a multiplier to use in the code.
+Calibration is by the same method as 24V above. Measure the voltage at the 12V input and the voltage to pin A7 of the Arduino and divide the former by the latter to obtain a multiplier to use in the code.
+
+$$
+V_{input}/V_{pin_A7} = calibration Value
+$$
 
 Open the Calibration.h file and update the `CAL_BATTERY_LOWER` variable with the results of your calculation.
 
