@@ -2,6 +2,10 @@
 
 Welcome to the documentation for the eChook GPT nano board and the eChook GPT Android app.
 
+{% hint style="info" %}
+Please note the eChook App is temporarily unavailble from the Play store. See [Using the App](using-the-app/) section for more information
+{% endhint %}
+
 The eChook GPT (**G**reen**P**ower **T**elemetry) is a data logging and telemetry system tailored towards electric cars competing in the Greenpower race series. It consists of an Arduino based PCB sold through the Greenpower online store and an (Android Only) app that displays and logs the data. If the phone has a data connection it can also push the data to cloud services enabling real time telemetry from the car to the pits - or anywhere with an internet connection!
 
 ## The idea behind eChook GPT
