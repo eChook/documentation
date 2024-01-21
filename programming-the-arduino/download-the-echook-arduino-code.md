@@ -16,7 +16,7 @@ The bounce 2 library is used in the eChook code to debounce button inputs.
 
 The eChook code is hosted on Github. Download it from the link below and extract it to a suitable working directory, eg. …\My Documents\eChook.
 
-{% embed url="https://github.com/eChook/eChook-Arduino-Nano/releases/tag/v1.1" %}
+{% embed url="https://github.com/eChook/eChook-Arduino-Nano/releases/tag/v2.0" %}
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 

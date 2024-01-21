@@ -1,8 +1,12 @@
 # Programming the Arduino
 
-Locate and open the ‘eChookCode.ino’ file that was downloaded in the last step. This will open in the Arduino IDE with 'calibration.h' in another tab.
+Locate and open the ‘eChookCode.ino’ file that was downloaded in the last step. This will open all files in the Arduino IDE.
 
-Before the code can be compiled, the IDE needs to know what Arduino the code is for. Go to Tools>Board and select the Arduino Nano, then go to Tools>Processor and select ATmega328\*. The bottom right of the Arduino IDE should now read “Arduino Nano, ATmega328”.
+Before the code can be compiled, the IDE needs to know what Arduino the code is for. Go to Tools>Board.
+
+If you have an Arduino Nano (as provided in the kit), select Arduino AVR Boards > Arduino Nano, then go to Tools>Processor and select ATmega328\*. The bottom right of the Arduino IDE should now read “Arduino Nano, ATmega328”.
+
+If you have an Arduino Nano Every, you need to go to 'Boards Manager' and search 'megaAVR', then install the megaAVR boards package. Now go to Tools>Boards>megaAVR Boards> Arduino Nano Every
 
 Now check that the code compiles. Click the ‘tick’ button on the top left of the Arduino IDE window. A progress bar will appear at the bottom of the window - this step will likely take a couple of minutes the first time. When done the message bar will read ‘Done Compiling’. If you have a problem at this point take a look at the suggestions at the bottom of this page
 
@@ -22,20 +26,20 @@ It might not work first time. Don't panic!
 
 #### _Out Of Sync_
 
-If an error occurs it will show up in the black console window at the bottom of the IDE. The most common error seen is an out of sync error, which will show something like the following:
+If an error occurs it will show up in the Output window at the bottom of the IDE. The most common error seen is an out of sync error, which will show something like the following:
 
 ```
 avrdude: stk500_getsync(): not in sync: resp=0x00
 avrdude: stk500_disable(): protocol error, expect=0x14, resp=0x51
 ```
 
-There are two common causes for this:
+There are some common causes for this:
 
 1. The bluetooth module is plugged in at the same time as you are trying to program the Arduino. Unplug it and try again.
 2. The wrong COM port is selected - does the port disappear from the Tools>Port menu when you unplug the Arduino?
 3. You have the wrong Arduino or wrong processor selected in the IDE.&#x20;
-   1. Go to **Tools>Board>Arduino AVR Boards** and make sure the **Arduino Nano** is selected.&#x20;
-   2. Go to **Tools>Processor** and make sure **ATmega328P** is selected. If the error still appears, try selecting the **ATmega328P (Old Bootloader)** instead.
+   1. Ensure the correct Arduino is selected.&#x20;
+   2. If using a Arduino Nano (Not Nano Every) Go to **Tools>Processor** and make sure **ATmega328P** is selected. If the error still appears, try selecting the **ATmega328P (Old Bootloader)** instead.
 
 #### _Access is denied_
 
