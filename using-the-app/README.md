@@ -3,7 +3,7 @@
 This section covers everything involved in setting up and using the Android app.&#x20;
 
 {% hint style="danger" %}
-Please note that the eChook app is no longer available on the Google Play store. It can now be download from here: [https://apkpure.com/echook/com.ben.drivenbluetooth](https://apkpure.com/echook/com.ben.drivenbluetooth)
+Please note that the eChook app is no longer available on the Google Play store. It can now be download from here: [https://apkpure.net/echook/com.ben.drivenbluetooth](https://apkpure.net/echook/com.ben.drivenbluetooth)
 
 This is temporary - apologies for the inconvenience!
 {% endhint %}

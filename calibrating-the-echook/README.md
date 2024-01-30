@@ -20,3 +20,9 @@ Once you have a configuration you are happy with, it is recommended to take a ba
 
 The next few pages were  written for the old system of updating the calibration.h file. For V2.0+ Simply enter the numbers into the web app instead.
 
+### Issues?
+
+As this has only just been rolled out to a wider audience, I anticipate some teething issues. Please feed back any issues on the forum, or via email to info@echook.uk.
+
+The biggest issue I anticipate - **Unplug the Bluetooth Module!** :)
+
