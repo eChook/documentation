@@ -12,12 +12,12 @@ We'll add articles here as and when issues become apparent. If you have an issue
 
 If the eChook Companion app connects the the module but gets no data through, it will continuously disconnect and reconnect in an effort to correct the problem. If this is occurring there is an issue with the data rather than with the bluetooth itself.
 
-* Check that the Tx light on the Arduino is flashing periodically \(should be a flash every 0.25 seconds\). This indicates that the Arduino is sending data out. If it is not, try re-programming the Arduino.
-* Check that the baud rate of the Arduino and the HC-05 bluetooth module match. If the HC-05 has been auto configured by the Arduino, they will be the same. For the auto configuration procedure, see [here](https://docs.echook.uk/configuring-the-bluetooth-module/configuring-the-bluetooth-module.html).
+* Check that the Tx light on the Arduino is flashing periodically (should be a flash every 0.25 seconds). This indicates that the Arduino is sending data out. If it is not, try re-programming the Arduino.
+* Check that the baud rate of the Arduino and the HC-05 bluetooth module match. If the HC-05 has been auto configured by the Arduino, they will be the same. For the auto configuration procedure, see [here](setting-up-the-bluetooth/).
 
 ## Arduino Compiling and Uploading
 
-While we have tested the code that we provide, there are lots of seemingly random factors that can stop it compiling and uploading on different computers. 
+While we have tested the code that we provide, there are lots of seemingly random factors that can stop it compiling and uploading on different computers.&#x20;
 
 The error log given in the Arduino IDE is not much help by default. Go into preferences and [enable verbose logging](programming-the-arduino/programming-the-arduino.md#compilation-errors) to get more detailed logs.
 
@@ -36,4 +36,3 @@ If it still fails, take a copy of the errors and post it on the [forum,](https:/
 If there are obviously wrong values being reported by the phone, i.e. voltages when the batteries aren't plugged in, or high current when the motor is off the most likely cause is a wrong resistor in the circuit for that sensor. Use a multimeter and compare the values to those on the schematics [here](circuit-schematics/).
 
 If the value is far higher than anything you'd expect, it's best to power off the board quickly as an incorrect circuit could be sending more voltage to the Arduino than it is designed for with potential to cause damage.
-
