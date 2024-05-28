@@ -2,7 +2,7 @@
 
 This schematic shows the resettable polyfuse, reverse polarity protection and the 5V regulator.
 
-![](<../.gitbook/assets/image (13).png>)
+![NOTE: The regulator is a TSR-1-2450. The reference to TSR-1-24120 below it is the PCB footprint used, which is the same.](<../.gitbook/assets/image (13).png>)
 
 ## Resettable Polyfuse
 
