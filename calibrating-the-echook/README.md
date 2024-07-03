@@ -12,7 +12,7 @@ The calibration web interface is available at [configure.echook.uk](https://conf
 
 Unplug the bluetooth module, and connect your eChook to your computer. Navigate to the [configuration webapp](https://configure.echook.uk) and click connect. A browser menu will open - select the eChook's COM port from the list and press connect. After a few seconds the screen below should open.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 To update a calibration, enter the new number in the corresponding box. Any changes are higlighted, and the bottom right button will reflect how many changes you have entered from the configuration saved on the eChook. To save the changes to the eChook, press the bottom right button. These will be reflected immediately in the values being read out on screen.
 

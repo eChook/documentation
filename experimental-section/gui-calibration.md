@@ -28,7 +28,7 @@ This web page uses the WebSerial API which has limited browser support. You can 
 
 Now either connect your eChook via USB (bluetooth module needs to be **disconnected** for USB Serial communication to work), or pair your computer to the bluetooth module. Press the big connect button and a browser menu will appear for you to select the correct serial port.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The page should now display every measurement being taken by the eChook, updating live, along with the relevent calibration values. If you already have a calibration, enter the values from your old calibration.h file into the relevent text boxes - the interface will highlight any changes you've made - and click the 'Send x Changes' button in the bottom right. The readings will update to reflect the new calibrations within \~1 second.\
 If this is the first time you're calibrating your eChook, refer to the '[Calibrating the eChook](../calibrating-the-echook/)' section of this document, but enter the calculated values on the web page.

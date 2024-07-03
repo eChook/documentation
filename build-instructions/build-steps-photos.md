@@ -26,7 +26,7 @@ Here is a video of soldering the kit together:
 
 ### Build Steps
 
-![PCB and all components laid out](<../.gitbook/assets/image (2).png>)
+![PCB and all components laid out](<../.gitbook/assets/image (2) (1).png>)
 
 Start with the resistors - these are the smallest components.
 
@@ -88,7 +88,7 @@ The **DIP Socket** is orientation specific. There is an indentation on the silk 
 For larger components with 3+ pins it can be helpful to solder one pin in first then make sure that the component is flat with the PCB. To adjust it, simply melt the solder on the single pin and move the component until you are happy. Now solder the remaining pins.
 {% endhint %}
 
-![DCDC regulator, 22uF Capacitor, Header and DIP Socket added.](<../.gitbook/assets/image (1) (1) (1).png>)
+![DCDC regulator, 22uF Capacitor, Header and DIP Socket added.](<../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 * Polyfuse
 * Connectors

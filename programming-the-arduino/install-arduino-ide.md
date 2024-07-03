@@ -8,6 +8,6 @@ First install the Arduino IDE. IDE stands for Integrated Development Environment
 
 Download and install the IDE. Once installed, run the program. It should look like this:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 The first time the IDE starts it will download and install driver and libraries - there will be a few prompts to approve.

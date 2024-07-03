@@ -40,6 +40,9 @@ There are some common causes for this:
 3. You have the wrong Arduino or wrong processor selected in the IDE.&#x20;
    1. Ensure the correct Arduino is selected.&#x20;
    2. If using a Arduino Nano (Not Nano Every) Go to **Tools>Processor** and make sure **ATmega328P** is selected. If the error still appears, try selecting the **ATmega328P (Old Bootloader)** instead.
+4. You have the wrong version of the CH340 driver installed. Check the driver date and version in device manager matches below. If not, go back to the driver install page for the correct link.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### _Access is denied_
 
@@ -53,7 +56,8 @@ This happens when the COM port is already open in another process. With Arduino 
 
 1. Open Serial Monitor (Square button top right of the IDE), then close it again. This makes the IDE close the serial port if it has it open. Now try to upload the code again.
 2. Unplug the Arduino, close the IDE, re-open the IDE, plug in the Arduino and hit upload the moment windows recognises it.
-3. A little drastic, but try another computer! This generally works.
+3. Check the driver version - as in point 4 of the out of sync error section above.
+4. A little drastic, but try another computer! This generally works.
 
 #### Any other Issues
 
