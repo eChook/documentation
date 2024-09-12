@@ -9,7 +9,7 @@
   * [First Power On](build-instructions/first-power-on.md)
 * [Programming the Arduino](programming-the-arduino/README.md)
   * [Install Arduino IDE](programming-the-arduino/install-arduino-ide.md)
-  * [Arduino CH340 Drivers](programming-the-arduino/arduino-ch340-drivers.md)
+  * [Arduino Drivers](programming-the-arduino/arduino-ch340-drivers.md)
   * [Download the eChook Arduino Code](programming-the-arduino/download-the-echook-arduino-code.md)
   * [Programming the Arduino](programming-the-arduino/programming-the-arduino.md)
 * [Setting up the Bluetooth](setting-up-the-bluetooth/README.md)

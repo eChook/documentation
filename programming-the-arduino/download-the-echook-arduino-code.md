@@ -20,5 +20,5 @@ The eChook code is hosted on Github. Download the latest version from the link b
 Link to eChook code releases for the eChook Nano
 {% endembed %}
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Under the Assets heading, click "Source code (zip)" to initiate download.</p></figcaption></figure>
 
