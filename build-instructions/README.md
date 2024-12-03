@@ -2,7 +2,13 @@
 description: This section covers assembling the eChook PCB
 ---
 
-# Build Instructions
+# Build Instructions (Kit V1.x)
+
+{% hint style="info" %}
+If you have a later V2 board (Black PCB), skip this section and go to the [V2 Build Instructions Section](../build-instructions-kit-v2+.md).
+{% endhint %}
+
+
 
 In its simplest form, building the board consists of soldering all components in their correct places, as shown in the table below.
 

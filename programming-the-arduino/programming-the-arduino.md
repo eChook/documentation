@@ -13,7 +13,7 @@ Now check that the code compiles. Click the ‘tick’ button on the top left of
 Assuming the code compiled successfully, it can now be uploaded (flashed) to the Arduino. Before plugging the Arduino in, go to ‘Tools > Port’ and take note of which COM ports are listed. Now connect the Arduino via the mini USB cable. The computer will assign it a COM port. Go back to ‘Tools > Port’ and select the new COM port, which will be the Arduino.
 
 {% hint style="info" %}
-It is important to **disconnect** the Bluetooth module from the eChook board before attempting to flash code.&#x20;
+If you are using the older Arduino Nano Clone, it is important to **disconnect** the Bluetooth module from the eChook board before attempting to flash code. This isn't required for the Arduino Nano Every, it can be programmed with everything connected.
 {% endhint %}
 
 Press the ‘Upload’ button to compile and flash the code to the board. The TX and RX lights on the Arduino will flash rapidly while the upload is ongoing. When finished the Arduino IDE will show “Upload Complete” if it has all worked.
@@ -35,18 +35,18 @@ avrdude: stk500_disable(): protocol error, expect=0x14, resp=0x51
 
 There are some common causes for this:
 
-1. The bluetooth module is plugged in at the same time as you are trying to program the Arduino. Unplug it and try again.
+1. The bluetooth module is plugged in at the same time as you are trying to program the Arduino . Unplug it and try again. (Arduino Nano Clone **only**)
 2. The wrong COM port is selected - does the port disappear from the Tools>Port menu when you unplug the Arduino?
 3. You have the wrong Arduino or wrong processor selected in the IDE.&#x20;
    1. Ensure the correct Arduino is selected.&#x20;
-   2. If using a Arduino Nano (Not Nano Every) Go to **Tools>Processor** and make sure **ATmega328P** is selected. If the error still appears, try selecting the **ATmega328P (Old Bootloader)** instead.
-4. You have the wrong version of the CH340 driver installed. Check the driver date and version in device manager matches below. If not, go back to the driver install page for the correct link.
+   2. If using a Arduino Nano Clone go to **Tools>Processor** and make sure **ATmega328P** is selected. If the error still appears, try selecting the **ATmega328P (Old Bootloader)** instead.
+4. You have the wrong version of the CH340 driver installed. Check the driver date and version in device manager matches below. If not, go back to the [driver install page](arduino-ch340-drivers.md) for the correct link.
 
 <figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### _Access is denied_
 
-A more recent error is 'Can't open Device' and will show something like the following:
+A more recent common error is 'Can't open Device' and will show something like the following:
 
 ```
 avrdude: ser_open(): can't open device "\\.\COM3": Access is denied
@@ -58,6 +58,8 @@ This happens when the COM port is already open in another process. With Arduino 
 2. Unplug the Arduino, close the IDE, re-open the IDE, plug in the Arduino and hit upload the moment windows recognises it.
 3. Check the driver version - as in point 4 of the out of sync error section above.
 4. A little drastic, but try another computer! This generally works.
+
+**Oct 2024 Update:** Windows 11 now appears to re-write the CH340G drivers for the Nano Clone boards on start-up, requiring an uninstall and reinstall of the correct drivers each boot. All new kits come with an Arduino Nano Every and will not encounter this issue, but it is certainly annoying for teams with the older Arduino. Any eChook Nano board will work with the newer Arduino Nano Every.
 
 #### Any other Issues
 

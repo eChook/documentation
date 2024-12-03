@@ -1,12 +1,13 @@
 # Table of contents
 
-* [Welcome to eChook GPT](README.md)
+* [Welcome to the eChook nano documentation](README.md)
 * [System Overview](system-overview.md)
 * [The eChook Nano Kit](required-components-bom/README.md)
   * [Versions](required-components-bom/versions.md)
-* [Build Instructions](build-instructions/README.md)
+* [Build Instructions (Kit V1.x)](build-instructions/README.md)
   * [Build Steps Photos](build-instructions/build-steps-photos.md)
   * [First Power On](build-instructions/first-power-on.md)
+* [Build Instructions (Kit V2+)](build-instructions-kit-v2+.md)
 * [Programming the Arduino](programming-the-arduino/README.md)
   * [Install Arduino IDE](programming-the-arduino/install-arduino-ide.md)
   * [Arduino Drivers](programming-the-arduino/arduino-ch340-drivers.md)
