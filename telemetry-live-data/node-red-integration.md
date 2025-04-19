@@ -19,7 +19,8 @@ This section assumes that node-red is already installed and running.
 
 <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
-2. Download the json file below, go to your node red dashboard and import it by right clicking on the background > insert > import, and selecting the downloaded file.
+2. In the Omni app, select upload to eChook Private Live Data enter your login details.
+3. Download the json file below, then go to your node red dashboard and import it by right clicking on the background > insert > import, and selecting the downloaded file.
 
 {% file src="../.gitbook/assets/eChook-node-red-flows.json" %}
 
