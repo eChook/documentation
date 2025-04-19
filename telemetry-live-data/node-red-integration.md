@@ -1,16 +1,38 @@
 # Node-Red Integration
 
 {% hint style="warning" %}
-This page assumes a knowledge of Node-Red and Javascript. If you are familiar with Node-Red then the eChook is simple to integrate. If you've not used it before, best path would be to go to [nodered.org](https://nodered.org/) or google to get started and return to this once you're up and running.
+This page assumes a knowledge of Node-Red and Javascript. If you are familiar with Node-Red then the eChook is simple to integrate. If you've not used it before, best path would be to go to [nodered.org](https://nodered.org/) or your search engine of choice to get started, and return to this once you're up and running.
 {% endhint %}
 
-The data send to dweet.io can be accessed from lots of other systems. One that might be of particular interest to Greenpower teams is Node-Red. This is a scratch style, drag and drop programming tool that comes pre-installed on Raspberry Pi's but can be installed \(with varying difficulty\) on all popular operating systems.
+For those that need it, there is a  node-red getting started guide here: [https://nodered.org/docs/getting-started/](https://nodered.org/docs/getting-started/)
 
-Node Red can be used to capture the dweet.io data, perform any calculations on it, and even create your own dashboard to present the data as you want. You will need to add a dweet.io plugin to the palette. This provides you with a dweet.io input node. Configure this with your 'thing name' and it will output all the data being sent from your phone.
+#### Farewell Dweet.io
 
-Check out the node-red getting started guide here: [https://nodered.org/docs/getting-started/](https://nodered.org/docs/getting-started/)
+This section used to rely on the dweet.io service provided by Bug Labs, which has unfortunately been suspended.
 
-The image below shows how simple it is to get the uploaded dweet data with just two nodes - dweet node to read it in, and in this case a debug node to print it out to the screen:
+### Connecting Node Red to eChook Live Data
 
-![](../.gitbook/assets/imageedit_1_3646875113.png)
+This section assumes that node-red is already installed and running.
 
+1. Create an account for your car at data.echook.uk. Bring up the developer tools in your browser (normally F12, or Ctrl+Shift+i) and select the 'Console' tab. After a fresh login to the website, near the top of the console should be a printed web address, along the lines of https://data.echook.uk/api/get/-----Long-Unique-Key------. This address is unique to your car. Copy it for later.\
+
+
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
+2. Download the json file below, go to your node red dashboard and import it by right clicking on the background > insert > import, and selecting the downloaded file.
+
+{% file src="../.gitbook/assets/eChook-node-red-flows.json" %}
+
+You should now have a dashboard that looks like this:
+
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+Double click the http request block, and enter the URL you copied in step 1, then deploy the changes.
+
+#### How it works
+
+Every 2 seconds the inject block on the left triggers the HTTP request. This asks the server for the latest data from the car, which is formatted into a JSON object by the JSON block, and then split out into separate flows in the 'eChook Data Split' block. Mouse over the output to see what data it gives. The output data is in the format of {name:xyz, value:123}, so id accessible in later blocks using msg.payload.value and msg.payload.name.
+
+{% hint style="warning" %}
+PLEASE PLEASE PLEASE - stop node red, or disable the inject node when you are not using it. Node red runs continually in the background, and it would be very easy to leave it pinging the eChook server 24/7 unnecessarily, which will just increase it's load, increase my costs and degrade the service for everyone.
+{% endhint %}

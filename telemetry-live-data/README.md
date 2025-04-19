@@ -8,9 +8,9 @@ The app provides three different ways to send data out.
 
 This is our own in house system available at [data.echook.uk](https://data.echook.uk). Each car has a login, only people with that login can see your data. This is a free service provided by eChook to anyone using the app - it can also be used with custom hardware so long as it sends the correct data to the app (See [Bluetooth Communication](../bluetooth-communication/) section).
 
-### dweet.io
+### dweet.io (Discontinued)
 
-This is a free, publicly available service for sending data over the internet, but there is no privacy, anyone with your ID code (or 'Thing Name') can see your data. This does allow some nice features such as FreeBoard or Node Red Integration.
+Unfortunately as of the start of 2025 the dweet.io servers have been shut down and the service discontinued. There is no direct replacement for this, however if you used dweet for the node-red integration, there is a solution using the eChook live data server - see the [Node Red Integration](node-red-integration.md) page for more details.
 
 ### Custom URL
 

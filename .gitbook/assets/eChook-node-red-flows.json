@@ -1,0 +1,125 @@
+[
+    {
+        "id": "31411baab2bf742b",
+        "type": "function",
+        "z": "7de2c8dae6df9174",
+        "name": "eChook Data Split",
+        "func": "// Define the expected order of keys\nvar keyOrder = [\"voltage\", \"current\", \"voltageLower\", \"rpm\", \"speed\", \"throttle\", \n                \"temp1\", \"temp2\", \"ampH\", \"currLap\", \"gear\", \"lon\", \"lat\", \n                \"track\", \"updated\", \"status\"];\n\n// Extract the incoming JSON payload\nvar data = msg.payload;\n\n// Create an output array with placeholders\nvar outputs = keyOrder.map(key => {\n    return { payload: { name: key, value: data.hasOwnProperty(key) ? data[key] : null } };\n});\n\n// Return the structured output array, preserving order\nreturn outputs;",
+        "outputs": 16,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 460,
+        "wires": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "outputLabels": [
+            "voltage",
+            "current",
+            "voltageLower",
+            "rpm",
+            "speed",
+            "throttle",
+            "temp1",
+            "temp2",
+            "ampH",
+            "currLap",
+            "gear",
+            "lon",
+            "lat",
+            "track",
+            "updated",
+            "status",
+            ""
+        ],
+        "icon": "node-red/split.svg",
+        "info": "Splits data from the eChook Dweet message into it's constituent signals, each number as the payload of it's own message."
+    },
+    {
+        "id": "09e0adecf5086308",
+        "type": "http request",
+        "z": "7de2c8dae6df9174",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://data.echook.uk/api/get/",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": true,
+        "headers": [],
+        "x": 310,
+        "y": 460,
+        "wires": [
+            [
+                "7ae49f64a8254a74"
+            ]
+        ]
+    },
+    {
+        "id": "6923272ca899b0fc",
+        "type": "inject",
+        "z": "7de2c8dae6df9174",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 460,
+        "wires": [
+            [
+                "09e0adecf5086308"
+            ]
+        ]
+    },
+    {
+        "id": "7ae49f64a8254a74",
+        "type": "json",
+        "z": "7de2c8dae6df9174",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 490,
+        "y": 460,
+        "wires": [
+            [
+                "31411baab2bf742b"
+            ]
+        ]
+    }
+]

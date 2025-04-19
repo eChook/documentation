@@ -35,7 +35,6 @@
   * [Lap Counting](using-the-app/lap-counting.md)
 * [Telemetry (Live Data)](telemetry-live-data/README.md)
   * [eChook Live Data](telemetry-live-data/echook-live-data.md)
-  * [Dweet.io Temeletry](telemetry-live-data/free-temeletry.md)
   * [Node-Red Integration](telemetry-live-data/node-red-integration.md)
   * [DIY Web Dashboard](telemetry-live-data/diy-web-dashboard.md)
 * [Using the Data](using-the-data.md)
