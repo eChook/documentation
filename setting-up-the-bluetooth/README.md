@@ -4,7 +4,7 @@ This is a process that should only need doing once to each bluetooth module. It 
 
 There are two steps to the process. The first is entering the bluetooth name you want and saving that to the Arduino. The second is using the Arduino to send the configuration to the bluetooth module itself.
 
-### Setting the bluetooth name
+### Setting the Bluetooth name
 
 As of eChook Arduino code version 2.0, you can set the name by going to configure.echook.uk in either Chrome or Edge browsers and connecting your eChook. For more information see the [Calibrating the eChook](../calibrating-the-echook/) section.
 
@@ -23,9 +23,13 @@ These steps differ between versions of the board. If you have a V2.0+ board and 
 
 {% tabs %}
 {% tab title="PCB V2.0+ (Black)" %}
+{% hint style="danger" %}
+We are aware of a few of the eChook Nano V2.0 kits from early 2025 being sent out with incompatible Bluetooth modules. If you have a V2.0 kit, and are having issues getting data in the app, please see the [Bluetooth Troubleshooting Section](../troubleshooting/bluetooth.md).
+{% endhint %}
+
 V2.0+ of the board automatically configures the bluetooth module each time it is first powered on. Once you have set the bluetooth name, disconnect the USB, wait a couple of seconds and reconnect it. The red LED on the bluetooth module should come on for \~1s, turn off, then start flashing. This indicates a successful configuration.\
 \
-To see more information on the process, open the Arduino IDE, and start the serial monitor, connected to the Arduino Nano Every COM port. Now perform the power cycle described above, and the eChook will print debug informatio to the serial monitor.
+To see more information on the process, open the Arduino IDE, and start the serial monitor, connected to the Arduino Nano Every COM port. Now perform the power cycle described above, and the eChook will print debug information to the serial monitor.
 {% endtab %}
 
 {% tab title="PCBV1.x (White)" %}
@@ -41,7 +45,3 @@ To see more information on the process, open the Arduino IDE, and start the seri
 {% endtabs %}
 
 The board is now ready to be paired with a phone!
-
-{% hint style="info" %}
-Note: Apple devices will not be able to discover the eChook board as Apple does not implement the serial over bluetooth protocol that it uses. Android/Windows/Linux etc will be able to discover it.
-{% endhint %}
