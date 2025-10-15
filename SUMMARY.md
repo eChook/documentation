@@ -13,6 +13,7 @@
   * [Arduino Drivers](programming-the-arduino/arduino-ch340-drivers.md)
   * [Download the eChook Arduino Code](programming-the-arduino/download-the-echook-arduino-code.md)
   * [Programming the Arduino](programming-the-arduino/programming-the-arduino.md)
+  * [Updating the Arduino](programming-the-arduino/updating-the-arduino.md)
 * [Setting up the Bluetooth](setting-up-the-bluetooth/README.md)
   * [Pairing with a phone](setting-up-the-bluetooth/pairing-with-a-phone.md)
 * [Connecting the eChook to the Car](connecting-the-echook-to-the-car/README.md)
