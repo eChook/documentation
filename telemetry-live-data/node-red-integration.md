@@ -14,8 +14,7 @@ This section used to rely on the dweet.io service provided by Bug Labs, which ha
 
 This section assumes that node-red is already installed and running.
 
-1. Create an account for your car at [data.echook.uk](https://data.echook.uk), then bring up the developer tools in your browser (normally F12, or Ctrl+Shift+i) and select the 'Console' tab. After a fresh login to the website, near the top of the console should be a printed web address, along the lines of https://data.echook.uk/api/get/-----Long-Unique-Key------. This address is unique to your car. Copy it for later.\
-
+1. Create an account for your car at [data.echook.uk](https://data.echook.uk), then bring up the developer tools in your browser (normally F12, or Ctrl+Shift+i) and select the 'Console' tab. After a fresh login to the website, near the top of the console should be a printed web address, along the lines of https://data.echook.uk/api/get/-----Long-Unique-Key------. This address is unique to your car. Copy it for later.<br>
 
 <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
