@@ -6,9 +6,18 @@ There are three subsystems to the eChook Data Logging and Telemetry:
 * An Android app to receive the data, log it to file, display it to the driver and upload it.
 * A website to display the data in real time to the rest of the team.
 
+## Choose your kit path first
+
+The hardware path depends on your kit version:
+
+* **V2 (current):** The main eChook Nano board is pre-assembled.
+* **V1.x (legacy):** The main eChook Nano board is a DIY board build.
+
+If you are not sure which version you have, start with [The eChook Nano Kit](required-components-bom/README.md).
+
 The decision to split the system up like this was primarily cost based. Once you start adding an SD card slot and SD card, GPS receiver, screen etc. to the hardware on the car, costs rise rapidly - but we all carry devices with memory, a screen, GPS and so much more in our pocket every day. By offloading as much of the functionality to the smartphone as possible we have been able to create far simpler and lower cost hardware.
 
-The PCB design, Arduino code and Android app are open sourced under the MIT licence. This means that anyone is welcome to copy, modify and use the designs as they like. If a team has an existing data logging system on the car, it is possible to add a bluetooth module to that, connect to the eChook Android app and use the driver display, data logging and online telemetry free of charge.
+If a team has an existing data logging system on the car, it is possible to add a Bluetooth module to that, connect to the eChook Android app, and use the driver display, data logging, and online telemetry free of charge.
 
 ## eChook nano Board
 
@@ -16,11 +25,11 @@ The PCB design, Arduino code and Android app are open sourced under the MIT lice
 
 ### Hardware
 
-The eChook nano board is a custom PCB with interfaces for sensors, an Arduino nano to read the sensors and a Bluetooth module to send collected data to the Android app. The board takes power from the +24V car batteries.
+The eChook Nano board is a custom PCB with interfaces for sensors, an Arduino nano to read the sensors, and a Bluetooth module to send collected data to the Android app. The board takes power from the +24V car batteries.
 
 The V1.3 board has been designed using circuits and components covered in the GCSE and A level Electronics Curriculum in the hope that teams can understand the board as much as possible. The PCB also uses through-hole components and generous solder pads to aid teams in soldering up the board in the classroom.
 
-The V2+ boards are sold fully assembled.
+The V2 boards are sold fully assembled.
 
 The PCB and circuit designs are available at [github.com/eChook](https://github.com/echook/echook-nano-pcb). You will need [KiCad ](https://www.kicad.org/)to open and edit these files. It is free for everyone to use.
 
@@ -32,7 +41,7 @@ The code for the Arduino Nano on the eChook board is available from [github.com/
 
 ## Android App
 
-The eChook now uses the [Omni Telemetry app](https://play.google.com/store/apps/details?id=net.keduro.omni\&hl=en_GB), provided by Banchory Greenpower Team.
+The eChook uses the [Omni Telemetry app](https://play.google.com/store/apps/details?id=net.keduro.omni\&hl=en_GB), provided by Banchory Greenpower Team.
 
 The app connects to the Bluetooth module on the eChook nano board and logs the incoming data. It also augments this data with sensors on the phone - primarily GPS location. The app can also use the GPS to count laps, which is added to the logged data. At the end of the session, there is the option to send a .csv data file through the standard Android sharing system, making it easy to add it to Google Drive or Dropbox, email it to someone, or send it using whichever app you choose.
 

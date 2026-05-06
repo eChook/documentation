@@ -1,8 +1,8 @@
 # Using the App
 
-There are two app options for the eChook - the **eChook app** and a new offering from the Banchory Greenpower team, **OMNI Telemetry**. Development on the eChook app has been falling behind a bit, and  the Banchory Team have very kindly stepped up and offered their app to all teams as an alternative. Both apps log the data locally, and allow uploading the data to the eChook live data website.
+There are two app options for the eChook: **Omni Telemetry** and the **eChook app (legacy)**. Both apps log data locally and can upload data to the eChook Live Data website.
 
-Unless you have a reason to use the eChook app, the current recommendation is to use the new OMNI app.
+For most teams, Omni Telemetry is the recommended default.
 
 A quick comparison:
 
@@ -12,9 +12,9 @@ A huge thanks to Keith and the Banchory team for sharing their app!
 
 #### Installing the OMNI Telemetry app
 
-Onmi Telemetry is available from the Play Store - [https://play.google.com/store/apps/details?id=net.keduro.omni\&hl=en\_GB](https://play.google.com/store/apps/details?id=net.keduro.omni\&hl=en_GB)
+Omni Telemetry is available from the Play Store - [https://play.google.com/store/apps/details?id=net.keduro.omni\&hl=en\_GB](https://play.google.com/store/apps/details?id=net.keduro.omni\&hl=en_GB)
 
-#### Installing the eChook app
+#### Installing the eChook app (Legacy)
 
 The eChook app is no longer on the play store.&#x20;
 

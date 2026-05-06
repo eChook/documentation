@@ -2,6 +2,15 @@
 
 Greenpower sell an eChook Nano kit that contains all the hardware and sensors needed to get eChook telemetry running on a Greenpower car. The Android App and Live Data website are free to use, no kit purchase necessary.
 
+## Choose your kit path first
+
+The setup flow is different between the current and legacy kits:
+
+* **V2 (current):** The main eChook Nano board is pre-assembled. Follow the V2 build and setup path.
+* **V1.x (legacy):** The main eChook Nano board is a full DIY build. Follow the V1.x build and setup path.
+
+If you are not sure which version you have, check [Versions](versions.md).
+
 
 
 ### eChook Nano V2 SMD
@@ -18,7 +27,7 @@ The move to smaller surface mount components and machine assembled boards has al
 
 ### eChook Nano V1.x
 
-The original eChook  is a fully DIY kit containing of the eChook PCB, all components required to populate the PCB as well as sensors for Current, Temperature (x2) and Rotation (Wheel and motor shaft).
+The original eChook is a fully DIY kit containing the eChook Nano board, all components required to populate the board, and sensors for current, temperature (x2), and rotation (wheel and motor shaft).
 
 This kit is no longer available to purchase, but the individual PCBs are - see below.
 
@@ -26,7 +35,7 @@ This kit is no longer available to purchase, but the individual PCBs are - see b
 
 ### DIYing the eChook Nano v1.x
 
-If you want to source the components yourself, the bare eChook nano GPT board is available from the eChook shop [here](https://shop.echook.uk). The listing includes links to the full Bill of Materials needed for assembly.
+If you want to source the components yourself, the bare eChook Nano board is available from the eChook shop [here](https://shop.echook.uk). The listing includes links to the full Bill of Materials needed for assembly.
 
 If you want to go totally DIY, or tweak the PCB to your own requirements, the schematics and PCB layouts are Open Sourced and available on [GitHub](https://github.com/eChook/eChook-Nano-PCB).
 

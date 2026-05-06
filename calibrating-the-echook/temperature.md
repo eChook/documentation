@@ -2,6 +2,10 @@
 
 These are the most involved sensors to calibrate, primarily due to the response of the thermistors being non-linear. A typical 10kΩ thermistor resistance vs temperature graph is shown below:
 
+If you are using V2 Arduino code (code version 2.0 or later), enter the calculated calibration coefficients in the calibration web app at [configure.echook.uk](https://configure.echook.uk).
+
+If you are using legacy Arduino code (below version 2.0), enter these values in the calibration.h file and re-upload the code.
+
 ![](https://lh4.googleusercontent.com/z8hZ8SvbFAUlVafoLBIffR0ba-W5_rT01rHz17n3Jz-88D0F088MpPB4ndDL4eUz13awJpIQm42ru8HbgTlM9KoGhY0lbiR4WjP_GLsFwfe0UgLFJYWsLyTQnudFe_yAKh3eBetC)
 
 Note that the 10k refers to the resistance at room temperature \(25°\), and that the resistance decreases as temperature increases. This is called a negative temperature coefficient, or NTC. The eChook board uses a 10k NTC Thermistor.
@@ -14,7 +18,7 @@ The first step in calibrating the thermistor is calculating these coefficients. 
 
 ![](https://lh3.googleusercontent.com/fmYhUC_dDDkDMKbMWPzaOq1qHJJ6kehtJjfd_UuTrWpTaNHCxvm0np7ymCy6kjwasyXHZBpfv9XZsvGpLbHzfyuvvEAgYeeR0o73np7Ed0G2BduqZFHUd_0shGBJHHU87K6xzmo4)
 
-Enter the three temperature and resistance measurements and copy the A, B and C coefficients from the calculator into the calibration.h file.
+For legacy code versions, enter the three temperature and resistance measurements and copy the A, B and C coefficients from the calculator into the calibration.h file.
 
 ```text
 //Board and Sensor Specific Calibrations

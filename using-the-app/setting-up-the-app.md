@@ -1,17 +1,19 @@
 # Setting up the App
 
+Omni Telemetry is the standard app path. The eChook app instructions are kept for legacy/fallback use.
+
 {% tabs %}
 {% tab title="Omni Telemetry" %}
-Enter app settings through the three dot menu top right.
+Enter app settings through the three-dot menu in the top-right corner.
 
-Select the paired eChook bluetooth device from the bluetooth devices menu
+Select the paired eChook Bluetooth device from the Bluetooth devices menu.
 
-Select which (if any) data upload service to use from the Data Upload menu (you may need to dismiss the "waiting for throttle" notification to see the 'Upload To' option)\
-\
+Select which (if any) data upload service to use from the Data Upload menu (you may need to dismiss the "waiting for throttle" notification to see the "Upload To" option).
+
 Note that the Omni app continues running when exited. To exit the app, select 'Close' from the three dot menu. When running in the background a notification is displayed to inform you.
 {% endtab %}
 
-{% tab title="eChook App" %}
+{% tab title="eChook App (Legacy)" %}
 The app needs a little configuring before it is ready to log data. Open the app and go into the Settings menu.
 
 First select which bluetooth device to log data from. Tap ‘Select Bluetooth Device’ and select the eChook you just paired from the list:
