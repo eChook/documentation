@@ -2,16 +2,17 @@
 
 Throttle input is useful to log because it shows how the car is being driven. Since throttle systems vary between cars, there are several safe ways to interface throttle signals to the eChook.
 
-Throttle input is also needed for the app lap counter feature, because this uses throttle movement to detect race start.
+Throttle input is also needed for the app lap counter feature, because this uses throttle signal to detect race start.
 
 The eChook can also take a variable throttle input and generate a PWM output for a higher-power motor driver circuit. The green LED on the eChook board is connected to this output.
+
 
 ## Throttle Configuration
 
 There are two common ways to use throttle input with the eChook, depending on whether a separate motor control system is used (from simple relays to a controller such as a 4QD).
 
 * Logger only - motor control is handled by another system and the eChook only logs the throttle input.
-* Motor control (fully connected) - eChook PWM output is used to control the motor based on throttle input and any eChook processing.
+* Motor control - eChook PWM output is used to control the motor based on throttle input and any eChook processing.
 
 #### Logger only
 
