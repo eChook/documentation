@@ -40,7 +40,7 @@
   * [DIY Web Dashboard](telemetry-live-data/diy-web-dashboard.md)
 * [Using the Data](using-the-data.md)
 * [Circuit Schematics](circuit-schematics/README.md)
-  * [12 and 24v Inputs](circuit-schematics/12-and-24v-inputs.md)
+  * [12 and 24V Inputs](circuit-schematics/12-and-24v-inputs.md)
   * [Temperature Inputs](circuit-schematics/temperature-inputs.md)
   * [Bluetooth Module](circuit-schematics/bluetooth-module.md)
   * [Throttle Input](circuit-schematics/throttle-input.md)

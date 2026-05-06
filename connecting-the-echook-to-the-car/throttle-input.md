@@ -1,23 +1,23 @@
 # Throttle Input
 
-Throttle input is useful to log to see how the car is being driven, however due to the number of different ways throttles are implemented on cars there are a few methods of interfacing it to the eChook.
+Throttle input is useful to log because it shows how the car is being driven. Since throttle systems vary between cars, there are several safe ways to interface throttle signals to the eChook.
 
-A throttle input is also needed for the apps lap counter feature, as this uses the throttle to determine race start.
+Throttle input is also needed for the app lap counter feature, because this uses throttle movement to detect race start.
 
-Finally, the eChook will take a variable throttle and output a PWM signal that can be used as an input to a higher power motor driver circuit. The green LED on the eChook board is connected to this output.
+The eChook can also take a variable throttle input and generate a PWM output for a higher-power motor driver circuit. The green LED on the eChook board is connected to this output.
 
 ## Throttle Configuration
 
-There are two main ways that teams tend to use the throttle input with the eChook, depending on whether a separate motor control system is being used (be that simple relays or a more sophisticated controller such as a 4QD)
+There are two common ways to use throttle input with the eChook, depending on whether a separate motor control system is used (from simple relays to a controller such as a 4QD).
 
-* Logger only - the motor control is handled by a different system and the eChook is just used to log the the throttle input
-* Motor control (Fully Connected) - the PWM output of the eChook is used to control the motor, according to the throttle input and any processing on the eChook.
+* Logger only - motor control is handled by another system and the eChook only logs the throttle input.
+* Motor control (fully connected) - eChook PWM output is used to control the motor based on throttle input and any eChook processing.
 
-#### Logger only:
+#### Logger only
 
-The eChook needs to share the same ground reference, normally battery negative, as the motor control system, and just the throttle signal should be fed into the eChook board
+The eChook must share the same ground reference, normally battery negative, as the motor control system. Only the throttle signal is fed into the eChook board.
 
-| Throttle                            | eChook Throttle Connenctor |
+| Throttle                            | eChook Throttle Connector |
 | ----------------------------------- | -------------------------- |
 | Not Connected                       | 5V                         |
 | Throttle Signal to Motor Controller | In                         |
@@ -26,14 +26,14 @@ The eChook needs to share the same ground reference, normally battery negative, 
 {% hint style="danger" %}
 #### **If using a 4QD controller DO NOT connect the 4QD Ground to the eChook Ground.**&#x20;
 
-The 4QD controllers have built in reverse polarity protection (unless you have an extreme version of a controller that specifically states it has no reverse polarity protection). The circuit they've used to achieve this creates a small voltage offset between the 4QD ground and the chassis/eChook ground. If the two are connected and the motor is run, significant current will attempt to flow through the connecting wire, potentially melting it, and likely causing damage to the eChook board.
+4QD controllers have built-in reverse polarity protection (unless you have a variant that explicitly states it does not). This can create a small voltage offset between 4QD ground and chassis/eChook ground. If these grounds are connected and the motor runs, significant current may flow through the ground wire, potentially melting wiring and damaging the eChook board.
 {% endhint %}
 
 
 
-#### Fully Connected
+#### Fully connected
 
-The eChook provides 5V power and the ground reference as well as reading the throttle output
+The eChook provides 5V power and ground reference while reading throttle output.
 
 | Throttle               | eChook Throttle Connector |
 | ---------------------- | ------------------------- |
@@ -41,43 +41,43 @@ The eChook provides 5V power and the ground reference as well as reading the thr
 | Output Signal          | In                        |
 | GND                    | GND                       |
 
-These tables apply to each different type of throttle described below
+These tables apply to each throttle type described below.
 
 ### Throttle Types
 
-As well as different ways of connecting the throttle, there are multiple common types of throttle used in Greenpower racing, and the connections are different for each:
+As well as different connection methods, there are multiple throttle types used in Greenpower racing, and each has different wiring requirements:
 
 {% tabs %}
 {% tab title="5V Variable Throttle" %}
-This is the input that the eChook board is designed for and is the commonly used eBike or eScooter hall effect throttle, or any potentiometer based throttle and if a variable throttle input is used, it is likely that it already works in this voltage range, however confirm this with a multimeter before attaching anything.&#x20;
+This is the input type the eChook is designed for. It is common on eBike/eScooter hall-effect throttles and potentiometer-based throttles. Most variable throttles are already in this voltage range, but confirm with a multimeter before connecting anything.
 
 This type of throttle can be connected directly to the eChook as per the tables above, depending on whether the eChook is acting as a logger only, or for motor control.
 {% endtab %}
 
 {% tab title="Push Button Throttle" %}
-There are a few configurations of pushbutton throttle. For a car running a relay for motor control the throttle button will likely be switching 24v, or in some cases 12v. In this case, the throttle voltage is above the 5V expected by the eChook.
+There are a few push-button throttle configurations. On cars using relay-based motor control, the button often switches 24V, and sometimes 12V. This is above the 5V range expected by the eChook input.
 
-*   V1.x Boards need a potential divider circuit to reduce the voltage from the button to a safe 5V for the eChook using a potential divider circuit between the button and the throttle connection:&#x20;
+*   `V1.x` boards need a potential divider to reduce button voltage to a safe 5V at the eChook input:
 
     ![](https://lh5.googleusercontent.com/KW_L3b9ZulcJHl2DW7X59uPfOaAb0Wx-hhOOY05LV8JsQ-45gsAX87I-p3_iwrGjc9t9DdA0AJs7RcMXF0zFeOA8yvB3myBPQoFCtgvISXY-wqJguEm9DNX9WkTusLDgDmWt9u7F)
 
     \
-    For a button switching a 24v signal, set R1=82k and R2 = 16k. This drops 30V to 5V and is intended to protect against the batteries having higher voltages than 12V each.\
+    For a button switching a 24V signal, set `R1 = 82k` and `R2 = 16k`. This drops 30V to 5V and provides margin for battery voltages above 12V per battery.\
     Resistor values for other voltages can be calculated by the formula below, where V\_out is the feed to the eChook board, and V\_in is the output from the throttle button.
 
 $$
 V_{out } = V_{in} *( R_2/{R_1+R_2})
 $$
 
-* V2.x Boards have overvoltage protection circuitry built into the board, so a voltage of up to 30v can be connected to the board through a single inline resistor to limit the current. The recommended resistor value is above 1kOhm, and below 10kOhm inclusive.
+* `V2+` boards include overvoltage input protection, so up to 30V can be connected through a single inline resistor to limit current. Recommended resistor value is `1kOhm` to `10kOhm` inclusive.
 
 #### eChook Configuration
 
-To tell the eChook that it is connected to a pushbutton throttle, connect it to the calibration web interface, as described in the calibration section of this document, and select Throttle Tyle: On/Off.
+To configure eChook for a push-button throttle, connect to the calibration web interface and select `Throttle Type: On/Off`.
 {% endtab %}
 
 {% tab title=">5V Variable Throttle" %}
-If the car has a variable throttle with an output that goes over 5V, a potential divider is needed to reduce the maximum output voltage to 5v. See the Push Button Throttle tab for the potential divider design, then connect the Throttle and ground connections as per tables above.
+If the car has a variable throttle that can exceed 5V, use a potential divider to reduce the maximum output to 5V. See the Push Button Throttle tab for divider design, then wire throttle and ground as shown in the tables above.
 {% endtab %}
 {% endtabs %}
 

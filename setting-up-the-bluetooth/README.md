@@ -15,7 +15,7 @@ There are two steps to the process:
 
 As of eChook Arduino code version 2.0, you can set the name by going to configure.echook.uk in either Chrome or Edge browsers and connecting your eChook. For more information see the [Calibrating the eChook](../calibrating-the-echook/) section.
 
-Alternatively, the old method still works. When the eChook Arduino code is open in the Arduino IDE there will be a tab called ‘Calibration.h’. The first parameters in this file are the Bluetooth settings.
+Alternatively, the old method still works. When the eChook Arduino code is open in the Arduino IDE there will be a tab called `calibration.h`. The first parameters in this file are the Bluetooth settings.
 
 ```
 //Bluetooth Settings

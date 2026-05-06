@@ -3,7 +3,7 @@
 The current sensor is calibrated during manufacture. Any inaccuracies in the measurement are introduced by tolerances in the differential amplifier. Resistors with a 1% tolerance have been used here. As such the default calibration should be very close and re-calibrating the current sensor should not make a huge difference to the readings.
 
 - **V2 Arduino code (version 2.0 or later):** enter the current calibration multiplier in the calibration web app at [configure.echook.uk](https://configure.echook.uk).
-- **Legacy Arduino code (below version 2.0):** update `CAL_CURRENT` in `Calibration.h` and re-upload the code.
+- **Legacy Arduino code (below version 2.0):** update `CAL_CURRENT` in `calibration.h` and re-upload the code.
 
 Use this process to calibrate current:
 
@@ -22,9 +22,9 @@ $$
 (I_{supply} * Num.PassesThroughSensor)/V_{A2} = Multiplier
 $$
 
-For legacy code versions, open the Calibration.h file and update the CAL\_CURRENT variable with the results of your calculation.
+For legacy code versions, open `calibration.h` and update `CAL_CURRENT` with the result of your calculation.
 
-```c
+```
 const float CAL_CURRENT = 37.55;
 ```
 

@@ -16,11 +16,9 @@ Set the values in this order:
    - For V2 code versions, enter them in the web app.
    - For legacy code versions, enter them in `calibration.h` and re-upload the code to the Arduino.
 
-For legacy code versions, enter the new figures into the `calibration.h` file and re-upload the code to the Arduino.
-
 ```text
 const int       CAL_WHEEL_MAGNETS        = 6; //Number of magnets on wheel
 const int       CAL_MOTOR_MAGNETS        = 3; // Number of magnets on motor shaft for hall effect sensor
-const float     CAL_WHEEL_CIRCUMFERENCE  = 1.178; //Outer circumference of tyre, in Meters. i.e. the distance travelled in one revolution
+const float     CAL_WHEEL_CIRCUMFERENCE  = 1.178; //Outer circumference of tyre, in meters (distance travelled in one revolution)
 ```
 

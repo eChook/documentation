@@ -4,7 +4,9 @@
 
 The PWM output directly from the Arduino is unlikely to provide enough current to drive a motor controller some distance away, so a transistor-based PWM buffer is implemented.
 
-R13 provides a strong pull-down to the PWM output when the transistor is closed. R14 provides some termination to the transmission line between the eChook and whatever the PWM is driving. Ideally this would be tuned to the application.
+R13 provides a strong pull-down to the PWM output when the transistor is off. R14 adds termination for the line between the eChook and the driven device. Ideally this is tuned to the specific harness and load.
 
-The LED indicates the PWM state: on when PWM is 100%, and fading with PWM percentage. R15 drops the voltage for the LED.
+The LED indicates PWM state: fully on at 100% duty cycle and dimmer at lower duty cycles. R15 limits LED current.
+
+For connector-level wiring details, see [PWM Output](../connecting-the-echook-to-the-car/pwm-output.md).
 
