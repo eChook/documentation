@@ -2,7 +2,7 @@
 
 ## Fault LEDs
 
-If the 24V fault LED is lit, the board is trying to draw more than 300mA from the 24V supply. This usually indicates a short circuit on the PCB. Also check for any conductive items under the PCB.
+If the 24V fault LED is lit, the board is trying to draw more than 300mA from the 24V supply. This usually indicates a short circuit on the PCB. Also check for any conductive items under the PCB. A failed (hot) arduino can also cause this to light.
 
 If any of the 5V fault LEDs are lit, there is likely a harness fault causing a short circuit in the harness attached to the connector nearest the lit fault LED. This can also indicate a failed sensor if it has failed short-circuit.
 

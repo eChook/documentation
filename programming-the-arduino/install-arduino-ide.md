@@ -1,8 +1,8 @@
 # Install Arduino IDE
 
-The goal of this step is to install Arduino IDE and open it successfully once.
+The goal of this step is to install Arduino IDE and open it successfully.
 
-Arduino IDE (Integrated Development Environment) is the software used to write and upload code to the Arduino. The Arduino IDE is available from here:
+Arduino IDE (Integrated Development Environment) is the software used to write and upload code to the Arduino. It is available from here:
 
 {% embed url="https://docs.arduino.cc/software/ide-v2" %}
 
