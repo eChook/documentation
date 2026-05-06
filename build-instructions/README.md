@@ -8,11 +8,22 @@ description: This section covers assembling the eChook PCB
 If you have a later V2 board (Black PCB), skip this section and go to the [V2 Build Instructions Section](../build-instructions-kit-v2+.md).
 {% endhint %}
 
+## Before You Start
+
+Use this page only for **Kit V1.x** (white PCB).
+
+Build order for best results:
+
+1. Confirm your board version.
+2. Solder components from smallest to largest.
+3. Use the graphical BOM and reference photos to verify placement before powering on.
+
+## Build Flow (Kit V1.x)
 
 
 In its simplest form, building the board consists of soldering all components in their correct places, as shown in the table below.
 
-To make the process of soldering the board as easy as possible, it’s best to start with the smallest components first. All components sit on the top of the board, none on the bottom. The bottom of the board has the eChook logo and board version number printed on it, the top has the component outline and values.
+To make the process of soldering the board as easy as possible, it’s best to start with the smallest components first. All components sit on the top of the board, none on the bottom. The bottom of the board has the eChook logo and board version number printed on it, and the top has the component outline and values.
 
 High resolution photos of a finished board can be found [here](https://goo.gl/photos/QLNfrek9v2v522xa9). Note that this is a slightly earlier board where the Bluetooth wires are soldered directly to the board instead of connected via a header. Also the components appearance may differ slightly to those supplied in the kits, as the suppliers may change between manufacturing runs.
 

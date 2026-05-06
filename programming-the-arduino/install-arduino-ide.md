@@ -1,13 +1,22 @@
 # Install Arduino IDE
 
-First install the Arduino IDE. IDE stands for Integrated Development Environment and is the software you use to write code for the Arduino and to upload it to the Arduino. The Arduino IDE is available from here:
+The goal of this step is to install Arduino IDE and open it successfully once.
+
+Arduino IDE (Integrated Development Environment) is the software used to write and upload code to the Arduino. The Arduino IDE is available from here:
 
 {% embed url="https://docs.arduino.cc/software/ide-v2" %}
 
-If you already have the IDE installed, please make sure it is up to date.
+If you already have the IDE installed, make sure it is up to date.
 
-Download and install the IDE. Once installed, run the program. It should look like this:
+Follow this order:
+
+1. Download the latest Arduino IDE from the official link above.
+2. Install it.
+3. Open Arduino IDE after installation.
+4. Approve the first-run prompts for drivers and libraries.
+
+When complete, the IDE should open and look similar to the image below:
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-The first time the IDE starts, it will download and install drivers and libraries - there will be a few prompts to approve.
+After this, continue to the programming step.

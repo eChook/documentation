@@ -2,15 +2,21 @@
 
 There are two factors that affect the wheel speed reading taken by the eChook: the number of magnets on the wheel, and the circumference of the wheel.
 
-If you are using V2 Arduino code (code version 2.0 or later), enter these values in the calibration web app at [configure.echook.uk](https://configure.echook.uk).
+- **V2 Arduino code (code version 2.0 or later):** enter these values in the calibration web app at [configure.echook.uk](https://configure.echook.uk).
+- **Legacy Arduino code (below version 2.0):** both values are set in `calibration.h`.
 
-If you are using legacy Arduino code (below version 2.0), both values are set in the calibration.h file.
+Set the values in this order:
 
-The number of magnets is simple. The wheel circumference is the distance travelled in one rotation of the wheel, so the outermost circumference of the tyre, not simply 2πr for a 16” wheel. This can either be measured with a flexible tape measure, or placing the wheel on the floor with the valve at the bottom and marking the contact point, rolling it for one rotation, placing a second mark at this point, then measuring between marks. Use meters for the units.
+1. Count the number of magnets on the wheel.
+2. Measure wheel circumference as the distance travelled in one full wheel rotation (the outermost circumference of the tyre, not simply 2πr for a 16” wheel).
+   - You can measure this with a flexible tape measure, or by marking the tyre contact point on the floor, rolling one full rotation, and measuring between the two marks.
+   - Use meters for the units.
+3. Count the number of magnets on the motor shaft for motor RPM.
+4. Enter the values:
+   - For V2 code versions, enter them in the web app.
+   - For legacy code versions, enter them in `calibration.h` and re-upload the code to the Arduino.
 
-The motor RPM is simply dependent on the number of magnets on the motor shaft. Enter this value accordingly.
-
-For legacy code versions, enter the new figures into the calibration.h file and re-upload the code to the Arduino.
+For legacy code versions, enter the new figures into the `calibration.h` file and re-upload the code to the Arduino.
 
 ```text
 const int       CAL_WHEEL_MAGNETS        = 6; //Number of magnets on wheel

@@ -22,7 +22,7 @@ To do this, install a Bluetooth Serial Terminal app, such as [Bluetooth Serial T
 
 Open the app. In settings, change the display mode to HEX, then in the devices menu, select the Bluetooth module. There are two tabs in the devices menu, one for 'Bluetooth Classic' devices and one for 'Bluetooth LE'. Your eChook board should appear in the Bluetooth Classic tab.
 
-&#x20;_If it appears in the Bluetooth LE tab you have an incompatible Bluetooth module. go to the Incompatible Module section below._
+_If it appears in the Bluetooth LE tab, you have an incompatible Bluetooth module. Go to the Incompatible Module section below._
 
 If your module appeared in the Bluetooth Classic tab, tap it to connect to it. If data is being transmitted you will see something like this:
 
@@ -30,19 +30,19 @@ If your module appeared in the Bluetooth Classic tab, tap it to connect to it. I
 
 **If you see data as above:**&#x20;
 
-If you are running unmodified eChook Arduino code, the eChook board is working as it should, the issue is app related. Double check the correct Bluetooth device is selected in the Omni app. If that doesn't change it, try reinstalling the app. \
-If you have modified the eChook Arduino code, re-flash the latest release from github.
+If you are running unmodified eChook Arduino code, the eChook board is working as it should and the issue is app-related. Double-check that the correct Bluetooth device is selected in the Omni app. If that does not fix it, try reinstalling the app. \
+If you have modified the eChook Arduino code, re-flash the latest release from GitHub.
 
-If neither of these fixes your issue, contact us for further help.
+If neither of these fixes your issue, contact us on the forum or webchat for further help.
 
 **If you don't see data as above:**
 
-The Arduino is not sending data out. Re-flash the latest Arduino code release from github and try again. If the issue persists, contact us for further help.
+The Arduino is not sending data out. Re-flash the latest Arduino code release from GitHub and try again. If the issue persists, contact us on the forum or webchat for further help.
 
 ## Incompatible HC-05 Bluetooth Modules
 
 As of late 2024, a new 'HC-05' compatible module has started being sold. It's being advertised as a standard HC-05 module, but is actually a Bluetooth Low Energy device. This uses a completely different wireless communication protocol than HC-05 modules and as such, is incompatible. Suppliers selling this module appear generally (and genuinely) unaware, and are still marketing it as a Bluetooth 2.0 device. These new Bluetooth Low Energy devices look very similar to the compatible HC-05 modules so easily slip under the radar.
 
-Unfortunately the batch of HC-05 modules I bought for the V2.0 kits appears to have been a mix of good modules and Low Energy modules. The random ones I sampled before kitting were all good, and at the time I was not aware of the incompatible versions existing, but two teams (so far - 05/2025) have reported receiving incorrect modules.
+Unfortunately, the batch of HC-05 modules I bought for the V2.0 kits appears to have been a mix of good modules and Low Energy modules. The random ones I sampled before kitting were all good, and at the time I was not aware of the incompatible versions existing, but two teams (as of 05/2025) have reported receiving incorrect modules.
 
 If you have purchased an eChook Nano V2.0 kit from Greenpower and have verified that your module is a Bluetooth Low Energy device in the Bluetooth Serial app, as described above, email support@greenpower.co.uk, cc'ing info@echook.uk with a screenshot showing the eChook appearing in the Bluetooth LE tab of the Bluetooth Serial App, a picture of the Bluetooth module, and an invoice of your original kit purchase.

@@ -1,16 +1,18 @@
 # Programming the Arduino
 
-Locate and open the ‘eChookCode.ino’ file that was downloaded in the last step. This will open all files in the Arduino IDE.
+Before starting, make sure you have downloaded the eChook code and installed Arduino IDE.
 
-Before the code can be compiled, the IDE needs to know what Arduino the code is for. Go to Tools > Board.
+Follow this order:
 
-If you have an Arduino Nano (as provided in the kit), select Arduino AVR Boards > Arduino Nano, then go to Tools>Processor and select ATmega328\*. The bottom right of the Arduino IDE should now read “Arduino Nano, ATmega328”.
+1. Locate and open the ‘eChookCode.ino’ file downloaded in the previous step. This will open all files in the Arduino IDE.
+2. Set the correct board in the IDE. Go to **Tools > Board**.
 
-If you have an Arduino Nano Every, go to Boards Manager and search for "megaAVR", then install the megaAVR boards package. Now go to Tools > Boards > megaAVR Boards > Arduino Nano Every.
+   - If you are using an Arduino Nano, select **Arduino AVR Boards > Arduino Nano**, then go to **Tools > Processor** and select **ATmega328\***. The bottom right of the Arduino IDE should now read “Arduino Nano, ATmega328”.
+   - If you are using an Arduino Nano Every, go to Boards Manager and search for "megaAVR", then install the megaAVR boards package. Then go to **Tools > Boards > megaAVR Boards > Arduino Nano Every**.
 
-Now check that the code compiles. Click the "tick" button on the top left of the Arduino IDE window. A progress bar will appear at the bottom of the window - this step will likely take a couple of minutes the first time. When done, the message bar will read "Done Compiling". If you have a problem at this point, take a look at the suggestions at the bottom of this page.
+3. Compile the code by clicking the "tick" button on the top left of the Arduino IDE window. A progress bar will appear at the bottom of the window - this step will likely take a couple of minutes the first time. When done, the message bar will read "Done Compiling". If you have a problem at this point, take a look at the suggestions at the bottom of this page.
 
-Assuming the code compiled successfully, it can now be uploaded (flashed) to the Arduino. Before plugging the Arduino in, go to "Tools > Port" and take note of which COM ports are listed. Now connect the Arduino via the mini USB cable. The computer will assign it a COM port. Go back to "Tools > Port" and select the new COM port, which will be the Arduino.
+4. Assuming the code compiled successfully, it can now be uploaded (flashed) to the Arduino. Before plugging the Arduino in, go to "Tools > Port" and take note of which COM ports are listed. Now connect the Arduino via the mini USB cable. The computer will assign it a COM port. Go back to "Tools > Port" and select the new COM port, which will be the Arduino.
 
 {% hint style="info" %}
 If you are using the older Arduino Nano Clone, it is important to **disconnect** the Bluetooth module from the eChook board before attempting to flash code. This isn't required for the Arduino Nano Every, it can be programmed with everything connected.

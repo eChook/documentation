@@ -4,15 +4,10 @@
 
 The sections of the documentation follow a chronological order of setup, from receiving your kit to viewing live telemetry. The steps below are links to relevent sections in the setup process.
 
-1. Identify your kit and parts in [The eChook Nano Kit](required-components-bom/README.md).
-2. Follow the correct build path for your kit version:
-   - Kit V1.x: [Build Instructions (Kit V1.x)](build-instructions/README.md)
-   - Kit V2+: [Build Instructions (Kit V2+)](build-instructions-kit-v2+.md)
-3. Program the board from [Programming the Arduino](programming-the-arduino/README.md).
-4. Set up your phone app in [Using the App](using-the-app/README.md).
+After setup, check [Telemetry (Live Data)](telemetry-live-data/README.md) to verify data is being uploaded and visible for your team.
 
 
-The eChook nano is a data logging and telemetry system tailored towards electric cars competing in the Greenpower race series. It consists of an Arduino based PCB sold through the Greenpower online store and an (Android Only) app that displays and logs the data. If the phone has a data connection it can also push the data to cloud services enabling real time telemetry from the car to the pits - or anywhere with an internet connection!
+The eChook nano is a data logging and telemetry system for electric cars competing in the Greenpower race series. It consists of an Arduino-based PCB sold through the Greenpower online store and an Android-only app that displays and logs the data. If the phone has a data connection, it can also push data to cloud services, enabling real-time telemetry from the car to the pits - or anywhere with an internet connection.
 
 ## The idea behind eChook Greenpower Telemetry
 

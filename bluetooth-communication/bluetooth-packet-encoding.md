@@ -1,6 +1,6 @@
 # Bluetooth Packet Encoding
 
-This is the c code used to construct the packets on the Arduino:
+This is the C/C++ code used to construct the packets on the Arduino:
 
 ```text
 /** ================================== */
@@ -146,5 +146,5 @@ void sendData(char identifier, int value)
 }
 ```
 
-If you adapt it to any other languages we would be keen to show the code here!
+If you adapt it to any other languages, we would be keen to show the code here!
 

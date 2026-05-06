@@ -15,7 +15,7 @@ The hardware path depends on your kit version:
 
 If you are not sure which version you have, start with [The eChook Nano Kit](required-components-bom/README.md).
 
-The decision to split the system up like this was primarily cost based. Once you start adding an SD card slot and SD card, GPS receiver, screen etc. to the hardware on the car, costs rise rapidly - but we all carry devices with memory, a screen, GPS and so much more in our pocket every day. By offloading as much of the functionality to the smartphone as possible we have been able to create far simpler and lower cost hardware.
+The decision to split the system up like this was primarily cost-based. Once you start adding an SD card slot and SD card, GPS receiver, screen, etc. to the hardware on the car, costs rise rapidly - but we all carry devices with memory, a screen, GPS, and so much more in our pocket every day. By offloading as much functionality as possible to the smartphone, we have been able to create far simpler and lower-cost hardware.
 
 If a team has an existing data logging system on the car, it is possible to add a Bluetooth module to that, connect to the eChook Android app, and use the driver display, data logging, and online telemetry free of charge.
 
