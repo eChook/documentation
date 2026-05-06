@@ -8,7 +8,7 @@
 
 If the Bluetooth module is not appearing as the name you have configured when you attempt to pair it to your phone, and it is showing up as 'HC-05' or similar instead, the configuration of the HC-05 Bluetooth module has failed.
 
-See [setting-up-the-bluetooth](../setting-up-the-bluetooth/ "mention") for more information on configuring the module.
+See [Setting up the Bluetooth](../setting-up-the-bluetooth/) for more information on configuring the module.
 
 ## No Data being sent to app
 

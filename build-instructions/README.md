@@ -105,6 +105,6 @@ From kit v1.4 a PCB breakout board for the LEM current sensor is included. This 
 ![](<../.gitbook/assets/image (8).png>) ![](<../.gitbook/assets/image (14).png>)
 
 {% hint style="info" %}
-Pin-outs for the connectors on the eChook can be found in the [connecting-the-echook-to-the-car](../connecting-the-echook-to-the-car/ "mention") section of the documentation.
+Pin-outs for the connectors on the eChook can be found in the [Connecting the eChook to the Car](../connecting-the-echook-to-the-car/) section of the documentation.
 {% endhint %}
 

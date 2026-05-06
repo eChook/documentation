@@ -1,6 +1,6 @@
 # Calibrating the eChook
 
-From the default calibration values, a correctly assembled eChook board will give reasonably accurate data. This section takes you through calibrating each input in turn. Each calibration routine involves taking some readings with external equipment - generally a multimeter - some simple calculations, and updating a calibration variable on your eChook nano.
+From the default calibration values, a correctly assembled eChook board will give reasonably accurate data. This section takes you through calibrating each input in turn. Each calibration routine involves taking some readings with external equipment - generally a multimeter - some simple calculations, and updating a calibration variable on your eChook Nano.
 
 On earlier versions of the board (with Arduino code below version 2.0, released in Jan 2024), updating the calibration requires editing the calibration.h file, then reflashing the Arduino with the new values. Boards running V2 (Arduino code version 2.0 or later) can be connected to a computer, and the calibrations can be read and updated via a web interface.
 

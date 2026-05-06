@@ -1,6 +1,6 @@
-# All about the Arduino nano
+# All about the Arduino Nano
 
-This section takes a deeper look into the arduino and programming it. As the eChook kit uses an Arduino nano, that will be the focus however much of it is relevant to other Arduinos.
+This section takes a deeper look into the Arduino and programming it. As the eChook kit uses an Arduino Nano, that will be the focus however much of it is relevant to other Arduinos.
 
 ## **Introduction to the Arduino Nano**
 
@@ -10,9 +10,9 @@ The Arduino Nano is based on an Atmel AVR ATMega328 microprocessor. Further info
 
 ### Arduino Nano Variants
 
-Two variants of the arduino nano were made, one with an ATMega168 processor and one with a ATMega328 processor. It is rare to find one with the ATMega168 processor, but this is clocked at half the speed \(8MHz\) and has significantly less memory, so is not recommended.
+Two variants of the Arduino Nano were made, one with an ATMega168 processor and one with a ATMega328 processor. It is rare to find one with the ATMega168 processor, but this is clocked at half the speed \(8MHz\) and has significantly less memory, so is not recommended.
 
-Many of the cheaper Nanos available to buy on the internet use an alternate USB to Serial interface chip. This will be the CH340, and is due to this chip being cheaper than the one specified in the official Arduino design. This does not change the functionality of the arduino for the user, however does require a different driver. The CH340 Driver Installer can be downloaded from [here](https://drive.google.com/file/d/0B8NB2ERSryMSdlQxNFpPM1BGenc/view?usp=sharing).
+Many of the cheaper Nanos available to buy on the internet use an alternate USB to Serial interface chip. This will be the CH340, and is due to this chip being cheaper than the one specified in the official Arduino design. This does not change the functionality of the Arduino for the user, however does require a different driver. The CH340 Driver Installer can be downloaded from [here](https://drive.google.com/file/d/0B8NB2ERSryMSdlQxNFpPM1BGenc/view?usp=sharing).
 
 NB: Personally I have never experienced any problems with cheap nano’s ordered from China, however I know people have had issues with them not working out the box. Occasionally they have been recoverable by reflowing some solder or reflashing the bootloader.
 

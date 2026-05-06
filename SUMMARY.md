@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to the eChook nano documentation](README.md)
+* [Welcome to the eChook Nano documentation](README.md)
 * [System Overview](system-overview.md)
 * [The eChook Nano Kit](required-components-bom/README.md)
   * [Versions](required-components-bom/versions.md)
@@ -36,7 +36,7 @@
   * [Lap Counting](using-the-app/lap-counting.md)
 * [Telemetry (Live Data)](telemetry-live-data/README.md)
   * [eChook Live Data](telemetry-live-data/echook-live-data.md)
-  * [Node-Red Integration](telemetry-live-data/node-red-integration.md)
+  * [Node-RED Integration](telemetry-live-data/node-red-integration.md)
   * [DIY Web Dashboard](telemetry-live-data/diy-web-dashboard.md)
 * [Using the Data](using-the-data.md)
 * [Circuit Schematics](circuit-schematics/README.md)
@@ -50,8 +50,8 @@
   * [PWM Output](circuit-schematics/pwm-output.md)
   * [Power Regulator](circuit-schematics/power-regulator.md)
   * [Expansion Port](circuit-schematics/expansion-port.md)
-* [All about the Arduino nano](all-about-the-arduino-nano/README.md)
-  * [The eChook nano Code](all-about-the-arduino-nano/in.md)
+* [All about the Arduino Nano](all-about-the-arduino-nano/README.md)
+  * [The eChook Nano Code](all-about-the-arduino-nano/in.md)
 * [Bluetooth Communication](bluetooth-communication/README.md)
   * [Bluetooth Packet Encoding](bluetooth-communication/bluetooth-packet-encoding.md)
   * [Bluetooth Packet Decoding](bluetooth-communication/bluetooth-packet-decoding.md)
