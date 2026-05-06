@@ -1,14 +1,25 @@
 # Welcome to the eChook nano documentation
 
-{% hint style="info" %}
-Please note that the [Omni Telemetry ](https://play.google.com/store/apps/details?id=net.keduro.omni)app (Courtesy of Banchory Greenpower Team) is now the recommended app to use with all variants of the eChook nano.
+## Start here
 
-See [Using the App](using-the-app/) section for more information.
+Use this quick path to get from kit identification to live data:
+
+1. Identify your kit and parts in [The eChook Nano Kit](required-components-bom/README.md).
+2. Follow the correct build path for your kit version:
+   - Kit V1.x: [Build Instructions (Kit V1.x)](build-instructions/README.md)
+   - Kit V2+: [Build Instructions (Kit V2+)](build-instructions-kit-v2+.md)
+3. Program the board from [Programming the Arduino](programming-the-arduino/README.md).
+4. Set up your phone app in [Using the App](using-the-app/README.md).
+
+{% hint style="info" %}
+The [Omni Telemetry](https://play.google.com/store/apps/details?id=net.keduro.omni) app (courtesy of Banchory Greenpower Team) is the recommended app for all variants of the eChook nano.
+
+See [Using the App](using-the-app/) for setup details and usage guidance.
 {% endhint %}
 
 The eChook nano is a data logging and telemetry system tailored towards electric cars competing in the Greenpower race series. It consists of an Arduino based PCB sold through the Greenpower online store and an (Android Only) app that displays and logs the data. If the phone has a data connection it can also push the data to cloud services enabling real time telemetry from the car to the pits - or anywhere with an internet connection!
 
-## The idea behind eChook GPT
+## The idea behind eChook Greenpower Telemetry
 
 The original eChook Nano board and the eChook app was developed because of a need for data display and logging in our own Greenpower racing teams - the JLR 'Driven' team and the weChook racing team.
 
