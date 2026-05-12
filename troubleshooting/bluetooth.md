@@ -1,7 +1,7 @@
 # Bluetooth
 
 {% hint style="danger" %}
-**We are aware that a number of V2.0 kits were supplied with an incompatible Bluetooth module! See the steps in the 'No Data being sent to app' section below to determine if your kit is affected, and for next steps if it is.**
+**We are aware that a number of V2.0 kits were supplied with an incompatible Bluetooth module in 2025! See the steps in the 'No Data being sent to app' section below to determine if your kit is affected, and for next steps if it is.**
 {% endhint %}
 
 ## Pairing
@@ -26,11 +26,11 @@ _If it appears in the Bluetooth LE tab, you have an incompatible Bluetooth modul
 
 If your module appeared in the Bluetooth Classic tab, tap it to connect to it. If data is being transmitted you will see something like this:
 
-<figure><img src="../.gitbook/assets/Screenshot_20250514-085552~2.png" alt="" width="188"><figcaption><p>HEX Data being received </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot_20250514-085552~2.png" alt="" width="188"><figcaption><p>HEX Data being received</p></figcaption></figure>
 
-**If you see data as above:**&#x20;
+**If you see data as above:**
 
-If you are running unmodified eChook Arduino code, the eChook board is working as it should and the issue is app-related. Double-check that the correct Bluetooth device is selected in the Omni app. If that does not fix it, try reinstalling the app. \
+If you are running unmodified eChook Arduino code, the eChook board is working as it should and the issue is app-related. Double-check that the correct Bluetooth device is selected in the Omni app. If that does not fix it, try reinstalling the app.\
 If you have modified the eChook Arduino code, re-flash the latest release from GitHub.
 
 If neither of these fixes your issue, contact us on the forum or webchat for further help.
