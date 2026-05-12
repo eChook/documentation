@@ -1,22 +1,19 @@
 # Welcome to the eChook Nano documentation
 
-## Start here
-
-The sections of the documentation follow a chronological order of setup, from receiving your kit to 
-viewing live telemetry. The steps below are links to relevant sections in the setup process.
-
-1. Identify your kit and parts in [The eChook Nano Kit](required-components-bom/README.md).
-2. Follow the correct build path for your kit version:
-   - Kit V1.x: [Build Instructions (Kit V1.x)](build-instructions/README.md)
-   - Kit V2+: [Build Instructions (Kit V2+)](build-instructions-kit-v2+.md)
-3. Program the board from [Programming the Arduino](programming-the-arduino/README.md).
-4. Set up your phone app in [Using the App](using-the-app/README.md).
-
-
-After setup, check [Telemetry (Live Data)](telemetry-live-data/README.md) to verify data is being uploaded and visible for your team.
-
-
 The eChook Nano is a data logging and telemetry system for electric cars competing in the Greenpower race series. It consists of an Arduino-based PCB sold through the Greenpower online store and an Android-only app that displays and logs the data. If the phone has a data connection, it can also push data to cloud services, enabling real-time telemetry from the car to the pits - or anywhere with an internet connection.
+
+## Just got your kit? Start here.
+
+The sections of the documentation follow a chronological order of setup, from receiving your kit to viewing live telemetry. The steps below are links to relevant sections in the setup process.
+
+1. Identify your kit and parts in [The eChook Nano Kit](required-components-bom/).
+2. Follow the correct build path for your kit version:
+   * Kit V1.x (White PCB): [Build Instructions (Kit V1.x)](build-instructions/)
+   * Kit V2+ (Black PCB): [Build Instructions (Kit V2+)](build-instructions-kit-v2+.md)
+3. Program the board from [Programming the Arduino](programming-the-arduino/).
+4. Set up your phone app in [Using the App](using-the-app/).
+
+After setup, check [Telemetry (Live Data)](telemetry-live-data/) to verify data is being uploaded and visible for your team.
 
 ## The idea behind eChook Greenpower Telemetry
 
@@ -24,7 +21,7 @@ The original eChook Nano board and the eChook app were developed because of a ne
 
 Having solid data on a car's performance is incredibly important, both during the race for strategy decisions and for analysis after the race to analyze performance and inform vehicle development. It's also an area that many Greenpower teams do not have the time or knowledge to implement themselves, and where available off-the-shelf solutions tend to be expensive, limited in their inputs and ‘black boxes’ where signal goes in and data comes out.
 
-We have designed a Greenpower specific data logging and telemetry system that has inputs specific to the needs of a Greenpower car, but also uses simple circuits that align with the GCSE and A level Electronics curriculum to promote an understanding of how the whole system works, rather than being a ‘black box’ solution.&#x20;
+We have designed a Greenpower specific data logging and telemetry system that has inputs specific to the needs of a Greenpower car, but also uses simple circuits that align with the GCSE and A level Electronics curriculum to promote an understanding of how the whole system works, rather than being a ‘black box’ solution.
 
 ## Support
 
@@ -42,4 +39,4 @@ Email: info@echook.uk.
 
 We really appreciate and try to act on any feedback we get. Each page has quick good/ok/bad feedback buttons at the bottom, which is useful, but does not tell us the reason. If you feel a page can be improved, drop us a message (icon bottom right of screen) and let us know - we'll say thanks, I promise.
 
-(For instance this page gets consistently bad ratings but I don't know why so don't know how to improve it!)&#x20;
+(For instance this page gets consistently bad ratings but I don't know why so don't know how to improve it!)
