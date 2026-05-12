@@ -2,15 +2,15 @@
 
 ## Arduino Failure
 
-Occasional Arduino failures have been reported on eChook boards, and we suspect they may be more common than currently reported. A key indicator is the Arduino chip becoming hot to the touch.
+Occasional Arduino failures have been reported on eChook V1 boards, and we suspect they may be more common than currently reported. A key indicator is the Arduino chip becoming hot to the touch.
 
-If you see this, please email info@echook.uk with supporting details, including your eChook PCB version, Arduino model, purchase date, duration of use, and the circumstances under which the failure occurred.&#x20;
+If you see this, please email info@echook.uk with supporting details, including your eChook PCB version, Arduino model, purchase date, duration of use, and the circumstances under which the failure occurred.
 
 If the Arduino is getting hot to the touch (too hot to comfortably hold a finger against) a new Arduino is required.
 
 ## Arduino Compiling and Uploading
 
-While we have tested the code we provide, there are many factors that can stop it compiling and uploading on different computers.&#x20;
+While we have tested the code we provide, there are many factors that can stop it compiling and uploading on different computers.
 
 The error log given in the Arduino IDE is not much help by default. Go into preferences and [enable verbose logging](../programming-the-arduino/programming-the-arduino.md#compilation-errors) to get more detailed logs.
 

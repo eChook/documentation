@@ -8,7 +8,7 @@ If any of the 5V fault LEDs are lit, there is likely a harness fault causing a s
 
 ## 24V
 
-## Power not getting to the Tracopower DCDC Module
+#### Power not getting to the Tracopower DCDC Module
 
 If 24V is present at the input but is not seen at the pins of the DCDC power module, the most likely cause is that the rectifier diode is installed in the wrong orientation. This triggers short-circuit protection when the voltage supply is correct: the diode creates a short circuit between 24V and ground, causing the polyfuse to activate and stop voltage reaching the rest of the board.
 
@@ -16,13 +16,14 @@ To fix this (V1 boards only), reverse the diode on the PCB and verify its orient
 
 ## 5V
 
-If there is 24V at the input pin to the DCDC power module but no voltage on the 5V rail, the most likely cause is a short to ground on the 5V rail. This causes the short-circuit protection on the DCDC power module to activate.&#x20;
+If there is 24V at the input pin to the DCDC power module but no voltage on the 5V rail, the most likely cause is a short to ground on the 5V rail. This causes the short-circuit protection on the DCDC power module to activate.
 
 Use a multimeter in continuity mode to check between the 5V rail and ground:
-- If it beeps, you have a short circuit.
-- If it does not beep, check that you have 24V going into the DCDC power module.
-  - If not, refer to the 24V section above.
-  - If you do, the power module needs replacing.
+
+* If it beeps, you have a short circuit.
+* If it does not beep, check that you have 24V going into the DCDC power module.
+  * If not, refer to the 24V section above.
+  * If you do, the power module needs replacing.
 
 First, unplug all connectors where 5V goes out to the wiring harness and check whether the 5V rail recovers on the eChook board. (On V2.0+ boards, the red error LED will illuminate next to the relevant connector if there is a short in the harness, and it will not affect the eChook board.)
 
