@@ -6,18 +6,11 @@ This page assumes knowledge of Node-RED and JavaScript. If you are familiar with
 There is a Node-RED getting started guide here: [https://nodered.org/docs/getting-started/](https://nodered.org/docs/getting-started/)
 {% endhint %}
 
-#### Farewell Dweet.io
-
-This section used to rely on the dweet.io service provided by Bug Labs, which has unfortunately been suspended. The work around is in some ways an improvement - as it uses eChook's own server, your telemetry data is no longer publicly exposed, and as a result the apps will allow location to be sent. The only downside being you do need to create an account on [data.echook.uk](https://data.echook.uk).
-
 ### Connecting Node-RED to eChook Live Data
 
 This section assumes that Node-RED is already installed and running.
 
-1. Create an account for your car at [data.echook.uk](https://data.echook.uk), then bring up the developer tools in your browser (normally F12, or Ctrl+Shift+i) and select the 'Console' tab. After a fresh login to the website, near the top of the console should be a printed web address, along the lines of https://data.echook.uk/api/get/-----Long-Unique-Key------. This address is unique to your car. Copy it for later.<br>
-
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
-
+1. Create an account for your car at [live.echook.uk](https://live.echook.uk/) and go to settings > API and copy the Get Live Data (polling) url that is provided and includes your unique car ID.
 2. In the Omni app, select upload to eChook Private Live Data enter your login details.
 3. For Node-RED setup, download the JSON file below and import it to your Node-RED dashboard by right-clicking on the background > insert > import, then selecting the downloaded file.
 
