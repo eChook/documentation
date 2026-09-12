@@ -1,6 +1,6 @@
 # GUI Calibration
 
-There is a new code release for the Arduino: V2.0-alpha1.&#x20;
+There is a new code release for the Arduino: V2.0-alpha1.
 
 This is the first major code change for the eChook Nano GPT in years. The code has been completley restructured, breaking it down into individual files by function, but the major change is that the calibration variables are now stored in EEPROM (on board non-volatile memory) rather than being hard coded in the calibration.h file.
 
@@ -10,7 +10,7 @@ This is an alpha pre-release. It may be a bit buggy, but the more people who try
 
 #### Flashing the new firmware:
 
-Download the latest release from here:  (at the time of writing, v2.0-alpha1)
+Download the latest release from here: (at the time of writing, v2.0-alpha1)
 
 {% embed url="https://github.com/eChook/eChook-Arduino-Nano/releases" %}
 
@@ -28,7 +28,7 @@ This web page uses the WebSerial API which has limited browser support. You can 
 
 Now either connect your eChook via USB (bluetooth module needs to be **disconnected** for USB Serial communication to work), or pair your computer to the bluetooth module. Press the big connect button and a browser menu will appear for you to select the correct serial port.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://1289908854-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LChAPz4ZYgbOhdQ_bOF%2Fuploads%2FJEYDbFJ7TkCP4OXyxcYU%2Fimage.png?alt=media&#x26;token=b1ed1837-e30e-4246-9fa9-34380c6eeda4" alt=""><figcaption></figcaption></figure>
 
 The page should now display every measurement being taken by the eChook, updating live, along with the relevent calibration values. If you already have a calibration, enter the values from your old calibration.h file into the relevent text boxes - the interface will highlight any changes you've made - and click the 'Send x Changes' button in the bottom right. The readings will update to reflect the new calibrations within \~1 second.\
 If this is the first time you're calibrating your eChook, refer to the '[Calibrating the eChook](../calibrating-the-echook/)' section of this document, but enter the calculated values on the web page.
@@ -36,8 +36,6 @@ If this is the first time you're calibrating your eChook, refer to the '[Calibra
 I strongly recommend using the backup button once you've finished your initial setup, and keeping the downloaded file somewhere safe.
 
 That's all there is to it! Please let us know how you get on, either with the web chat on this page, the forum or an email to info@echook.uk.
-
-
 
 ### Known Bugs
 

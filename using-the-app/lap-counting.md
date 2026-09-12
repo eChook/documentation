@@ -16,9 +16,8 @@ Before the race an ‘observer’ position needs to be set on the map, somewhere
 
 Pressing the Launch button starts launch detection. Now once the throttle is pressed (>20% for a variable throttle) the app starts the lap timer, and notes the cars bearing in degrees to the observer position set earlier. Every time the car passes this position in the race, a lap is counted.
 
-## How It Works
+### How It Works
 
 Each GPS update, the app calculates the bearing from the observer to the car in degrees. During the race the car moves in circles around the observer. When the throttle was initially pressed in launch mode, that bearing was recorded. During the race every time the car passes that original bearing, a lap is recorded.
 {% endtab %}
 {% endtabs %}
-

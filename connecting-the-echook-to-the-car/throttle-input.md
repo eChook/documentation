@@ -6,7 +6,6 @@ Throttle input is also needed for the app lap counter feature, because this uses
 
 The eChook can also take a variable throttle input and generate a PWM output for a higher-power motor driver circuit. The green LED on the eChook board is connected to this output.
 
-
 ## Throttle Configuration
 
 There are two common ways to use throttle input with the eChook, depending on whether a separate motor control system is used (from simple relays to a controller such as a 4QD).
@@ -19,18 +18,16 @@ There are two common ways to use throttle input with the eChook, depending on wh
 The eChook must share the same ground reference, normally battery negative, as the motor control system. Only the throttle signal is fed into the eChook board.
 
 | Throttle                            | eChook Throttle Connector |
-| ----------------------------------- | -------------------------- |
-| Not Connected                       | 5V                         |
-| Throttle Signal to Motor Controller | In                         |
-| Not Connected - shared GND          | GND                        |
+| ----------------------------------- | ------------------------- |
+| Not Connected                       | 5V                        |
+| Throttle Signal to Motor Controller | In                        |
+| Not Connected - shared GND          | GND                       |
 
 {% hint style="danger" %}
-#### **If using a 4QD controller DO NOT connect the 4QD Ground to the eChook Ground.**&#x20;
+**If using a 4QD controller DO NOT connect the 4QD Ground to the eChook Ground.**
 
 4QD controllers have built-in reverse polarity protection (unless you have a variant that explicitly states it does not). This can create a small voltage offset between 4QD ground and chassis/eChook ground. If these grounds are connected and the motor runs, significant current may flow through the ground wire, potentially melting wiring and damaging the eChook board.
 {% endhint %}
-
-
 
 #### Fully connected
 
@@ -72,7 +69,7 @@ $$
 
 * `V2+` boards include overvoltage input protection, so up to 30V can be connected through a single inline resistor to limit current. Recommended resistor value is `1kOhm` to `10kOhm` inclusive.
 
-#### eChook Configuration
+**eChook Configuration**
 
 To configure eChook for a push-button throttle, connect to the calibration web interface and select `Throttle Type: On/Off`.
 {% endtab %}
@@ -81,6 +78,3 @@ To configure eChook for a push-button throttle, connect to the calibration web i
 If the car has a variable throttle that can exceed 5V, use a potential divider to reduce the maximum output to 5V. See the Push Button Throttle tab for divider design, then wire throttle and ground as shown in the tables above.
 {% endtab %}
 {% endtabs %}
-
-
-
